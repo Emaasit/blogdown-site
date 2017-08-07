@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Academic</title>
+    <title>Machine Learning on Daniel Emaasit</title>
     <link>/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Academic</description>
+    <description>Recent content in Machine Learning on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Your Name</copyright>
+    <copyright>&amp;copy; 2016 Daniel Emaasit</copyright>
     <lastBuildDate>Mon, 07 Aug 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/machine-learning/" rel="self" type="application/rss+xml" />
     
