@@ -1,4 +1,4 @@
-baseurl = "https://danielemaasit.com/"  # End your URL with a `/` trailing slash.
+baseurl = "/"  # End your URL with a `/` trailing slash. e.g https://danielemaasit.com/
 title = "Daniel Emaasit"
 copyright = "&copy; 2016 Daniel Emaasit"
 theme = "hugo-academic"
@@ -143,6 +143,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//github.com/Emaasit"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/emaasit/"    
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -170,14 +175,14 @@ defaultContentLanguageInSubdir = false
   weight = 4
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+  name = "Misc"
+  url = "misc/#teaching"
+  weight = 1
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 5
 
 # Taxonomies.
 [taxonomies]
