@@ -25,7 +25,7 @@ weight = 1
 [[education.courses]]
   course = "PhD in Transportation Engineering"
   institution = "University of Nevada Las Vegas"
-  year = Exp. Dec-2017
+  year = 2017
 
 [[education.courses]]
   course = "MEng in Civil Engineering"
