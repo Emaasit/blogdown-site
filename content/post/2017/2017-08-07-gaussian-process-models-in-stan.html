@@ -1,0 +1,117 @@
+---
+title: Gaussian Process models in Stan
+author: Daniel Emaasit
+date: '2017-08-07'
+slug: gaussian-process-models-in-stan
+categories:
+  - Machine Learning
+  - R
+tags:
+  - Machine Learning
+  - R
+---
+
+
+
+<p>In this vignette we present RStan, the R interface to Stan. Stan is a C++ library for Bayesian inference using the No-U-Turn sampler (a variant of Hamiltonian Monte Carlo) or frequentist inference via optimization. We illustrate the features of RStan through an example in <span class="citation">@GelmanCarlinSternRubin:2003</span>.</p>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Stan is a C++ library for Bayesian modeling and inference that primarily uses the No-U-Turn sampler (NUTS) <span class="citation">[@hoffman-gelman:2012]</span> to obtain posterior simulations given a user-specified model and data. Alternatively, Stan can utilize the LBFGS optimization algorithm to maximize an objective function, such as a log-likelihood. The R package <strong>rstan</strong> provides RStan, the R interface to Stan. The <strong>rstan</strong> package allows one to conveniently fit Stan models from R <span class="citation">[@rprj]</span> and access the output, including posterior inferences and intermediate quantities such as evaluations of the log posterior density and its gradients.</p>
+<p>In this vignette we provide a concise introduction to the functionality included in the <strong>rstan</strong> package. Stan’s website <a href="http://mc-stan.org">mc-stan.org</a> has additional details and provides up-to-date information about how to operate both Stan and its many interfaces including RStan. See, for example, <em>RStan Getting Started</em> <span class="citation">[@rstangettingstarted2012]</span>.</p>
+</div>
+<div id="prerequisites" class="section level2">
+<h2>Prerequisites</h2>
+<p>Stan has a modeling language, which is similar to but not identical to that of the Bayesian graphical modeling package BUGS <span class="citation">[@WinBUGS]</span>. A parser translates a model expressed in the Stan language to C++ code, whereupon it is compiled to an executable program and loaded as a Dynamic Shared Object (DSO) in R which can then be called by the user.</p>
+<p>A C++ compiler, such as <a href="http://gcc.gnu.org"><code>g++</code></a> or <a href="http://clang.llvm.org"><code>clang++</code></a>, is required for this process. For instructions on installing a C++ compiler for use with RStan see <a href="https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started#prerequisites">RStan-Getting-Started</a>.</p>
+<p>The <strong>rstan</strong> package also depends heavily on several other R packages:</p>
+<ul>
+<li><strong>StanHeaders</strong> (Stan C++ headers)</li>
+<li><strong>BH</strong> (Boost C++ headers)</li>
+<li><strong>RcppEigen</strong> (Eigen C++ headers)</li>
+<li><strong>Rcpp</strong> (facilitates using C++ from R)</li>
+<li><strong>inline</strong> (compiles C++ for use with R)</li>
+</ul>
+<p>These dependencies should be automatically installed if you install the <strong>rstan</strong> package via one of the conventional mechanisms.</p>
+</div>
+<div id="typical-workflow" class="section level2">
+<h2>Typical Workflow</h2>
+<p>The following is a typical workflow for using Stan via RStan for Bayesian inference.</p>
+<ol style="list-style-type: decimal">
+<li>Represent a statistical model by writing its log posterior density (up to an normalizing constant that does not depend on the unknown parameters in the model) using the Stan modeling language. We recommend using a separate file with a <code>.stan</code> extension, although it can also be done using a character string within R.</li>
+<li>Translate the Stan program to C++ code using the <code>stanc</code> function.</li>
+<li>Compile the C++ code to create a DSO (also called a dynamic link library (DLL)) that can be loaded by R.</li>
+<li>Run the DSO to sample from the posterior distribution.</li>
+<li>Diagnose non-convergence of the MCMC chains.</li>
+<li>Conduct inference based on the posterior sample (the MCMC draws from the posterior distribution).</li>
+</ol>
+<p>Conveniently, steps 2, 3, and 4, above, are all performed implicitly by a single call to the <code>stan</code> function.</p>
+</div>
+<div id="example" class="section level2">
+<h2>Example</h2>
+<p>Throughout the rest of the vignette we’ll use a hierarchical meta-analysis model described in section 5.5 of <span class="citation">@GelmanCarlinSternRubin:2003</span> as a running example. A hierarchical model is used to model the effect of coaching programs on college admissions tests. The data, shown in the table below, summarize the results of experiments conducted in eight high schools, with an estimated standard error for each. These data and model are of historical interest as an example of full Bayesian inference <span class="citation">[@Rubin1981]</span>. For short, we call this the <em>Eight Schools</em> examples.</p>
+<table>
+<thead>
+<tr class="header">
+<th>School</th>
+<th>Estimate (<span class="math inline">\(y_j\)</span>)</th>
+<th>Standard Error (<span class="math inline">\(\sigma_j\)</span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A</td>
+<td>28</td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>B</td>
+<td>8</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>C</td>
+<td>-3</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>7</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>E</td>
+<td>-1</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td>F</td>
+<td>1</td>
+<td>11</td>
+</tr>
+<tr class="odd">
+<td>G</td>
+<td>18</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>H</td>
+<td>12</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<p>We use the Eight Schools example here because it is simple but also represents a nontrivial Markov chain simulation problem in that there is dependence between the parameters of original interest in the study — the effects of coaching in each of the eight schools — and the hyperparameter representing the variation of these effects in the modeled population. Certain implementations of a Gibbs sampler or a Hamiltonian Monte Carlo sampler can be slow to converge in this example.</p>
+<p>The statistical model of interest is specified as</p>
+<p><span class="math display">\[
+\begin{aligned} 
+y_j &amp;\sim \mathsf{Normal}(\theta_j, \sigma_j), \quad j=1,\ldots,8 \\
+\theta_j &amp;\sim \mathsf{Normal}(\mu, \tau), \quad j=1,\ldots,8 \\
+p(\mu, \tau) &amp;\propto 1,
+\end{aligned}
+\]</span></p>
+<p>where each <span class="math inline">\(\sigma_j\)</span> is assumed known.</p>
+<div id="write-a-stan-program" class="section level3">
+<h3>Write a Stan Program</h3>
+<p>RStan allows a Stan program to be coded in a text file (typically with suffix <code>.stan</code>) or in a R character vector (of length one). We put the following code for the Eight Schools model into the file <code>schools.stan</code>:</p>
+</div>
+</div>
