@@ -6,7 +6,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "http-emaasit-netlify-com"
+disqusShortname = "emaasit"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "59805065"
@@ -163,36 +163,41 @@ defaultContentLanguageInSubdir = false
   name = "Publications"
   url = "/publication"
   weight = 2
+
+[[menu.main]]
+  name = "CV"
+  url = "https://www.dropbox.com/s/j9jobrzdknz6mma/CV_Daniel_Emaasit.pdf?dl=0"
+  weight = 3
   
 [[menu.main]]
   name = "Talks"
   url = "/talk"
-  weight = 3  
+  weight = 4  
   
 [[menu.main]]
   name = "Projects"
   url = "/project"
-  weight = 4  
+  weight = 5  
 
 [[menu.main]]
   name = "Software"
   url = "/software"
-  weight = 5
+  weight = 6
   
 [[menu.main]]
   name = "Blog"
   url = "/post"
-  weight = 6
+  weight = 7
 
 [[menu.main]]
   name = "Misc"
   url = "/misc"
-  weight = 7
+  weight = 8
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 8
+  weight = 9
 
 # Taxonomies.
 [taxonomies]
