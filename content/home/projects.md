@@ -32,5 +32,14 @@ view = 1
 [[filter]]
   name = "Urban Mobility"
   tag = ".urban-mobility"
+
+[[filter]]
+  name = "Highway Safety"
+  tag = ".highway-safety"
+  
+[[filter]]
+  name = "Smart Cities"
+  tag = ".smart-cities"  
+  
 +++
 

@@ -15,9 +15,9 @@ caption = ""
 weight = 30
 
 # Number of talks to list.
-count = 10
+count = 100
 
 # Show talk details (such as abstract)? (true/false)
-detailed_list = false
+detailed_list = true
 
 +++

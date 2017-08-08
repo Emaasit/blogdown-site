@@ -1,6 +1,7 @@
 +++
 # Projects widget.
 # This widget displays all projects from `content/project/`.
+
 title = "Projects"
 subtitle = ""
 widget = "projects"
