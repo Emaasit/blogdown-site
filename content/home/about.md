@@ -39,8 +39,6 @@ weight = 1
  
 +++
 
-# Short Bio
+# Bio
 
-I am currently a Ph.D. Candidate of Civil & Transportation Engineering at University of Nevada Las Vegas (UNLV). I am also a graduate research assistant in the Transportation Research Center at UNLV under the supervision of Dr. Alexander Paz. Broadly, my research interests involve the development of flexible probabilistic/Bayesian machine learning methods for high-dimensional data, with applications to Urban Mobility, Transport Planning, Highway Safety, & Traffic Operations.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I am currently a Ph.D. Candidate of Civil & Transportation Engineering at [University of Nevada Las Vegas (UNLV)](http://www.unlv.edu/). I am also a graduate research assistant in the [Transportation Research Center](http://web.unlv.edu/centers/trc/index.html) at UNLV under the supervision of [Dr. Alexander Paz](http://web.unlv.edu/centers/trc/paz/). Broadly, my research interests involve the development of [flexible](http://mlg.eng.cam.ac.uk/pub/topics/#np) [probabilistic/Bayesian machine learning](http://mlg.eng.cam.ac.uk/zoubin/bayesian.html) methods for high-dimensional data, with applications to Urban Mobility, Smart Cities, Transport Planning, Highway Safety, & Traffic Operations. 

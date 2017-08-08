@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/post/2017/introduction-to-probabilistic-machine-learning/</loc>
+      <loc>/posts/2017/introduction-to-probabilistic-machine-learning/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/talk/example-talk/</loc>
+      <loc>/talks/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>/posts/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>/publications/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>/talks/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
+      <loc>/projects/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/project/example-external-project/</loc>
+      <loc>/projects/example-external-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/publication/person-re-identification/</loc>
+      <loc>/publications/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/publication/clothing-search/</loc>
+      <loc>/publications/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -193,7 +193,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>/projects/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

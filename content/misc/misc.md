@@ -5,12 +5,12 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Teaching"
+title = "MISC"
 subtitle = ""
 widget = "custom"
 
 # Order that this section will appear in.
-weight = 60
+weight = 1
 
 +++
 

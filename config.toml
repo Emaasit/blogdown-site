@@ -161,28 +161,38 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "/publications"
   weight = 2
-
+  
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 3
-
+  name = "Talks"
+  url = "/talks"
+  weight = 3  
+  
 [[menu.main]]
   name = "Projects"
-  url = "#projects"
-  weight = 4
+  url = "/projects"
+  weight = 4  
+
+[[menu.main]]
+  name = "Software"
+  url = "/software"
+  weight = 5
+  
+[[menu.main]]
+  name = "Blog"
+  url = "/posts"
+  weight = 6
 
 [[menu.main]]
   name = "Misc"
-  url = "misc/#teaching"
-  weight = 1
+  url = "/misc"
+  weight = 7
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 5
+  weight = 8
 
 # Taxonomies.
 [taxonomies]
