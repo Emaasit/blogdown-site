@@ -1,13 +1,17 @@
 +++
 # Projects widget.
 # This widget displays all projects from `content/project/`.
-
-date = "2016-04-20T00:00:00"
-draft = false
-
 title = "Projects"
 subtitle = ""
 widget = "projects"
+date = "2017-01-01T00:00:00Z"
+math = false
+highlight = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
 
 # Order that this section will appear in.
 weight = 50
@@ -32,5 +36,13 @@ view = 1
 [[filter]]
   name = "Urban Mobility"
   tag = ".urban-mobility"
-+++
 
+[[filter]]
+  name = "Highway Safety"
+  tag = ".highway-safety"
+  
+[[filter]]
+  name = "Smart Cities"
+  tag = ".smart-cities"  
+  
++++

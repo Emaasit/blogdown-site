@@ -3,17 +3,17 @@
 date = "2016-04-27"
 
 # Project title.
-title = "Deep Learning"
+title = "Integrated Travel Demand Modeling"
 
 # Project summary to display on homepage.
-summary = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+summary = "Currently, there's growing research interest in integrated travel demand models."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "bubbles.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning"]
+tags = ["urban-mobility"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
