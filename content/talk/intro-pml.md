@@ -11,8 +11,8 @@ selected = false
 math = true
 
 url_pdf = ""
-url_slides = ""
-url_video = ""
+url_slides = "http://slides.com/emaasit/trb2017"
+url_video = "https://youtu.be/ICFtztrK9a4"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
