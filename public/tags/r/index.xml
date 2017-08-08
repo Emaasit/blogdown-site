@@ -16,11 +16,7 @@
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/2017/gaussian-process-models-in-stan/</guid>
-      <description>&lt;p&gt;In this post we present RStan, the R interface to Stan. Stan is a C++ library for Bayesian inference using the No-U-Turn sampler (a variant of Hamiltonian Monte Carlo) or frequentist inference via optimization. We illustrate the features of RStan through an example in &lt;span class=&#34;citation&#34;&gt;@GelmanCarlinSternRubin:2003&lt;/span&gt;.&lt;/p&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Stan is a C++ library for Bayesian modeling and inference that primarily uses the No-U-Turn sampler (NUTS) &lt;span class=&#34;citation&#34;&gt;[@hoffman-gelman:2012]&lt;/span&gt; to obtain posterior simulations given a user-specified model and data. Alternatively, Stan can utilize the LBFGS optimization algorithm to maximize an objective function, such as a log-likelihood. The R package &lt;strong&gt;rstan&lt;/strong&gt; provides RStan, the R interface to Stan. The &lt;strong&gt;rstan&lt;/strong&gt; package allows one to conveniently fit Stan models from R &lt;span class=&#34;citation&#34;&gt;[@rprj]&lt;/span&gt; and access the output, including posterior inferences and intermediate quantities such as evaluations of the log posterior density and its gradients.&lt;/p&gt;
-&lt;/div&gt;
+      <description>&lt;p&gt;In this post we present RStan, the R interface to Stan. Stan is a C++ library for Bayesian inference using the No-U-Turn sampler (a variant of Hamiltonian Monte Carlo) or frequentist inference via optimization.&lt;/p&gt;
 </description>
     </item>
     

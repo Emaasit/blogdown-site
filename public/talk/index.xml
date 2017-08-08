@@ -11,6 +11,30 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Gaussian Processes in Stan</title>
+      <link>/talk/gaussian-processes-in-stan/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/gaussian-processes-in-stan/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;Please come with a laptop with the following software installed:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this link to install R. Also install the LATEST version of RStudio.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this link to install rstan on MacOS/Linux or this link for Windows.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this link to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;speaker-bio&#34;&gt;Speaker Bio:&lt;/h3&gt;
+
+&lt;p&gt;Daniel Emaasit is a PhD student of Transportation Engineering at UNLV. His research interests involve developing flexible probabilistic/Bayesian machine learning models for high-dimensional data with applications to urban mobility, travel demand modeling, and highway safety analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
       <link>/talk/intro-pml/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>

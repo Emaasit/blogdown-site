@@ -16,11 +16,7 @@
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/2017/gaussian-process-models-in-stan/</guid>
-      <description>&lt;p&gt;In this post we present RStan, the R interface to Stan. Stan is a C++ library for Bayesian inference using the No-U-Turn sampler (a variant of Hamiltonian Monte Carlo) or frequentist inference via optimization. We illustrate the features of RStan through an example in &lt;span class=&#34;citation&#34;&gt;@GelmanCarlinSternRubin:2003&lt;/span&gt;.&lt;/p&gt;
-&lt;div id=&#34;introduction&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Stan is a C++ library for Bayesian modeling and inference that primarily uses the No-U-Turn sampler (NUTS) &lt;span class=&#34;citation&#34;&gt;[@hoffman-gelman:2012]&lt;/span&gt; to obtain posterior simulations given a user-specified model and data. Alternatively, Stan can utilize the LBFGS optimization algorithm to maximize an objective function, such as a log-likelihood. The R package &lt;strong&gt;rstan&lt;/strong&gt; provides RStan, the R interface to Stan. The &lt;strong&gt;rstan&lt;/strong&gt; package allows one to conveniently fit Stan models from R &lt;span class=&#34;citation&#34;&gt;[@rprj]&lt;/span&gt; and access the output, including posterior inferences and intermediate quantities such as evaluations of the log posterior density and its gradients.&lt;/p&gt;
-&lt;/div&gt;
+      <description>&lt;p&gt;In this post we present RStan, the R interface to Stan. Stan is a C++ library for Bayesian inference using the No-U-Turn sampler (a variant of Hamiltonian Monte Carlo) or frequentist inference via optimization.&lt;/p&gt;
 </description>
     </item>
     
@@ -34,20 +30,12 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>/project/machine-learning/</link>
+      <title>Automating Hyperparameter tuning</title>
+      <link>/project/auto-tdm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/machine-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>/project/auto-tdm/</guid>
+      <description>&lt;p&gt;Statistical estimation of integrated travel demand models (TDMs) is tedious and involves an iterative process which requires expert knowledge and time to perform several tasks including but not limited to: preprocessing data, selecting appropriate attributes, selecting appropriate models, finding model parameters, and critically analyzing results (Castiglione et al., 2015). Model estimation involves varying some free parameters, hyperparameters, to produce several models which are compared to select the most superior one. Considerable time and expertise are required to tune hyperparameters and consequently select appropriate models; which is prone to subjective error. The subjectivity of tuning hyperparameters for integrated TDMs makes published results difficult to reproduce, extend, and development is more an art than a science (Bergstra et al., 2011). There is a need for methods to minimize subjectivity in hyperparameter tuning and model selection.&lt;/p&gt;
 </description>
     </item>
     
