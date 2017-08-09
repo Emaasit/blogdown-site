@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Daniel Emaasit"
-  role = "Ph.D. Candidate of Transportation Engineering"
+  role = "Ph.D. student of Transportation Engineering"
   organization = "University of Nevada Las Vegas"
   organization_url = "https://www.unlv.edu/"
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
