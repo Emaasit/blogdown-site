@@ -9,7 +9,7 @@ categories:
   - R
   - RStudio
   - SparkR
-slug: content//post/2015-11-10-launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio
+slug: launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio
 ---
 
 _This post was first published on [SparkIQ Labs' blog](http://blog.sparkiq-labs.com) and re-posted on my personal blog._

@@ -9,7 +9,7 @@ categories:
   - R
   - RStudio
   - Webinar
-slug: content//post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan
+slug: webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan
 ---
 
 ![mbml-webinar2](https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png)

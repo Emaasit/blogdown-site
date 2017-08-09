@@ -6,7 +6,7 @@ categories:
   - Data Science
   - Data Visualization
   - R
-slug: content//post/2016-02-01-tracking-ggplot2-extensions
+slug: tracking-ggplot2-extensions
 ---
 
 ![ggplot2-2](https://emaasit.files.wordpress.com/2016/02/ggplot2-2.png)

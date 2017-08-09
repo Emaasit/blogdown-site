@@ -10,7 +10,7 @@ categories:
   - Machine Learning
   - R
   - United nations
-slug: content//post/2016-06-28-a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations
+slug: a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations
 ---
 
 ![un](https://emaasit.files.wordpress.com/2016/06/un.png)

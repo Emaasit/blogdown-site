@@ -12,10 +12,10 @@
     
     <item>
       <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
-      <link>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <link>/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
       <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
       
-      <guid>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <guid>/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 
@@ -34,10 +34,10 @@
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
-      <link>/2016/07/29/content/post/2016-07-29-a-gallery-of-ggplot2-extensions/</link>
+      <link>/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>/2016/07/29/content/post/2016-07-29-a-gallery-of-ggplot2-extensions/</guid>
+      <guid>/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
       <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
@@ -78,10 +78,10 @@
     
     <item>
       <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
-      <link>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
+      <link>/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
-      <guid>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
+      <guid>/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:
@@ -117,10 +117,10 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>/2016/07/07/content/post/2016-07-07-incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>/2016/07/07/content/post/2016-07-07-incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/47IjdD2yyGE&#34; target=&#34;_blank&#34;&gt;https://youtu.be/47IjdD2yyGE&lt;/a&gt;&lt;/p&gt;
@@ -145,10 +145,10 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
     
     <item>
       <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>/2016/06/28/content/post/2016-06-28-a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
+      <link>/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
       <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
       
-      <guid>/2016/06/28/content/post/2016-06-28-a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
+      <guid>/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
@@ -169,10 +169,10 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
     
     <item>
       <title>Incase you missed it: My Webinar on Spatial Data Analysis with R</title>
-      <link>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
+      <link>/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
       <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
       
-      <guid>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
+      <guid>/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://vimeo.com/156607218&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/156607218&lt;/a&gt;&lt;/p&gt;
@@ -197,10 +197,10 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
     
     <item>
       <title>Webinar: Getting Started with Spatial Data Analysis with R</title>
-      <link>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</link>
+      <link>/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</link>
       <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
       
-      <guid>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
+      <guid>/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
@@ -259,10 +259,10 @@ He is an organizer of several Data Science and R meetup groups and actively cont
     
     <item>
       <title>Tracking ggplot2 Extensions</title>
-      <link>/2016/02/01/content/post/2016-02-01-tracking-ggplot2-extensions/</link>
+      <link>/2016/02/01/tracking-ggplot2-extensions/</link>
       <pubDate>Mon, 01 Feb 2016 23:55:06 +0000</pubDate>
       
-      <guid>/2016/02/01/content/post/2016-02-01-tracking-ggplot2-extensions/</guid>
+      <guid>/2016/02/01/tracking-ggplot2-extensions/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/ggplot2-2.png&#34; alt=&#34;ggplot2-2&#34; /&gt;&lt;/p&gt;
@@ -309,10 +309,10 @@ He is an organizer of several Data Science and R meetup groups and actively cont
     
     <item>
       <title>Using Apache SparkR to Power Shiny Applications: Part I</title>
-      <link>/2015/12/08/content/post/2015-12-08-using-apache-sparkr-to-power-shiny-applications-part-i/</link>
+      <link>/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/2015/12/08/content/post/2015-12-08-using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
+      <guid>/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
@@ -428,10 +428,10 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
     
     <item>
       <title>Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio</title>
-      <link>/2015/11/10/content/post/2015-11-10-launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
+      <link>/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
       <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
       
-      <guid>/2015/11/10/content/post/2015-11-10-launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
+      <guid>/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
       <description>&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;

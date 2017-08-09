@@ -11,7 +11,7 @@ categories:
   - RStudio
   - Shiny
   - SparkR
-slug: content//post/2015-12-08-using-apache-sparkr-to-power-shiny-applications-part-i
+slug: using-apache-sparkr-to-power-shiny-applications-part-i
 ---
 
 _This post was first published on [SparkIQ Labs' blog](http://blog.sparkiq-labs.com) and re-posted on my personal blog._

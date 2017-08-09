@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.26" />
+  <meta name="author" content="Daniel Emaasit">
+  <meta name="description" content="Ph.D. Candidate of Transportation Engineering">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', '59805065', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/">
+
+  
+
+  <title>Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio | Daniel Emaasit</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Daniel Emaasit</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/publication">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="https://www.dropbox.com/s/j9jobrzdknz6mma/CV_Daniel_Emaasit.pdf?dl=0">
+            
+            <span>CV</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/talk">
+            
+            <span>Talks</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/project">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/software">
+            
+            <span>Software</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Blog</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/misc">
+            
+            <span>Misc</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2015-11-10 09:41:40 &#43;0000 &#43;0000" itemprop="datePublished">
+      Tue, Nov 10, 2015
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/apache-spark">Apache Spark</a
+    >, 
+    
+    <a href="/categories/big-data">Big Data</a
+    >, 
+    
+    <a href="/categories/data-science">Data Science</a
+    >, 
+    
+    <a href="/categories/r">R</a
+    >, 
+    
+    <a href="/categories/rstudio">RStudio</a
+    >, 
+    
+    <a href="/categories/sparkr">SparkR</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2f2015%2f11%2f10%2flaunch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Launch%20Apache%20Spark%20on%20AWS%20EC2%20and%20Initialize%20SparkR%20Using%20RStudio&amp;url=%2f2015%2f11%2f10%2flaunch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f2015%2f11%2f10%2flaunch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio%2f&amp;title=Launch%20Apache%20Spark%20on%20AWS%20EC2%20and%20Initialize%20SparkR%20Using%20RStudio"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2f2015%2f11%2f10%2flaunch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio%2f&amp;title=Launch%20Apache%20Spark%20on%20AWS%20EC2%20and%20Initialize%20SparkR%20Using%20RStudio"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Launch%20Apache%20Spark%20on%20AWS%20EC2%20and%20Initialize%20SparkR%20Using%20RStudio&amp;body=%2f2015%2f11%2f10%2flaunch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      <p><em>This post was first published on <a href="http://blog.sparkiq-labs.com" target="_blank">SparkIQ Labs&rsquo; blog</a> and re-posted on my personal blog.</em></p>
+
+<p><strong>Introduction</strong></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300" alt="sparkr-ec2" /></a></p>
+
+<p>In this blog post, we shall learn how to launch a Spark stand alone cluster on <a href="http://aws.amazon.com/" target="_blank">Amazon Web Services (AWS) Elastic Compute Cloud (EC2)</a> for analysis of Big Data. This is a continuation from our <a href="http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/" target="_blank">previous blog</a>, which showed us how to download <a href="http://spark.apache.org/" target="_blank">Apache Spark</a> and start SparkR locally on windows OS and <a href="https://www.rstudio.com/" target="_blank">RStudio</a>.</p>
+
+<p>We shall use <em>Spark 1.5.1</em> (released on October 02, 2015) which has a <em>spark-ec2</em> script that is used to install stand alone Spark on AWS EC2.  A nice feature about this <em>spark-ec2</em> script is that it installs RStudio server as well. This means that you don&rsquo;t need to install RStudio server separately. Thus you can start working with your data immediately after Spark is installed.</p>
+
+<!-- more -->
+
+<p><strong>Prerequisites</strong></p>
+
+<ul>
+<li><p>You should have already downloaded <a href="http://spark.apache.org/" target="_blank">Apache Spark</a> onto your local desktop from the <a href="http://spark.apache.org/" target="_blank">official site</a>. You can find instructions on how to do so in our <a href="http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/" target="_blank">previous post</a>.</p></li>
+
+<li><p>You should have an AWS account, created secret access key(s) and downloaded your private key pair as a .pem file. Find instructions on how to create your access keys <a href="http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey" target="_blank">here</a> and to download your private keys <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair" target="_blank">here</a>.</p></li>
+
+<li><p>We will launch the clusters through <a href="http://www.gnu.org/software/bash/manual/bashref.html" target="_blank">Bash shell</a> on Linux. If you are using Windows OS I recommend that you install and use the <a href="http://www.cygwin.com/" target="_blank">Cygwin</a> terminal (It provides functionality similar to a Linux distribution on Windows)</p></li>
+</ul>
+
+<p><strong>Launching Apache Spark on AWS EC2</strong></p>
+
+<p>We shall use the <em>spark-ec2</em> script, located in Spark&rsquo;s <em>ec2</em> directory to launch, manage and shutdown Spark clusters on Amazon EC2. It will setup Spark, HDFS, Tachyon, RStudio on your cluster.</p>
+
+<p><strong>Step 1: Go into the ec2 directory</strong></p>
+
+<p>Change directory into the &ldquo;<em>ec2&rdquo;</em> directory. In my case, I downloaded Spark onto my desktop, so I ran this command.</p>
+
+<p><code>$ cd Desktop/Apache/spark-1.5.1/ec2</code></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/1-cd.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/1-cd.png?w=300" alt="1-cd" /></a></p>
+
+<p><strong>Step 2: Set environment variables</strong></p>
+
+<p>Set the environment variables <code>AWS_ACCESS_KEY_ID</code> and <code>AWS_SECRET_ACCESS_KEY</code> to your Amazon EC2 access key ID and secret access key.</p>
+
+<p><code>$ export AWS_SECRET_ACCESS_KEY=AaBbCcDdEeFGgHhIiJjKkLlMmNnOoPpQqRrSsTtU</code></p>
+
+<p><code>$ export AWS_ACCESS_KEY_ID=ABCDEFG1234567890123</code></p>
+
+<p><strong>Step 3: Launch the spark-ec2 script</strong></p>
+
+<p>Launch the cluster by running the following command.</p>
+
+<p><code>$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem --region=us-east-1 --instance-type=c3.4xlarge -s 2 --copy-aws-credentials launch test-cluster</code> </p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/2-launch.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/2-launch.png?w=300" alt="2-launch" /></a></p>
+
+<p>Where;</p>
+
+<ul>
+<li><p>&ndash;key-pair=<name_of_your_key_pair> , The name of your EC2 key pair</p></li>
+
+<li><p>&ndash;identity-file=<name_of_your_key_pair>.pem , The private key file</p></li>
+
+<li><p>&ndash;region=<the_region_where_key_pair_was_created></p></li>
+
+<li><p>&ndash;instance-type=<the_instance_you_want></p></li>
+
+<li><p>-s N, where N is the number of slave nodes</p></li>
+
+<li><p>&ldquo;test-cluster&rdquo; is the name of the cluster</p></li>
+</ul>
+
+<p>In case you want to set other options for the launch of your cluster, further instructions can be found on the <a href="http://spark.apache.org/docs/latest/ec2-scripts.html" target="_blank">Spark documentation website</a>.</p>
+
+<p>As I mentioned earlier, this script also installs RStudio server, as can be seen in the figure below.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/3-install-rstudio.png?w=300" alt="3-install-rstudio" /></a></p>
+
+<p>The cluster installation takes about 7 minutes. When it is done, the host address of the master node is displayed at the end of the log message as shown in the figure below. At this point your Spark cluster has been installed successfully and you are a ready to start exploring and analyzing your data.</p>
+
+<p><img src="https://sparkiqlabs.files.wordpress.com/2015/11/4-done.png?w=300" alt="4-done" /></p>
+
+<p>Before you continue, you may be curious to see whether your cluster is actually up and running. Simply log into your AWS account and go to the EC2 dashboard. In my case, I have 1 master node and 2 slave/worker nodes in my Spark cluster.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png?w=300" alt="2-launch-awsScreen" /></a></p>
+
+<p>Use the address displayed at the end of the launch message and access the Spark User Interface (UI) on port 8080. You can also get the host address of your master node by using the &ldquo;<em>get-master</em>&rdquo; option in the command below.</p>
+
+<p><code>$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem get-master test-cluster</code></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/5-online.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/5-online.png?w=300" alt="5-online" /></a></p>
+
+<p><strong>Step 4: Login to your cluster</strong></p>
+
+<p>In the terminal you can login to your master node by using the &ldquo;<em>login</em>&rdquo; option in the following command</p>
+
+<p><code>$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem login test-cluster</code></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/6-login.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/6-login.png?w=300" alt="6-login" /></a></p>
+
+<p><strong>Step 5 (Optional): Start the SparkR REPL</strong></p>
+
+<p>Here you can actually start the SparkR REPL by typing the following command.</p>
+
+<p><code>$ spark/bin/sparkR</code></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/7-start-sparkr.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/7-start-sparkr.png?w=300" alt="7-start-sparkr" /></a></p>
+
+<p>SparkR will be initialized and you should see a welcome message as shown in the Figure below. Here you can actually start working with your data. However most R users, like myself, would like to work in an Integrated Development Environment (IDE) like RStudio. See steps 6 and 7 on how to do so.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/8-welcome-sparkr.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/8-welcome-sparkr.png?w=300" alt="8-welcome-sparkr" /></a></p>
+
+<p><strong>Step 6: Create user accounts</strong></p>
+
+<p>Use the following command to list all available users on the cluster.</p>
+
+<p><code>$ cut -d: -f1 /etc/passwd</code></p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/9-users.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/9-users.png?w=300" alt="9-users" /></a></p>
+
+<p>You will notice that &ldquo;rstudio&rdquo; is one of the available user accounts. You can create other user accounts and passwords for them using these commands.</p>
+
+<p><code>$ sudo adduser daniel</code></p>
+
+<p><code>$ passwd daniel</code></p>
+
+<p>In my case, I used the &ldquo;rstudio&rdquo; user account and changed its password.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/10-create-passwd.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/10-create-passwd.png?w=300" alt="10-create-passwd" /></a></p>
+
+<p><strong>Initializing SparkR Using RStudio</strong></p>
+
+<p>The <em>spark-ec2</em> script also created a &ldquo;<em>startSpark.R</em>&rdquo; script that we shall use to initialize SparkR.</p>
+
+<p><strong>Step 7: Login to RStudio server</strong></p>
+
+<p>Using the username you selected/created and the password you created, login into RStudio server.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/11-rstudio.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/11-rstudio.png?w=300" alt="11-rstudio" /></a></p>
+
+<p><strong>Step 8: Initialize SparkR</strong></p>
+
+<p>When you log in to RStudio server, you will see the &rdquo;startSpark.R&rdquo; in your files pane (already created for you).</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/12-startsparkr.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/12-startsparkr.png?w=300" alt="12-startSparkR" /></a></p>
+
+<p>Simply run the &ldquo;startSpark.R&rdquo; script to initialize SparkR. This creates a Spark Context and a SQL Context for you.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/13-initialize.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/13-initialize.png?w=300" alt="13-initialize" /></a></p>
+
+<p><strong>Step 9: Start Working with your Data</strong></p>
+
+<p>Now you are ready to start working with your data.</p>
+
+<p>Here I use a simple example of the &ldquo;mtcars&rdquo; dataset to show that you can now run SparkR commands and use the MLLib library to run a simple linear regression model.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/14-lm-example.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/14-lm-example.png?w=300" alt="14-lm-example" /></a></p>
+
+<p>You can view the status of your jobs by using the host address of your master and listening on port 4040. This UI also displays a chain of RDD dependencies organized in Direct Acyclic Graph (DAG) as shown in the figure below.</p>
+
+<p><a href="https://sparkiqlabs.files.wordpress.com/2015/11/15-dag.png" target="_blank"><img src="https://sparkiqlabs.files.wordpress.com/2015/11/15-dag.png?w=222" alt="15-DAG" /></a></p>
+
+<p><strong>Final Remarks</strong></p>
+
+<p>The objective of this blog post was to show you how to get started with Spark on AWS EC2 and initialize SparkR using RStudio. In the next blog post we shall look into working with actual &ldquo;Big&rdquo; datasets stored in different data stores such as <a href="https://aws.amazon.com/s3/" target="_blank">Amazon S3</a> or <a href="https://www.mongodb.com/" target="_blank">MongoDB</a>.</p>
+
+<p><strong>Further Interests: RStudio Shiny + SparkR</strong></p>
+
+<p>I am curious about how to use <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a> with SparkR and in the next couple of days I will investigate this idea further. The question is: how can one use SparkR to power shiny applications. If you have any thoughts please share them in the comments section below and let&rsquo;s discuss.</p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/"><span
+      aria-hidden="true">&larr;</span> Installing and Starting SparkR Locally on Windows OS and RStudio</a></li>
+    
+
+    
+    <li class="next"><a href="/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/">Using Apache SparkR to Power Shiny Applications: Part I <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "emaasit" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Daniel Emaasit &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

@@ -9,7 +9,7 @@ categories:
   - Machine Learning
   - R
   - Webinar
-slug: content//post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning
+slug: in-case-you-missed-it-my-webinar-on-model-based-machine-learning
 ---
 
 In case you missed my free webinar on "**[Model-Based Machine Learning](https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/)**",  here is the recording.

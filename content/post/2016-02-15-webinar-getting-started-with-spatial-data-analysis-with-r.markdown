@@ -7,7 +7,7 @@ categories:
   - Data Visualization
   - R
   - Webinar
-slug: content//post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r
+slug: webinar-getting-started-with-spatial-data-analysis-with-r
 ---
 
 ![webinar3](https://emaasit.files.wordpress.com/2016/02/webinar3.png)

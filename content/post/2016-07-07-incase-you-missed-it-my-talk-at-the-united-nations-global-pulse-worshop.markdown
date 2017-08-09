@@ -10,7 +10,7 @@ categories:
   - Machine Learning
   - R
   - United nations
-slug: content//post/2016-07-07-incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop
+slug: incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop
 ---
 
 In case you missed my talk at the [2016 Data Science Africa Workshop](http://www.datascienceafrica.org/dsa2016/#workshop) organized by the [United Nations Global Pulse Lab](http://unglobalpulse.org/kampala), here is the recording. My talk was titled "_[Sustainable Urban Transport Planning using Big Data from Mobile Phones](http://blog.danielemaasit.com/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/)_".

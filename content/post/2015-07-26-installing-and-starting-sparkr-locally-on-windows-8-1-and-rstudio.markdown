@@ -8,7 +8,7 @@ categories:
   - R
   - RStudio
   - SparkR
-slug: content//post/2015-07-26-installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio
+slug: installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio
 ---
 
 **Introduction**

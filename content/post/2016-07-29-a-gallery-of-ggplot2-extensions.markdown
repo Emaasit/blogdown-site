@@ -7,7 +7,7 @@ categories:
   - Data Visualization
   - ggplot2
   - R
-slug: content//post/2016-07-29-a-gallery-of-ggplot2-extensions
+slug: a-gallery-of-ggplot2-extensions
 ---
 
 A couple of months ago, I announced the [ggplot2-extensions website](http://www.ggplot2-exts.org/) which tracks and lists extensions built on top of the popular R visualization package **[ggplot2](http://docs.ggplot2.org/current/)**.
