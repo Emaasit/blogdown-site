@@ -23,7 +23,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Transportation Engineering"
+  course = "PhD in Transportation Engineering, expected December"
   institution = "University of Nevada Las Vegas"
   year = 2017
 
