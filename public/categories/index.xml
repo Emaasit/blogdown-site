@@ -7,7 +7,71 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Daniel Emaasit</copyright>
+    <lastBuildDate>Tue, 08 Dec 2015 17:24:26 +0000</lastBuildDate>
     <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Apache Spark</title>
+      <link>/categories/apache-spark/</link>
+      <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
+      
+      <guid>/categories/apache-spark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>/categories/bayesian/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/categories/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Big Data</title>
+      <link>/categories/big-data/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/categories/big-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>/categories/conference/</link>
+      <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
+      
+      <guid>/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/categories/data-science/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Visualization</title>
+      <link>/categories/data-visualization/</link>
+      <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
+      
+      <guid>/categories/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/categories/ggplot2/</link>
+      <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
+      
+      <guid>/categories/ggplot2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning</title>
@@ -19,11 +83,65 @@
     </item>
     
     <item>
+      <title>Meetup</title>
+      <link>/categories/meetup/</link>
+      <pubDate>Thu, 21 Aug 2014 05:08:22 +0000</pubDate>
+      
+      <guid>/categories/meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/categories/r/</link>
       <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstudio</title>
+      <link>/categories/rstudio/</link>
+      <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
+      
+      <guid>/categories/rstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/categories/shiny/</link>
+      <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
+      
+      <guid>/categories/shiny/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparkr</title>
+      <link>/categories/sparkr/</link>
+      <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
+      
+      <guid>/categories/sparkr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>United Nations</title>
+      <link>/categories/united-nations/</link>
+      <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
+      
+      <guid>/categories/united-nations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webinar</title>
+      <link>/categories/webinar/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/categories/webinar/</guid>
       <description></description>
     </item>
     

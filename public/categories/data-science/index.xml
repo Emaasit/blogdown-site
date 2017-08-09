@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on Daniel Emaasit</title>
+    <link>/categories/data-science/</link>
+    <description>Recent content in Data Science on Daniel Emaasit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Daniel Emaasit</copyright>
+    <lastBuildDate>Wed, 03 Aug 2016 07:41:44 +0000</lastBuildDate>
+    <atom:link href="/categories/data-science/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
+      <link>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/175956118&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/175956118&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apologies for the poor quality of the video. Domino Data Lab&amp;rsquo;s webinar platform suffered a service degradation while recording the event. The webinar slides may be found below.&lt;/p&gt;
+
+&lt;p&gt;[slideshare id=64647075&amp;amp;doc=3rdpresentationpaperreview-160803065711]&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please do not hesitate to contact me. Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/enthoven&#34; target=&#34;_blank&#34;&gt;Daniel Enthoven&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/danielchalef&#34; target=&#34;_blank&#34;&gt;Daniel Chalef&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Gallery of ggplot2 Extensions</title>
+      <link>/2016/07/29/content/post/2016-07-29-a-gallery-of-ggplot2-extensions/</link>
+      <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
+      
+      <guid>/2016/07/29/content/post/2016-07-29-a-gallery-of-ggplot2-extensions/</guid>
+      <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;Fork the gallery [repository](https://github.com/ggplot2-exts/gallery) on Github.&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the `images` directory of [the gallery repository](https://github.com/ggplot2-exts/gallery).&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;Add an entry for your extension in the `_config.yml` file of [the repository](https://github.com/ggplot2-exts/gallery) with the meta data for your extension.&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;Push your changes and create a pull request.&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
+      <link>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
+      <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
+      
+      <guid>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; ## Synopsis
+&gt; 
+&gt; 
+
+&gt; 
+&gt; In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&#39;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.
+&gt; 
+&gt; 
+
+&gt; 
+&gt; In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.
+&gt; 
+&gt; 
+![Daniel Emaasit](https://www.dominodatalab.com/images/resources/daniel-e.jpg)
+
+&gt; 
+&gt; ## About the Speaker
+&gt; 
+&gt; 
+Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where his research interests involve the development of probabilistic machine learning methods for high-dimensional data, with applications to urban mobility, transport planning, highway safety, &amp; traffic operations.&lt;/blockquote&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
+      <link>/2016/07/07/content/post/2016-07-07-incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
+      
+      <guid>/2016/07/07/content/post/2016-07-07-incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/47IjdD2yyGE&#34; target=&#34;_blank&#34;&gt;https://youtu.be/47IjdD2yyGE&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;You can download slides for my talk from &lt;a href=&#34;https://www.dropbox.com/s/v53ymxth8x4hpe1/dsa_2016_presentation.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;[slideshare id=63828079&amp;amp;doc=dsa2016presentation-160707230510]&lt;/p&gt;
+
+&lt;p&gt;There were also talks from my colleagues at &lt;a href=&#34;http://www.research.ibm.com/labs/africa/&#34; target=&#34;_blank&#34;&gt;IBM Research - Africa&lt;/a&gt; including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://youtu.be/gxFstDWf9VU&#34; target=&#34;_blank&#34;&gt;https://youtu.be/gxFstDWf9VU&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I would like to thank Dr. John Quinn and the entire team a the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;UNGP - Kampala&lt;/a&gt; for the invitation to speak and for a well organized event.  You can read more about the workshop from this &lt;a href=&#34;http://unglobalpulse.org/news/data-science-in-africa-2016&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; at the &lt;a href=&#34;http://unglobalpulse.org/blog&#34; target=&#34;_blank&#34;&gt;UNGP blog&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
+
+&lt;p&gt;[caption id=&amp;ldquo;attachment_510&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;525&amp;rdquo;]&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt; United Nations Global Pulse Lab Kampala and partners from academia, industry, non-profit, government came together for the second workshop on Data Science in Africa, which was organized between 27 June - 1 July in Kampala, Uganda[/caption]&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
+      <link>/2016/06/28/content/post/2016-06-28-a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
+      <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
+      
+      <guid>/2016/06/28/content/post/2016-06-28-a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
+
+&lt;p&gt;In recent years, we have witnessed the proliferation of ubiquitous mobile computing devices in developing countries. These mobile phones capture the movement of vehicles and people in near real time and generate massive amounts of new data.  My PhD research investigates how we can utilize anonymized mobile phone data ( i.e. Call Detail Records) and probabilistic machine learning to infer travel/mobility patterns. One of the objectives of this research is to demonstrate that these new “big” data sources are cheaper alternatives for transport modeling and travel behavior studies.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll have various UN and government people doing urban planning who I think would enjoy this topic — see you there! .&lt;/p&gt;
+
+&lt;p&gt;If you haven’t already, register for &lt;a href=&#34;http://goo.gl/forms/Et8ztKOQmo&#34; target=&#34;_blank&#34;&gt;Data Science Africa Workshop 2016 here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incase you missed it: My Webinar on Spatial Data Analysis with R</title>
+      <link>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
+      <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
+      
+      <guid>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/156607218&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/156607218&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;You can access the material used for this webinar from &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Lab&lt;/a&gt;&amp;rsquo;s platform using the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Slides [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/domino-presentation.pdf?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;domino-presentation.pdf&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The RMarkdown Script [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/ReadMe.Rmd?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;ReadMe.Rmd&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/browse&#34; target=&#34;_blank&#34;&gt;The Whole Project&lt;/a&gt; [All files including data]&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any questions, please do not hesitate to contact me. If you have more topics (related to R) that you are interested in learning about, send them my way so we can prepare another webinar.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/annaanisin&#34; target=&#34;_blank&#34;&gt;Anna Anisin&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Webinar: Getting Started with Spatial Data Analysis with R</title>
+      <link>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</link>
+      <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
+      
+      <guid>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; ## Synopsis
+&gt; 
+&gt; 
+Spatial and spatial-temporal data have become pervasive. We are generating spatial data from route planners, sensors, mobile devices, and computers in different fields like transportation, agriculture, and social media. These data need to be analyzed to generate hidden insights that can improve business processes, help fight crime in cities, and much more.
+
+Simply creating static maps is not enough. In this webinar we shall look at techniques of importing and exporting spatial data into R; understanding the foundation classes for spatial data; manipulation of spatial data; and techniques for spatial visualization. This webinar is meant to provide introductory knowledge of spatial data analysis in R needed to understand more complex spatial data modeling techniques.
+
+We will cover the following topics:
+
+&gt; 
+&gt; 
+    
+&gt;   1. Why use R for spatial analysis
+&gt; 
+    
+&gt;   2. Packages for spatial data analysis
+&gt; 
+    
+&gt;   3. Types of spatial data
+&gt; 
+    
+&gt;   4. Classes and methods in R for spatial data analysis
+&gt; 
+    
+&gt;   5. Importing and exporting spatial data
+&gt; 
+    
+&gt;   6. Visualizing spatial data in R
+&gt; 
+
+
+&gt; 
+&gt; ## About the Speaker
+&gt; 
+&gt; 
+![](https://www.dominodatalab.com/images/avatars/daniel-emaasit.jpg)
+
+**Daniel Emaasit, Ph.D Student at University of Nevada, Las Vegas**
+
+Daniel is a Ph.D Student of Transportation Engineering at UNLV where his research involves application of statistical machine learning to developing Activity-Based Travel Demand Models using Big Data from mobile phones. The objective of his research is to improve Transportation Planning by developing methods that model urban mobility patterns and trends.
+
+He is an organizer of several Data Science and R meetup groups and actively contributes to open-source technologies in the R community.&lt;/blockquote&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tracking ggplot2 Extensions</title>
+      <link>/2016/02/01/content/post/2016-02-01-tracking-ggplot2-extensions/</link>
+      <pubDate>Mon, 01 Feb 2016 23:55:06 +0000</pubDate>
+      
+      <guid>/2016/02/01/content/post/2016-02-01-tracking-ggplot2-extensions/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/ggplot2-2.png&#34; alt=&#34;ggplot2-2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The purpose of this blog post is to inform R users of a &lt;a href=&#34;http://ggplot2-exts.github.io/index.html&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; that I created to track and list &lt;strong&gt;ggplot2 extensions&lt;/strong&gt;. The site is available at: &lt;a href=&#34;http://ggplot2-exts.github.io&#34; target=&#34;_blank&#34;&gt;http://ggplot2-exts.github.io&lt;/a&gt;. The purpose of this site is to help other R users easily find &lt;a href=&#34;http://ggplot2.org/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; extensions that are coming in &amp;ldquo;fast and furious&amp;rdquo; from the R community.&lt;/p&gt;
+
+&lt;p&gt;If you have developed or intend on developing ggplot2 extensions, submit them so that other R users can easily find them. To do so, simply create an issue or a pull request on this &lt;a href=&#34;https://github.com/ggplot2-exts/ggplot2-exts.github.io/tree/dev&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt; repository.&lt;/p&gt;
+
+&lt;p&gt;Incase you are wondering what ggplot2 extensions are; these are R packages that extend the functionality of the &lt;a href=&#34;http://ggplot2.org/&#34; target=&#34;_blank&#34;&gt;ggplot2 package&lt;/a&gt; by &lt;a href=&#34;http://had.co.nz/&#34; target=&#34;_blank&#34;&gt;Dr. Hadley Wickham&lt;/a&gt;. This extensibility mechanism became available in ggplot2 version 2.0.0 &lt;a href=&#34;http://blog.rstudio.org/2015/12/21/ggplot2-2-0-0/&#34; target=&#34;_blank&#34;&gt;released on December 17th, 2015&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3 id=&#34;motivation-for-developing-this-website&#34;&gt;&lt;strong&gt;Motivation for Developing this Website&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;When Hadley announced the release of ggplot2 2.0.0, perhaps the most exciting news was the addition of an official extension mechanism. This mechanism allows other R developers to easily create their on stats, geoms and positions, and provide them in other packages. This means that even when less development occurs in the ggplot2 package itself, the community will continue to release packages for graphical analysis that extend/solve different requirements. (To learn how you can develop your own extensions, there&amp;rsquo;s a step by step tutorial here: &lt;a href=&#34;https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html&#34; target=&#34;_blank&#34;&gt;https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Immediately after this announcement, several extensions started popping up. I was able to learn of some because they were posted out on twitter by &lt;a href=&#34;https://twitter.com/hadleywickham&#34; target=&#34;_blank&#34;&gt;@hadleywickham&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-52-46-1.png?w=680&#34; alt=&#34;Screenshot_2016-01-30-10-52-46-1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But it got me thinking&amp;hellip;.. R users who are not active on social media must be missing out on these new cool extensions. In addition, if I didn&amp;rsquo;t check my twitter feed on a particular day, I would miss tweets about new extension-packages. This was not an effective way of searching for packages. There has to be a better way to track and list ggplot2 extensions. Quickly, I sprang into action to help fill this gap. But first, I had to find out if such an initiative already existed in the R community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-52-27-1.png?w=680&#34; alt=&#34;Screenshot_2016-01-30-10-52-27-1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It turned out none existed. I quickly started developing one and a couple of hours later, we had a working website (&lt;a href=&#34;http://ggplot2-exts.github.io/&#34; target=&#34;_blank&#34;&gt;http://ggplot2-exts.github.io&lt;/a&gt;) with a list of extensions known to me then.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/ggplot2-3.png&#34; alt=&#34;ggplot2-3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hadley was kind enough to inform his followers on twitter about this new initiative. (I should mention, it was the highlight of my life getting a &amp;ldquo;thumps up&amp;rdquo; from Hadley Wickham).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/screenshot_2016-02-01-15-12-16-1.png?w=680&#34; alt=&#34;Screenshot_2016-02-01-15-12-16-1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As it turns out, I was not the only one concerned about this issue. Several other R users had made similar inquiries.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-49-14-2.png&#34; alt=&#34;Screenshot_2016-01-30-10-49-14-2&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;closing-remarks&#34;&gt;&lt;strong&gt;Closing Remarks&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;In closing, I hope to see more cool extensions being developed and shared with the rest of the community on &lt;a href=&#34;http://ggplot2-exts.github.io&#34; target=&#34;_blank&#34;&gt;ggplot2-exts.github.io&lt;/a&gt; so that other R Users can easily find them. Don&amp;rsquo;t forget to create an issue or a pull request on this &lt;a href=&#34;https://github.com/ggplot2-exts/ggplot2-exts.github.io/tree/dev&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt; repo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Apache SparkR to Power Shiny Applications: Part I</title>
+      <link>/2015/12/08/content/post/2015-12-08-using-apache-sparkr-to-power-shiny-applications-part-i/</link>
+      <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
+      
+      <guid>/2015/12/08/content/post/2015-12-08-using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;shiny-sparkr-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg-w-300-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg&#34;&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The objective of this blog post is demonstrate how to use &lt;a href=&#34;http://spark.apache.org&#34; target=&#34;_blank&#34;&gt;Apache SparkR&lt;/a&gt; to power &lt;a href=&#34;http://shiny.rstudio.com&#34; target=&#34;_blank&#34;&gt;Shiny applications&lt;/a&gt;. I have been curious about what the use cases for a &amp;ldquo;Shiny-SparkR&amp;rdquo; application would be and how to develop and deploy such an app.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SparkR&lt;/strong&gt; is an R package that provides a light-weight frontend to use Apache Spark from R. SparkR provides a distributed data frame implementation that supports operations like selection, filtering, aggregation etc. (similar to R data frames, dplyr) but on large datasets. SparkR also supports distributed machine learning using MLlib.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Shiny&lt;/strong&gt; is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h3 id=&#34;use-cases&#34;&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;So you&amp;rsquo;re probably asking yourself, &amp;ldquo;Why would I need to use SparkR to run my Shiny applications?&amp;rdquo;. That is a legitimate question and to answer it, we need to understand the different classes of big data problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classes of Big Data Problems&lt;/strong&gt;
+In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&gt;AMA on Reddit&lt;/a&gt;, &lt;a href=&#34;http://had.co.nz/&#34; target=&#34;_blank&#34;&gt;Hadley Wickham&lt;/a&gt; (Chief Scientist at &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;) painted a clearer picture of how &amp;ldquo;Big Data&amp;rdquo; should be defined. His insights will help us to define uses cases for SparkR and Shiny.&lt;/p&gt;
+
+&lt;p&gt;I believe big data problems should be categorized in 3 main classes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Big Data-Small Analytics:&lt;/strong&gt; This is where a data scientist begins with a raw big dataset and then slices and dices that data to obtain the right sample required to answer a specific business/research problem. In most cases the resulting sample is a small dataset, which &lt;strong&gt;doesnot&lt;/strong&gt; require the use of SparkR to run a shiny application.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Partition Aggregrate Analytics:&lt;/strong&gt; This is where a data scientist needs to distribute and parallelize computation over multiple machines. Wickham defines this problem as a &lt;strong&gt;trivially parallelisable problem&lt;/strong&gt;. An example is when you need to fit one model per individual for thousands of individuals. In this case SparkR is a good fit but there are also packages in R that solve this problem such as the &lt;a href=&#34;https://cran.r-project.org/web/packages/foreach/index.html&#34; target=&#34;_blank&#34;&gt;foreach package&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Big Data-Large Scale Analytics&lt;/strong&gt;. This is where a data scientist needs all the big data, perhaps because they are fitting a complex model. An example of this type of problem is recommender systems which really do benefit from lots of data because they need to recognize interactions that occur only rarely. SparkR is a perfect fit for this problem when developing Shiny applications.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Memory Considerations&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, it&amp;rsquo;s important to take into consideration memory availability and size when looking into such an application. This can be viewed in two different ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you are running your shiny applications on servers that have more than enough memory to fit your big data, then you probrably do not need SparkR. Nowadays there is accessibility to machines with terabytes on RAM from cloud providers like &lt;a href=&#34;http://aws.amazon.com&#34; target=&#34;_blank&#34;&gt;Amazon AWS&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If your big data cannot fit on one machine, you may need to distribute it on several machines. SparkR is a perfect fit for this problem because it provides distributed algorithms that can crunch your data on different worker nodes and return the result to the master node.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;a-simple-illustrative-example&#34;&gt;&lt;strong&gt;A Simple Illustrative Example&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Before we start understanding how each piece of such an application would operate, let&amp;rsquo;s download and run this simple Shiny-SparkR application. Go to this github repository &lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos&#34; target=&#34;_blank&#34;&gt;https://github.com/SparkIQ-Labs/Demos&lt;/a&gt; and access the &lt;strong&gt;&amp;ldquo;shiny-sparkr-demo-1&amp;rdquo;&lt;/strong&gt; example.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/repo.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/repo.png&#34; alt=&#34;Repository&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Make sure you already have Apache Spark 1.5 or later downloaded onto your computer. Instructions for downloading and starting SparkR can be found in this &lt;a href=&#34;http://bit.ly/1kP5Fbm&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make sure you have Java 1.7.x installed and the environment variables are set.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;launch-the-app&#34;&gt;&lt;strong&gt;Launch the App&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;Once you have downloaded the app-folder, open the project in RStudio and open the &lt;strong&gt;&amp;ldquo;server.R&amp;rdquo;&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. **Change Spark Home**. Change the path of the **SPARK_HOME** environment variable to point to the destination of your Spark installation.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/spark-home.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/spark-home.png&#34; alt=&#34;Change Spark home&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Run the App&lt;/strong&gt;. Run the shiny app by using this command &lt;code&gt;shiny::runApp()&lt;/code&gt;. It will take some time for SparkR to be initialized before you can see the results of the underlying analysis are displayed.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;The App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the the code for the &amp;ldquo;server.R&amp;rdquo; file.&lt;/p&gt;
+
+&lt;p&gt;[gist]7cf8aa8efc535db160df[/gist]&lt;/p&gt;
+
+&lt;h3 id=&#34;what-happens-underneath&#34;&gt;&lt;strong&gt; What happens Underneath.&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;1. **Stage 1:** When you run the app, the user interface is displayed but without the rendered text output or model summary.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/no-results.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/no-results.png&#34; alt=&#34;App without the results&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. **Stage 2:** Meanwhile, in the background on your computer node(s), java is launched using the Spark-submit file, then the SparkR library is loaded and then SparkR is initialized.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/java-launch.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/java-launch.png&#34; alt=&#34;SparkR is initialized&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1. **Stage 3:** SparkR commands in the Server.R file are then executed, which finally shows the output within the shiny app.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the Spark UI to check the jobs that were completed, in the event timeline, to produce the final results in the shiny app. Go to localhost and listen on port 4040.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/event-timeline.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/event-timeline.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Stage 4:&lt;/strong&gt; When you change the input values in the app and click the &amp;ldquo;Predict Sepal Length&amp;rdquo; button, the application uses the already exciting Spark Context to run the predict function and displays the predicted value. This operations takes a shorter time than the initial launch of the shiny app.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/new-result.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/new-result.png&#34; alt=&#34;Change values&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;moving-forward&#34;&gt;&lt;strong&gt;Moving Forward&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;The objective of this first demo was to learn the use cases for SparkR and Shiny; and to see what happens underneath when you eventually deploy and run such an application on a PC.&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;Part II&lt;/strong&gt; of this tutorial series, we shall see how to develop and deploy such an application for a &amp;ldquo;Big Data-Large Scale Analytics&amp;rdquo; problem on big data stored on a cluster on AWS EC2. As we have already established this is one of the perfect use cases for SparkR and Shiny.&lt;/p&gt;
+
+&lt;p&gt;Please share your thoughts and experiences in the comments&amp;rsquo; section below if you have built such applications.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio</title>
+      <link>/2015/11/10/content/post/2015-11-10-launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
+      <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
+      
+      <guid>/2015/11/10/content/post/2015-11-10-launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this blog post, we shall learn how to launch a Spark stand alone cluster on &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;Amazon Web Services (AWS) Elastic Compute Cloud (EC2)&lt;/a&gt; for analysis of Big Data. This is a continuation from our &lt;a href=&#34;http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/&#34; target=&#34;_blank&#34;&gt;previous blog&lt;/a&gt;, which showed us how to download &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache Spark&lt;/a&gt; and start SparkR locally on windows OS and &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We shall use &lt;em&gt;Spark 1.5.1&lt;/em&gt; (released on October 02, 2015) which has a &lt;em&gt;spark-ec2&lt;/em&gt; script that is used to install stand alone Spark on AWS EC2.  A nice feature about this &lt;em&gt;spark-ec2&lt;/em&gt; script is that it installs RStudio server as well. This means that you don&amp;rsquo;t need to install RStudio server separately. Thus you can start working with your data immediately after Spark is installed.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You should have already downloaded &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache Spark&lt;/a&gt; onto your local desktop from the &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;official site&lt;/a&gt;. You can find instructions on how to do so in our &lt;a href=&#34;http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/&#34; target=&#34;_blank&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You should have an AWS account, created secret access key(s) and downloaded your private key pair as a .pem file. Find instructions on how to create your access keys &lt;a href=&#34;http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; and to download your private keys &lt;a href=&#34;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html#having-ec2-create-your-key-pair&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We will launch the clusters through &lt;a href=&#34;http://www.gnu.org/software/bash/manual/bashref.html&#34; target=&#34;_blank&#34;&gt;Bash shell&lt;/a&gt; on Linux. If you are using Windows OS I recommend that you install and use the &lt;a href=&#34;http://www.cygwin.com/&#34; target=&#34;_blank&#34;&gt;Cygwin&lt;/a&gt; terminal (It provides functionality similar to a Linux distribution on Windows)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Launching Apache Spark on AWS EC2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We shall use the &lt;em&gt;spark-ec2&lt;/em&gt; script, located in Spark&amp;rsquo;s &lt;em&gt;ec2&lt;/em&gt; directory to launch, manage and shutdown Spark clusters on Amazon EC2. It will setup Spark, HDFS, Tachyon, RStudio on your cluster.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 1: Go into the ec2 directory&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Change directory into the &amp;ldquo;&lt;em&gt;ec2&amp;rdquo;&lt;/em&gt; directory. In my case, I downloaded Spark onto my desktop, so I ran this command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ cd Desktop/Apache/spark-1.5.1/ec2&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/1-cd.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/1-cd.png?w=300&#34; alt=&#34;1-cd&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 2: Set environment variables&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Set the environment variables &lt;code&gt;AWS_ACCESS_KEY_ID&lt;/code&gt; and &lt;code&gt;AWS_SECRET_ACCESS_KEY&lt;/code&gt; to your Amazon EC2 access key ID and secret access key.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ export AWS_SECRET_ACCESS_KEY=AaBbCcDdEeFGgHhIiJjKkLlMmNnOoPpQqRrSsTtU&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ export AWS_ACCESS_KEY_ID=ABCDEFG1234567890123&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 3: Launch the spark-ec2 script&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Launch the cluster by running the following command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem --region=us-east-1 --instance-type=c3.4xlarge -s 2 --copy-aws-credentials launch test-cluster&lt;/code&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/2-launch.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/2-launch.png?w=300&#34; alt=&#34;2-launch&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Where;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&amp;ndash;key-pair=&lt;name_of_your_key_pair&gt; , The name of your EC2 key pair&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ndash;identity-file=&lt;name_of_your_key_pair&gt;.pem , The private key file&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ndash;region=&lt;the_region_where_key_pair_was_created&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ndash;instance-type=&lt;the_instance_you_want&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;-s N, where N is the number of slave nodes&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;test-cluster&amp;rdquo; is the name of the cluster&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case you want to set other options for the launch of your cluster, further instructions can be found on the &lt;a href=&#34;http://spark.apache.org/docs/latest/ec2-scripts.html&#34; target=&#34;_blank&#34;&gt;Spark documentation website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As I mentioned earlier, this script also installs RStudio server, as can be seen in the figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/3-install-rstudio.png?w=300&#34; alt=&#34;3-install-rstudio&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The cluster installation takes about 7 minutes. When it is done, the host address of the master node is displayed at the end of the log message as shown in the figure below. At this point your Spark cluster has been installed successfully and you are a ready to start exploring and analyzing your data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/4-done.png?w=300&#34; alt=&#34;4-done&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Before you continue, you may be curious to see whether your cluster is actually up and running. Simply log into your AWS account and go to the EC2 dashboard. In my case, I have 1 master node and 2 slave/worker nodes in my Spark cluster.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/2-launch-awsscreen.png?w=300&#34; alt=&#34;2-launch-awsScreen&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the address displayed at the end of the launch message and access the Spark User Interface (UI) on port 8080. You can also get the host address of your master node by using the &amp;ldquo;&lt;em&gt;get-master&lt;/em&gt;&amp;rdquo; option in the command below.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem get-master test-cluster&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/5-online.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/5-online.png?w=300&#34; alt=&#34;5-online&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 4: Login to your cluster&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the terminal you can login to your master node by using the &amp;ldquo;&lt;em&gt;login&lt;/em&gt;&amp;rdquo; option in the following command&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ ./spark-ec2 --key-pair=awskey --identity-file=awskey.pem login test-cluster&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/6-login.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/6-login.png?w=300&#34; alt=&#34;6-login&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 5 (Optional): Start the SparkR REPL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can actually start the SparkR REPL by typing the following command.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ spark/bin/sparkR&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/7-start-sparkr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/7-start-sparkr.png?w=300&#34; alt=&#34;7-start-sparkr&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;SparkR will be initialized and you should see a welcome message as shown in the Figure below. Here you can actually start working with your data. However most R users, like myself, would like to work in an Integrated Development Environment (IDE) like RStudio. See steps 6 and 7 on how to do so.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/8-welcome-sparkr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/8-welcome-sparkr.png?w=300&#34; alt=&#34;8-welcome-sparkr&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 6: Create user accounts&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the following command to list all available users on the cluster.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ cut -d: -f1 /etc/passwd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/9-users.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/9-users.png?w=300&#34; alt=&#34;9-users&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You will notice that &amp;ldquo;rstudio&amp;rdquo; is one of the available user accounts. You can create other user accounts and passwords for them using these commands.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ sudo adduser daniel&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ passwd daniel&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In my case, I used the &amp;ldquo;rstudio&amp;rdquo; user account and changed its password.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/10-create-passwd.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/10-create-passwd.png?w=300&#34; alt=&#34;10-create-passwd&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Initializing SparkR Using RStudio&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;spark-ec2&lt;/em&gt; script also created a &amp;ldquo;&lt;em&gt;startSpark.R&lt;/em&gt;&amp;rdquo; script that we shall use to initialize SparkR.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 7: Login to RStudio server&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the username you selected/created and the password you created, login into RStudio server.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/11-rstudio.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/11-rstudio.png?w=300&#34; alt=&#34;11-rstudio&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 8: Initialize SparkR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When you log in to RStudio server, you will see the &amp;rdquo;startSpark.R&amp;rdquo; in your files pane (already created for you).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/12-startsparkr.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/12-startsparkr.png?w=300&#34; alt=&#34;12-startSparkR&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Simply run the &amp;ldquo;startSpark.R&amp;rdquo; script to initialize SparkR. This creates a Spark Context and a SQL Context for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/13-initialize.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/13-initialize.png?w=300&#34; alt=&#34;13-initialize&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step 9: Start Working with your Data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you are ready to start working with your data.&lt;/p&gt;
+
+&lt;p&gt;Here I use a simple example of the &amp;ldquo;mtcars&amp;rdquo; dataset to show that you can now run SparkR commands and use the MLLib library to run a simple linear regression model.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/14-lm-example.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/14-lm-example.png?w=300&#34; alt=&#34;14-lm-example&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can view the status of your jobs by using the host address of your master and listening on port 4040. This UI also displays a chain of RDD dependencies organized in Direct Acyclic Graph (DAG) as shown in the figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/15-dag.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/15-dag.png?w=222&#34; alt=&#34;15-DAG&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Final Remarks&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The objective of this blog post was to show you how to get started with Spark on AWS EC2 and initialize SparkR using RStudio. In the next blog post we shall look into working with actual &amp;ldquo;Big&amp;rdquo; datasets stored in different data stores such as &lt;a href=&#34;https://aws.amazon.com/s3/&#34; target=&#34;_blank&#34;&gt;Amazon S3&lt;/a&gt; or &lt;a href=&#34;https://www.mongodb.com/&#34; target=&#34;_blank&#34;&gt;MongoDB&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Further Interests: RStudio Shiny + SparkR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I am curious about how to use &lt;a href=&#34;http://shiny.rstudio.com/&#34; target=&#34;_blank&#34;&gt;Shiny&lt;/a&gt; with SparkR and in the next couple of days I will investigate this idea further. The question is: how can one use SparkR to power shiny applications. If you have any thoughts please share them in the comments section below and let&amp;rsquo;s discuss.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

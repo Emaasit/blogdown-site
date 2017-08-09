@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webinar on Daniel Emaasit</title>
+    <link>/categories/webinar/</link>
+    <description>Recent content in Webinar on Daniel Emaasit</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Daniel Emaasit</copyright>
+    <lastBuildDate>Wed, 03 Aug 2016 07:41:44 +0000</lastBuildDate>
+    <atom:link href="/categories/webinar/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
+      <link>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
+      
+      <guid>/2016/08/03/content/post/2016-08-03-in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/175956118&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/175956118&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Apologies for the poor quality of the video. Domino Data Lab&amp;rsquo;s webinar platform suffered a service degradation while recording the event. The webinar slides may be found below.&lt;/p&gt;
+
+&lt;p&gt;[slideshare id=64647075&amp;amp;doc=3rdpresentationpaperreview-160803065711]&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, please do not hesitate to contact me. Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/enthoven&#34; target=&#34;_blank&#34;&gt;Daniel Enthoven&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/danielchalef&#34; target=&#34;_blank&#34;&gt;Daniel Chalef&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
+      <link>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
+      <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
+      
+      <guid>/2016/07/16/content/post/2016-07-16-webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; ## Synopsis
+&gt; 
+&gt; 
+
+&gt; 
+&gt; In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&#39;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.
+&gt; 
+&gt; 
+
+&gt; 
+&gt; In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.
+&gt; 
+&gt; 
+![Daniel Emaasit](https://www.dominodatalab.com/images/resources/daniel-e.jpg)
+
+&gt; 
+&gt; ## About the Speaker
+&gt; 
+&gt; 
+Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where his research interests involve the development of probabilistic machine learning methods for high-dimensional data, with applications to urban mobility, transport planning, highway safety, &amp; traffic operations.&lt;/blockquote&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incase you missed it: My Webinar on Spatial Data Analysis with R</title>
+      <link>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
+      <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
+      
+      <guid>/2016/02/25/content/post/2016-02-25-incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://vimeo.com/156607218&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/156607218&lt;/a&gt;&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;You can access the material used for this webinar from &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Lab&lt;/a&gt;&amp;rsquo;s platform using the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The Slides [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/domino-presentation.pdf?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;domino-presentation.pdf&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The RMarkdown Script [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/ReadMe.Rmd?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;ReadMe.Rmd&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/browse&#34; target=&#34;_blank&#34;&gt;The Whole Project&lt;/a&gt; [All files including data]&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have any questions, please do not hesitate to contact me. If you have more topics (related to R) that you are interested in learning about, send them my way so we can prepare another webinar.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/annaanisin&#34; target=&#34;_blank&#34;&gt;Anna Anisin&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Webinar: Getting Started with Spatial Data Analysis with R</title>
+      <link>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</link>
+      <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
+      
+      <guid>/2016/02/15/content/post/2016-02-15-webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;blockquote&gt;
+
+&gt; 
+&gt; ## Synopsis
+&gt; 
+&gt; 
+Spatial and spatial-temporal data have become pervasive. We are generating spatial data from route planners, sensors, mobile devices, and computers in different fields like transportation, agriculture, and social media. These data need to be analyzed to generate hidden insights that can improve business processes, help fight crime in cities, and much more.
+
+Simply creating static maps is not enough. In this webinar we shall look at techniques of importing and exporting spatial data into R; understanding the foundation classes for spatial data; manipulation of spatial data; and techniques for spatial visualization. This webinar is meant to provide introductory knowledge of spatial data analysis in R needed to understand more complex spatial data modeling techniques.
+
+We will cover the following topics:
+
+&gt; 
+&gt; 
+    
+&gt;   1. Why use R for spatial analysis
+&gt; 
+    
+&gt;   2. Packages for spatial data analysis
+&gt; 
+    
+&gt;   3. Types of spatial data
+&gt; 
+    
+&gt;   4. Classes and methods in R for spatial data analysis
+&gt; 
+    
+&gt;   5. Importing and exporting spatial data
+&gt; 
+    
+&gt;   6. Visualizing spatial data in R
+&gt; 
+
+
+&gt; 
+&gt; ## About the Speaker
+&gt; 
+&gt; 
+![](https://www.dominodatalab.com/images/avatars/daniel-emaasit.jpg)
+
+**Daniel Emaasit, Ph.D Student at University of Nevada, Las Vegas**
+
+Daniel is a Ph.D Student of Transportation Engineering at UNLV where his research involves application of statistical machine learning to developing Activity-Based Travel Demand Models using Big Data from mobile phones. The objective of his research is to improve Transportation Planning by developing methods that model urban mobility patterns and trends.
+
+He is an organizer of several Data Science and R meetup groups and actively contributes to open-source technologies in the R community.&lt;/blockquote&gt;
+
+&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

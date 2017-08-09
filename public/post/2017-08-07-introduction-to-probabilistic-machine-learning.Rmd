@@ -1,5 +1,5 @@
 ---
-title: Introduction to Probabilistic Machine Learning
+title: "ICYMI: My talk on Introduction to Probabilistic Machine Learning"
 author: Daniel Emaasit
 date: '2017-08-07'
 slug: introduction-to-probabilistic-machine-learning
@@ -11,3 +11,4 @@ tags:
   - Machine Learning
 ---
 
+Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R & Data Science Meetup groups.
