@@ -731,7 +731,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;p&gt;&lt;strong&gt;Step 2: Unzip Built Package&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to &lt;em&gt;&amp;ldquo;C:/Apache/Spark-1.4.1&amp;rdquo;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to &amp;ldquo;C:/Apache/Spark-1.4.1&amp;rdquo;.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -809,7 +809,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 &lt;li&gt;&lt;strong&gt;Step 4.1: Set System Environment&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the _&lt;strong&gt;SPARK_HOME&lt;/strong&gt;_ variable using the path to your Spark folder. Mine is &amp;ldquo;C:/Apache/Spark-1.4.1&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the &lt;strong&gt;SPARK_HOME&lt;/strong&gt; variable using the path to your Spark folder. Mine is &amp;ldquo;C:/Apache/Spark-1.4.1&amp;rdquo;.&lt;/p&gt;
 
 
 &lt;figure &gt;
@@ -909,7 +909,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;p&gt;You can start experimenting with SparkR on the command shell and in RStudio using the example provided below. You can monitor your Spark jobs using the Spark UI at &lt;a href=&#34;http://localhost:4040/&#34; target=&#34;_blank&#34;&gt;localhost:4040&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://gist.github.com/a25c41abe15a75c76e42&#34; target=&#34;_blank&#34;&gt;https://gist.github.com/a25c41abe15a75c76e42&lt;/a&gt;&lt;/p&gt;
+&lt;script src=&#34;//gist.github.com/Emaasit/a25c41abe15a75c76e42.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;Final Remarks&lt;/strong&gt;&lt;/p&gt;
 

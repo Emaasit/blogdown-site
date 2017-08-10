@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Recent Posts"
+title = "Recent Post"
 subtitle = ""
 widget = "posts"
 
@@ -16,7 +16,7 @@ weight = 40
 tags = []
 
 # Number of posts to list.
-count = 2
+count = 1
 
 +++
 

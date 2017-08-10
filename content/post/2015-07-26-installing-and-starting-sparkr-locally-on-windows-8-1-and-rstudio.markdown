@@ -45,7 +45,7 @@ Save the zipped file to your computer (Figure 6).
 
 **Step 2: Unzip Built Package**
 
-Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to _"C:/Apache/Spark-1.4.1"_.
+Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to "C:/Apache/Spark-1.4.1".
 
 {{< figure src="/img/7-unzippedfiles.png" title="List of Files in unzipped folder" >}}
 
@@ -79,7 +79,7 @@ While using SparkR in the command shell is good for quickly getting started, mos
   * **Step 4.1: Set System Environment**
 
 
-Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the _**SPARK_HOME**_ variable using the path to your Spark folder. Mine is "C:/Apache/Spark-1.4.1".
+Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the **SPARK_HOME** variable using the path to your Spark folder. Mine is "C:/Apache/Spark-1.4.1".
 
 {{< figure src="/img/1-setenv.png" title="Set System Environment Variable" >}}
 
@@ -119,7 +119,8 @@ When you run the above commands (From step 4.1 to 4.4), this invokes the "spark-
 
 You can start experimenting with SparkR on the command shell and in RStudio using the example provided below. You can monitor your Spark jobs using the Spark UI at [localhost:4040](http://localhost:4040/)
 
-https://gist.github.com/a25c41abe15a75c76e42
+{{< gist Emaasit a25c41abe15a75c76e42 >}}
+
 
 **Final Remarks**
 
