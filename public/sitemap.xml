@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>/software/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
@@ -32,8 +41,35 @@
     
     <url>
     
+      <loc>/publication/cable-rail-systems/</loc>
+      <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/stochastic-dynamic/</loc>
+      <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/2017/08/07/introduction-to-probabilistic-machine-learning/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/living-roads-project/</loc>
+      <lastmod>2017-01-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -88,6 +124,15 @@
     
       <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/mixed-logic-based/</loc>
+      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -230,6 +275,51 @@
     
     <url>
     
+      <loc>/publication/patterning-demographic/</loc>
+      <lastmod>2014-01-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/local-spatial-autocorrelation/</loc>
+      <lastmod>2013-01-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/abandoned-and-disabled/</loc>
+      <lastmod>2013-01-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/integrating-od-survey/</loc>
+      <lastmod>2012-10-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/likelihood-param/</loc>
+      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/1/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -340,7 +430,7 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
+      <loc>/categories/machine-learning/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -350,7 +440,7 @@
     
     <url>
     
-      <loc>/categories/machine-learning/</loc>
+      <loc>/tags/machine-learning/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -370,7 +460,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -380,7 +470,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

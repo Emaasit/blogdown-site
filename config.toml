@@ -178,29 +178,24 @@ defaultContentLanguageInSubdir = false
   weight = 4  
   
 [[menu.main]]
-  name = "Projects"
-  url = "/project"
-  weight = 5  
-
-[[menu.main]]
   name = "Software"
   url = "/software"
-  weight = 6
+  weight = 5
   
 [[menu.main]]
   name = "Blog"
   url = "/post"
-  weight = 7
+  weight = 6
 
 [[menu.main]]
   name = "Misc"
   url = "/misc"
-  weight = 8
+  weight = 7
 
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 9
+  weight = 8
 
 # Taxonomies.
 [taxonomies]

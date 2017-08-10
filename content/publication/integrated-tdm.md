@@ -10,12 +10,12 @@ publication = "In *International Scientific Conference on Mobility and Transport
 publication_short = "In *Mobil.TUM*"
 selected = true
 title = "An Integrated Travel Demand Model of Work Duration and Commute-mode Choices: A Flexible Modeling Approach"
-url_code = "#"
+url_code = ""
 url_dataset = "#"
-url_pdf = "#"
-url_project = "project/urban-mobility/"
-url_slides = "#"
-url_video = "#"
+url_pdf = ""
+url_project = ""
+url_slides = ""
+url_video = ""
 
 # [[url_custom]]
 # name = "Custom Link"

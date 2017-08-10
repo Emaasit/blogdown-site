@@ -134,18 +134,6 @@
         
 
         <li class="nav-item">
-          <a href="/project">
-            
-            <span>Projects</span>
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        <li class="nav-item">
           <a href="/software">
             
             <span>Software</span>
@@ -294,57 +282,173 @@
 
 <p>With the recent release of Apache Spark 1.4.1 on July 15th, 2015, I wanted to write a step-by-step guide to help new users get up and running with SparkR locally on a Windows machine using command shell and RStudio. SparkR provides an R frontend to Apache Spark and using Spark’s distributed computation engine allows R-Users to run large scale data analysis from the R shell. The steps listed here <strong>WILL</strong> also be documented in my upcoming online book titled &ldquo;<a href="http://www.danielemaasit.com/getting-started-with-sparkr/" target="_blank">Getting Started with SparkR for Big Data Analysis</a>&rdquo; which can be accessed at: <a href="http://www.danielemaasit.com/getting-started-with-sparkr/" target="_blank">http://www.danielemaasit.com/getting-started-with-sparkr/</a>. These steps will get you up and running in less than 5 mins.</p>
 
-<!-- more -->
-
-<p><strong>Prerequisite</strong></p>
-
 <p>Make sure you have Java 6+ installed on your computer and the system environments set.</p>
 
 <p><strong>Step 1: Download Spark</strong></p>
 
 <p>Open your web browser and open this web page: <a href="http://spark.apache.org/" target="_blank">http://spark.apache.org/</a>. This is the official website for the Apache Spark project. You should see a large green button to the right of the page that reads &ldquo;Download Spark&rdquo;, as shown in Figure 1. Click the green button.</p>
 
-<p>[caption id=&ldquo;attachment_48&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;800&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/greenbutton.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/greenbutton.png" alt="Apache Spark home page" /></a> <strong>Figure 1: Apache Spark home page</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/greenbutton.png" />
+    
+    
+    <figcaption>
+        <h4>Apache Spark home page</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>Clicking the green button will take you to the download page as shown in Figure 2 below.</p>
 
-<p>[caption id=&ldquo;attachment_53&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/2-downloadpage.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/2-downloadpage.png" alt="Figure 2: The download page" /></a> <strong>Figure 2: The download page</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/2-downloadpage.png" />
+    
+    
+    <figcaption>
+        <h4>The download page</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>You should follow the steps 1 to 3 to create a download link for a Spark Package of your choice. On the <em>&ldquo;2. Choose a package type&rdquo;</em> option, select any pre-built package type from the drop-down list (Figure 3). Since we want to experiment locally on windows, a pre-built package for Hadoop 2.6  and later will suffice.</p>
 
-<p>[caption id=&ldquo;attachment_55&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/3-prebuilt.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/3-prebuilt.png" alt="Figure 3: Choose a package type" /></a> <strong>Figure 3: Choose a package type</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/3-prebuilt.png" />
+    
+    
+    <figcaption>
+        <h4>Choose a package type</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>On the _&ldquo;3. Choose a download type&rdquo; _option, select &ldquo;Direct Download&rdquo; from the drop-down list (Figure 4).</p>
 
-<p>[caption id=&ldquo;attachment_56&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/4-downloadtype.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/4-downloadtype.png" alt="Figure 3: Choose a download type" /></a> <strong>Figure 4: Choose a download type</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/4-downloadtype.png" />
+    
+    
+    <figcaption>
+        <h4>Choose a download type</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>After selecting the download type, a link is created next to the option <em>&ldquo;4. Download Spark&rdquo;</em> (Figure 5). Click this link to download Spark.</p>
 
-<p>[caption id=&ldquo;attachment_54&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/5-download.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/5-download.png" alt="Figure 5: Click the download link" /></a> <strong>Figure 5: Click the download link</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/5-download.png" />
+    
+    
+    <figcaption>
+        <h4>Click the download link</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>Save the zipped file to your computer (Figure 6).</p>
 
-<p>[caption id=&ldquo;attachment_57&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;660&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/6-save.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/6-save.png" alt="Figure 6: Save to your computer" /></a> <strong>Figure 6: Save to your computer</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/6-save.png" />
+    
+    
+    <figcaption>
+        <h4>Save to your computer</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p><strong>Step 2: Unzip Built Package</strong></p>
 
 <p>Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to <em>&ldquo;C:/Apache/Spark-1.4.1&rdquo;</em>.</p>
 
-<p>[caption id=&ldquo;attachment_67&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/7-unzippedfiles.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/7-unzippedfiles.png" alt="Figure 7: List of Files in unzipped folder" /></a> <strong>Figure 7: List of Files in unzipped folder</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/7-unzippedfiles.png" />
+    
+    
+    <figcaption>
+        <h4>List of Files in unzipped folder</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p><strong>Step 3: Run in Command Prompt</strong></p>
 
 <p>Now start your favorite command shell and change directory to your Spark folder as shown in Figure 8.</p>
 
-<p>[caption id=&ldquo;attachment_68&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/8-startcmd.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/8-startcmd.png" alt="Figure 8: Start command prompt and change directory" /></a> <strong>Figure 8: Start command prompt and change directory</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/8-startcmd.png" />
+    
+    
+    <figcaption>
+        <h4>Start command prompt and change directory</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>To start SparkR, simply run the command <code>&quot;.\bin\sparkR&quot;</code> on the top-level Spark directory as shown in Figure 9 below.</p>
 
-<p>[caption id=&ldquo;attachment_69&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;406&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/9-startsparkr.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/9-startsparkr.png" alt="Figure 9: Start SparkR" /></a> <strong>Figure 9: Start SparkR</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/9-startsparkr.png" />
+    
+    
+    <figcaption>
+        <h4>Start SparkR</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>You will see logs on your screen that should take at most 15 seconds to launch SparkR. If everything ran smoothly you should see a welcome message that reads &rdquo;Welcome to SparkR!&rdquo; as shown in Figure 10.</p>
 
-<p>[caption id=&ldquo;attachment_70&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/10-ready.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/10-ready.png" alt="Figure 10: Welcome to SparkR!" /></a> <strong>Figure 10: Welcome to SparkR!</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/10-ready.png" />
+    
+    
+    <figcaption>
+        <h4>Welcome to SparkR!</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>At this point you are ready to start prototyping with SparkR on the command shell. Note that a Spark context and a SQL Context have been initialized for you as &ldquo;<em>sc</em>&rdquo; and &ldquo;<em>sqlContext</em>&rdquo; respectively. You can now start experimenting using the example shown in <strong>Step 4.5</strong>.</p>
 
@@ -355,12 +459,24 @@
 <p><strong>Step 4: Run in RStudio</strong></p>
 
 <ul>
-<li><strong>Step 4.1: Set System E</strong><strong>nvironment</strong></li>
+<li><strong>Step 4.1: Set System Environment</strong></li>
 </ul>
 
 <p>Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the _<strong>SPARK_HOME</strong>_ variable using the path to your Spark folder. Mine is &ldquo;C:/Apache/Spark-1.4.1&rdquo;.</p>
 
-<p>[caption id=&ldquo;attachment_73&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/11-setenv.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/11-setenv.png" alt="Figure 11: Set System Environment Variable" /></a> <strong>Figure 11: Set System Environment Variable</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/1-setenv.png" />
+    
+    
+    <figcaption>
+        <h4>Set System Environment Variable</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <ul>
 <li><strong>Step 4.2: Set the Library Paths</strong></li>
@@ -368,7 +484,19 @@
 
 <p>Second, you have to set the library path for Spark a shown in Figure 12 below.</p>
 
-<p>[caption id=&ldquo;attachment_74&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/12-libpaths.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/12-libpaths.png" alt="Figure 12: Set the Library Path" /></a> <strong>Figure 12: Set the Library Path</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/12-libpaths.png" />
+    
+    
+    <figcaption>
+        <h4>Set the Library Path</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <ul>
 <li><strong>Step 4.3: Load SparkR Library</strong></li>
@@ -376,7 +504,19 @@
 
 <p>Next, you can now load SparkR just as you would any other R library using the <code>library()</code> command as shown in Figure 13.</p>
 
-<p>[caption id=&ldquo;attachment_75&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/13-loadsparkr.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/13-loadsparkr.png" alt="Figure 13:  Load the SparkR library" /></a> <strong>Figure 13: Load the SparkR library</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/13-loadsparkr.png" />
+    
+    
+    <figcaption>
+        <h4>Load the SparkR library</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <ul>
 <li><strong>Step 4.4: Initialize Spark Context and SQL Context</strong></li>
@@ -386,11 +526,35 @@
 
 <p>Also, you need to create a SQL context to be able to work with DataFrames (the main abstraction in SparkR). Use the command <code>sparkRSQL.init()</code> to create a SQL context from your Spark context as shown in Figure 14.</p>
 
-<p>[caption id=&ldquo;attachment_76&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/14-sc.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/14-sc.png" alt="Figure 14: Initialize Spark Context and SQL Context" /></a> <strong>Figure 14: Initialize Spark Context and SQL Context</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/14-sc.png" />
+    
+    
+    <figcaption>
+        <h4>Initialize Spark Context and SQL Context</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <p>When you run the above commands (From step 4.1 to 4.4), this invokes the &ldquo;spark-submit&rdquo; script that launches java, as shown in Figure 15. If this runs successfully, your Spark context and SQL context should be created and at this stage you should be able to start experimenting with SparkR.</p>
 
-<p>[caption id=&ldquo;attachment_77&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;720&rdquo;]<a href="https://emaasit.files.wordpress.com/2015/07/15-ready.png" target="_blank"><img src="https://emaasit.files.wordpress.com/2015/07/15-ready.png" alt="Figure 15: All set" /></a> <strong>Figure 15: All set</strong>[/caption]</p>
+
+<figure >
+    
+        <img src="/img/15-ready.png" />
+    
+    
+    <figcaption>
+        <h4>All set</h4>
+        
+    </figcaption>
+    
+</figure>
+
 
 <ul>
 <li><strong>Step 4.5: A Quick Example</strong></li>

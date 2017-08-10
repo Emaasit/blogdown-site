@@ -12,3 +12,13 @@ tags:
 ---
 
 Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R & Data Science Meetup groups.
+
+This meetup will introduce probabilistic machine learning and probabilistic programming with Stan. We will discuss the basics of machine learning from a probabilistic/Bayesian perspective and contrast it with traditional/algorithmic machine learning. We will also discuss how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning
+
+## Part I
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ICFtztrK9a4" frameborder="0" allowfullscreen></iframe>
+
+## Part II
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YsGAce_3Ql4" frameborder="0" allowfullscreen></iframe>

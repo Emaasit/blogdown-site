@@ -13,7 +13,7 @@ title = "Factors affecting median cable barrier crash fre-quency: new insights"
 url_code = ""
 url_dataset = ""
 url_pdf = "http://www.tandfonline.com/doi/abs/10.1080/19439962.2013.812168"
-url_project = "project/highway-safety/"
+url_project = ""
 url_slides = ""
 url_video = ""
 
