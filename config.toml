@@ -29,10 +29,10 @@ defaultContentLanguageInSubdir = false
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "dan-dv.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "daniel.emaasit@gmail.com"
-  address = "SEB Building Room 240, University of Nevada, Las Vegas, Nevada, USA"
+  address = "Science and Engineering Building (SEB) Room 240, University of Nevada, Las Vegas, Nevada, USA"
   office_hours = "Monday - Friday 9:00 to 17:00 or email for appointment"
-  phone = "615 649 2489"
-  skype = "daniel.emaasit"
+  phone = "702 895 3701"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.

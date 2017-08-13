@@ -368,8 +368,18 @@
     
     <url>
     
+      <loc>/tags/bayesian/</loc>
+      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/bayesian/</loc>
-      <lastmod>2016-08-03T07:41:44+00:00</lastmod>
+      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -418,8 +428,18 @@
     
     <url>
     
+      <loc>/tags/data-science/</loc>
+      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/categories/data-science/</loc>
-      <lastmod>2016-08-03T07:41:44+00:00</lastmod>
+      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -459,6 +479,16 @@
     <url>
     
       <loc>/categories/machine-learning/</loc>
+      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/meetup/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
