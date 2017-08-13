@@ -11,8 +11,9 @@ selected = false
 math = true
 
 url_pdf = ""
-url_slides = "http://slides.com/emaasit/trb2017"
+url_slides = "https://github.com/Emaasit/meetups/tree/master/2017_04_27_Intro_to_PML_LV/slides"
 url_video = "https://youtu.be/ICFtztrK9a4"
+url_code = "https://github.com/Emaasit/meetups/tree/master/2017_04_27_Intro_to_PML_LV"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
