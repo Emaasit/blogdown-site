@@ -32,10 +32,10 @@
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>/talk/intro-pml/</link>
+      <link>/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/intro-pml/</guid>
+      <guid>/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -48,6 +48,44 @@
 &lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
 &lt;/ol&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
+      <link>/talk/capturing-latent-travel-patterns/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/capturing-latent-travel-patterns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to Model-Based Machine Learning</title>
+      <link>/talk/intro-to-mbml/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/intro-to-mbml/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sustainable Urban Planning Using Big Data from Mobile Phones</title>
+      <link>/talk/sustainable-urban-planning-using-big-data/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
+      <description></description>
     </item>
     
     <item>

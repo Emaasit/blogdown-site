@@ -81,10 +81,10 @@
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>/talk/intro-pml/</link>
+      <link>/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/intro-pml/</guid>
+      <guid>/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -97,6 +97,15 @@
 &lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
 &lt;/ol&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
+      <link>/talk/capturing-latent-travel-patterns/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/capturing-latent-travel-patterns/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -251,49 +260,32 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
     </item>
     
     <item>
-      <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
-      <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
+      <title>Introduction to Model-Based Machine Learning</title>
+      <link>/talk/intro-to-mbml/</link>
+      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
+      <guid>/talk/intro-to-mbml/</guid>
+      <description>
 
-&lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
 
-&lt;!-- more --&gt;
+&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
-
-&lt;p&gt;In recent years, we have witnessed the proliferation of ubiquitous mobile computing devices in developing countries. These mobile phones capture the movement of vehicles and people in near real time and generate massive amounts of new data.  My PhD research investigates how we can utilize anonymized mobile phone data ( i.e. Call Detail Records) and probabilistic machine learning to infer travel/mobility patterns. One of the objectives of this research is to demonstrate that these new “big” data sources are cheaper alternatives for transport modeling and travel behavior studies.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll have various UN and government people doing urban planning who I think would enjoy this topic — see you there! .&lt;/p&gt;
-
-&lt;p&gt;If you haven’t already, register for &lt;a href=&#34;http://goo.gl/forms/Et8ztKOQmo&#34; target=&#34;_blank&#34;&gt;Data Science Africa Workshop 2016 here&lt;/a&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
-      <title>Automating Hyperparameter tuning</title>
-      <link>/project/auto-tdm/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Sustainable Urban Planning Using Big Data from Mobile Phones</title>
+      <link>/talk/sustainable-urban-planning-using-big-data/</link>
+      <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/auto-tdm/</guid>
-      <description>&lt;p&gt;Statistical estimation of integrated travel demand models (TDMs) is tedious and involves an iterative process which requires expert knowledge and time to perform several tasks including but not limited to: preprocessing data, selecting appropriate attributes, selecting appropriate models, finding model parameters, and critically analyzing results (Castiglione et al., 2015). Model estimation involves varying some free parameters, hyperparameters, to produce several models which are compared to select the most superior one. Considerable time and expertise are required to tune hyperparameters and consequently select appropriate models; which is prone to subjective error. The subjectivity of tuning hyperparameters for integrated TDMs makes published results difficult to reproduce, extend, and development is more an art than a science (Bergstra et al., 2011). There is a need for methods to minimize subjectivity in hyperparameter tuning and model selection.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Integrated Travel Demand Modeling</title>
-      <link>/project/integrated-tdms/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/integrated-tdms/</guid>
-      <description>&lt;p&gt;Currently, there is growing research interest in integrated travel demand models that consider simultaneously many influencing factors that affect travel behavior (Pinjari et al., 2011; Pendyala et al., 2012). Integrated models are mathematical representations of real-world decision processes made by travelers. It is typical for travelers to simultaneously make several decisions, such as where to live and work, how many vehicles to own, and decisions regarding their daily activities and travel. Such decisions are made as part of an overall decision process rather than as independent choices exercised in a sequential manner (Pinjari et al., 2011).&lt;/p&gt;
-
-&lt;p&gt;Most of the current literature focus on parametric models that impose strong restrictive assumptions by prespecifying the functional form and number of parameters (Habib et al., 2011; Pinjari et al., 2011; Habib, 2012). Prespecifying a functional form for a joint model could lead to either overly complex model specifications or simplistic models. It is difficult to know a priori the most appropriate function to use for modeling complex travel behavior that involve jointly made decision choices; long-term, medium-term, and short-term decisions; and many other influencing factors. Due to a finite number of parameters, parametric models are not necessarily the best to capture the entire structure of complex processes (Ghahramani, 2015), such as travel behavior.&lt;/p&gt;
-</description>
+      <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
+      <description></description>
     </item>
     
   </channel>
