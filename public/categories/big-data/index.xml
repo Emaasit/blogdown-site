@@ -12,10 +12,10 @@
     
     <item>
       <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
-      <link>/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <link>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
       <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
       
-      <guid>/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <guid>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 
@@ -34,10 +34,10 @@
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/47IjdD2yyGE&#34; target=&#34;_blank&#34;&gt;https://youtu.be/47IjdD2yyGE&lt;/a&gt;&lt;/p&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
+      <link>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
       <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
       
-      <guid>/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
+      <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
@@ -86,10 +86,10 @@
     
     <item>
       <title>Using Apache SparkR to Power Shiny Applications: Part I</title>
-      <link>/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
+      <link>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
+      <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
@@ -205,10 +205,10 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
     
     <item>
       <title>Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio</title>
-      <link>/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
+      <link>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
       <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
       
-      <guid>/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
+      <guid>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
       <description>&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
@@ -377,10 +377,10 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
     
     <item>
       <title>Installing and Starting SparkR Locally on Windows OS and RStudio</title>
-      <link>/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</link>
+      <link>/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</link>
       <pubDate>Sun, 26 Jul 2015 09:11:00 +0000</pubDate>
       
-      <guid>/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</guid>
+      <guid>/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;With the recent release of Apache Spark 1.4.1 on July 15th, 2015, I wanted to write a step-by-step guide to help new users get up and running with SparkR locally on a Windows machine using command shell and RStudio. SparkR provides an R frontend to Apache Spark and using Spark’s distributed computation engine allows R-Users to run large scale data analysis from the R shell. The steps listed here &lt;strong&gt;WILL&lt;/strong&gt; also be documented in my upcoming online book titled &amp;ldquo;&lt;a href=&#34;http://www.danielemaasit.com/getting-started-with-sparkr/&#34; target=&#34;_blank&#34;&gt;Getting Started with SparkR for Big Data Analysis&lt;/a&gt;&amp;rdquo; which can be accessed at: &lt;a href=&#34;http://www.danielemaasit.com/getting-started-with-sparkr/&#34; target=&#34;_blank&#34;&gt;http://www.danielemaasit.com/getting-started-with-sparkr/&lt;/a&gt;. These steps will get you up and running in less than 5 mins.&lt;/p&gt;
