@@ -11,7 +11,7 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Gaussian Process Regression and Classification in Stan</title>
+      <title>Gaussian Process Regression and Classification with Stan</title>
       <link>/talk/gaussian-processes-in-stan/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       

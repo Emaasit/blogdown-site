@@ -1,18 +1,18 @@
 +++
 date = "2017-10-26T00:00:00"
-title = "Gaussian Process Regression and Classification in Stan"
-abstract = "Machine Learning has gone mainstream and now powers several real world applications like autonomous vehicles at Uber & Tesla, recommendation engines on Amazon & Netflix, and much more. This meetup will introduce probabilistic machine learning and probabilistic programming with Stan. We will discuss the basics of machine learning from a probabilistic/Bayesian perspective and contrast it with traditional/algorithmic machine learning. We will also discuss how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning."
-abstract_short = "We will discuss the basics of machine learning from a probabilistic/Bayesian perspective and contrast it with traditional/algorithmic machine learning. We will also discuss how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R)."
+title = "Gaussian Process Regression and Classification with Stan"
+abstract = "Gaussian processes (GPs) are a powerful, non-parametric Bayesian method that can be used in supervised learning and classification problems. The main advantages of this method are the ability of GPs to provide uncertainty estimates and to learn functions of the underlying phenomena from training data. The aim of this meetup is to introduce GPs for regression and classification with Stan. We will discuss the basics of GPs as a nonparametric Bayesian method. We will also discuss how to build GP models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build GP models for regression and classification."
+abstract_short = "We will discuss the basics of GPs as a nonparametric Bayesian method. We will also discuss how to build probabilistic models of GPs in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build GP models for regression and classification."
 event = "Las Vegas R & Data Science Meetup"
-event_url = "https://www.meetup.com/Data-Science-Las-Vegas/events/237505738/"
+event_url = "https://www.meetup.com/Las-Vegas-R-Users-Group/events/242518621/"
 location = "Las Vegas, Nevada"
 
 selected = false
 math = true
 
 url_pdf = ""
-url_slides = "http://slides.com/emaasit/trb2017"
-url_video = "https://youtu.be/ICFtztrK9a4"
+url_slides = ""
+url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]
