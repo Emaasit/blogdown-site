@@ -14,7 +14,15 @@ weight = 1
 
 +++
 
-<h2 class="section-heading">Meetups:
+<!----/.meetup----------------------------------------------------------------------------------->
+<section id="meetup">
+    <div class="content-section-b">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Meetups:
                         <br>Data Science & R Meetups</h2>
                     <p class="lead">
                         I am the organiser of several R & Data Science Meetup groups in <a href="http://datascience.vegas" target="_blank">Las Vegas (USA)</a>
@@ -32,4 +40,20 @@ weight = 1
                             <a href="">Data Preparation, Data Manipulation, Data Visualizations, etc</a>
                         </li>
                     </ul>
+
+                    <!--<p class="lead">
+                        If you are interested in data science and you'd like to meet like-minded data scientists come and join us.
+                    </p>-->
+
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <br>
+                    <img src="/img/meetups.jpg" alt="Las Vegas Data Science Group" height="576" width="1024">
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.content-section-a -->
+</section>
 

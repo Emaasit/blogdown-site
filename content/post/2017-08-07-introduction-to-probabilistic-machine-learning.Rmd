@@ -1,7 +1,7 @@
 ---
 title: "ICYMI: My talk on Introduction to Probabilistic Machine Learning"
 author: Daniel Emaasit
-date: '2017-08-07'
+date: '2017-08-14'
 slug: introduction-to-probabilistic-machine-learning
 categories:
   - R
@@ -13,7 +13,7 @@ tags:
 
 Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R & Data Science Meetup groups.
 
-This meetup will introduce probabilistic machine learning and probabilistic programming with Stan. We will discuss the basics of machine learning from a probabilistic/Bayesian perspective and contrast it with traditional/algorithmic machine learning. We will also discuss how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning
+I introduced probabilistic machine learning and probabilistic programming with Stan. I discussed the basics of machine learning from a probabilistic/Bayesian perspective and contrasted it with traditional/algorithmic machine learning. I also discussed how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly I used Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning.
 
 ## Part I
 

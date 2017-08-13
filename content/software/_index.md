@@ -28,12 +28,9 @@ weight = 1
                     <p class="lead">
                         I am leveraging several open-source programs to conduct data science on real world problems including
                         but not limited to Transportation Engineering problems. My favorite open-source
-                        language is <a href="http://r-project.org/" target="_blank">R</a>. I also regularly use
-                        <a href="http://www.scala-lang.org/" target="_blank">Scala</a>, and
-                        <a href="http://spark.apache.org/" target="_blank">Apache Spark</a>. I also enjoy telling stories
-                        about data using interactive web applications developed using
-                        <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a>,
-                        <a href="https://plot.ly/" target="_blank">Plotly</a>, <a href="http://www.qlik.com/products/qlikview" target="_blank">QlikView</a> and <a href="http://www.tableau.com/" target="_blank">Tableau</a>.
+                        languages are <a href="http://r-project.org/" target="_blank">R</a> and <a href="https://isocpp.org/" target="_blank">C++</a>. For data analytics, I regularly use tools such as <a href="http://mc-stan.org/" target="_blank">Stan</a>, <a href="https://spark.rstudio.com/index.html" target="_blank">Apache Spark</a>, 
+                        <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a>, and 
+                        <a href="https://plot.ly/" target="_blank">Plotly</a>.
                         My recent open-source projects include:
 
                     </p><ul class="fa-ul">
@@ -46,16 +43,12 @@ weight = 1
                         - Pedestrian & Bicyclist Safety.
                     </li>
                     <li><i class="fa-li fa fa-check-square"></i>
-                        <a href="https://github.com/SparkIQ-Labs/Demos/tree/master/shiny-sparkr-demo-1" target="_blank">Apache Spark & Shiny</a>
-                        - Using Spark to power Shiny Apps.
+                        <a href="https://github.com/rstudio/rticles" target="_blank">rticles</a>
+                        - IEEE laTeX journal article template for R markdown.
                     </li>
                     <li><i class="fa-li fa fa-check-square"></i>
-                        <a href="http://blog.danielemaasit.com/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/" target="_blank">Spatial Analysis</a>
+                        <a href="https://danielemaasit.com/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/" target="_blank">Spatial Analysis</a>
                         - Applied Spatial Analysis with R.
-                    </li>
-                    <li><i class="fa-li fa fa-check-square"></i>
-                        <a href="http://www.danielemaasit.com/cdr/" target="_blank">cdr Package</a>
-                        - An R Package for analysis of Call Detail Records (CDR).
                     </li>
                     <li><i class="fa-li fa fa-check-square"></i>
                         <a href="https://rpubs.com/Emaasit/domino-demo" target="_blank">Intelligent Apps</a>
@@ -72,7 +65,7 @@ weight = 1
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <br>
-                    <iframe width="600" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~Emaasit/0.embed"></iframe>
+                    <iframe width="600" height="500" frameborder="0" scrolling="no" src="//plot.ly/~Emaasit/89.embed"></iframe>
                 </div>
             </div>
 
@@ -82,4 +75,3 @@ weight = 1
     </div>
     <!-- /.content-section-b -->
 </section>
-

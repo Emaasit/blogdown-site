@@ -14,15 +14,6 @@
     
     <url>
     
-      <loc>/software/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
@@ -50,26 +41,8 @@
     
     <url>
     
-      <loc>/publication/cable-rail-systems/</loc>
-      <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/stochastic-dynamic/</loc>
-      <lastmod>2017-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/2017/08/14/introduction-to-probabilistic-machine-learning/</loc>
-      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <loc>/2017/08/07/introduction-to-probabilistic-machine-learning/</loc>
+      <lastmod>2017-08-07T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -79,15 +52,6 @@
     
       <loc>/talk/intro-pml/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/living-roads-project/</loc>
-      <lastmod>2017-01-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -124,15 +88,6 @@
     
       <loc>/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/mixed-logic-based/</loc>
-      <lastmod>2016-10-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -257,15 +212,6 @@
     
     <url>
     
-      <loc>/talk/deploying-predictive-models/</loc>
-      <lastmod>2015-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/publication/cable-barrier/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
@@ -277,60 +223,6 @@
     
       <loc>/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</loc>
       <lastmod>2015-07-26T09:11:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/workflow-for-managing-utility-info/</loc>
-      <lastmod>2015-01-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/patterning-demographic/</loc>
-      <lastmod>2014-01-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/local-spatial-autocorrelation/</loc>
-      <lastmod>2013-01-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/abandoned-and-disabled/</loc>
-      <lastmod>2013-01-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/integrating-od-survey/</loc>
-      <lastmod>2012-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/likelihood-param/</loc>
-      <lastmod>2012-07-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -448,8 +340,8 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
-      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <loc>/categories/machine-learning/</loc>
+      <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -458,8 +350,8 @@
     
     <url>
     
-      <loc>/categories/machine-learning/</loc>
-      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -478,8 +370,8 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
-      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <loc>/categories/r/</loc>
+      <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -488,8 +380,8 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2017-08-14T00:00:00+00:00</lastmod>
+      <loc>/tags/r/</loc>
+      <lastmod>2017-08-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
