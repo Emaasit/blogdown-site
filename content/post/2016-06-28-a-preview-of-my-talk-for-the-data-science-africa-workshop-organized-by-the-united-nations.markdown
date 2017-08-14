@@ -11,6 +11,7 @@ categories:
   - R
   - United nations
 slug: a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations
+summary: 'I am excited to be invited by the [United Nations Global Pulse lab](http://www.unglobalpulse.org/kampala) to speak at the [2nd Data Science Africa Workshop](http://www.datascienceafrica.org/dsa2016/#workshop) scheduled to take place in Kampala, Uganda from 30th June to 1st July.'
 ---
 
 ![un](https://emaasit.files.wordpress.com/2016/06/un.png)

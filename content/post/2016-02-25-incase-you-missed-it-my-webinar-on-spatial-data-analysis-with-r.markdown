@@ -9,6 +9,7 @@ categories:
   - RStudio
   - Webinar
 slug: incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r
+summary: 'In case you missed my free webinar on "**[Getting Started with Spatial Data Analysis with R](https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/)**",  here is the recording.'
 ---
 
 In case you missed my free webinar on "**[Getting Started with Spatial Data Analysis with R](https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/)**",  here is the recording.

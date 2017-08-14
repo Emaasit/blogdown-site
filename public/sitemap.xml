@@ -365,6 +365,16 @@
     
     <url>
     
+      <loc>/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/1/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -437,16 +447,6 @@
     
       <loc>/categories/conference/</loc>
       <lastmod>2016-07-07T23:16:47+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

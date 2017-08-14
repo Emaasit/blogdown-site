@@ -10,6 +10,7 @@ categories:
   - RStudio
   - Webinar
 slug: webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan
+summary: 'I am glad to announce that I shall be presenting a live webinar with [Domino Data Labs](https://www.dominodatalab.com/) on July 20, 2016 from 11:00 - 11:30 AM PST on [Model-Based Machine Learning and Probabilistic Programming using RStan](https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/).'
 ---
 
 ![mbml-webinar2](https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png)

@@ -1,5 +1,5 @@
 baseurl = "https://danielemaasit.com/"  # End your URL with a `/` trailing slash. e.g https://danielemaasit.com/
-title = "Daniel Emaasit"
+# title = "Daniel Emaasit"
 copyright = "&copy; 2016 Daniel Emaasit"
 theme = "hugo-academic"
 enableEmoji = true
@@ -89,7 +89,7 @@ defaultContentLanguageInSubdir = false
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
-  custom_css = []
+  custom_css = ["cc-fonts.css"]
   custom_js  = []
 
   # Publication types.
@@ -151,6 +151,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/emaasit/"    
 
+  [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0003-3753-1027"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the

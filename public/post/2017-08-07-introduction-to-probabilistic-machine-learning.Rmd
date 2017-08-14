@@ -14,6 +14,7 @@ tags:
   - Bayesian
   - Data Science
   - Meetup
+summary: "Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R & Data Science Meetup groups."  
 ---
 
 Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R & Data Science Meetup groups.
