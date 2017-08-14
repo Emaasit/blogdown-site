@@ -16,47 +16,13 @@ Now, I wanted to make it even easier for R users to filter and search for these 
 
 ![gallery](https://emaasit.files.wordpress.com/2016/07/gallery.png)
 
-<!-- more -->
-
 It's now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these [simple instructions](https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension):
 
-
-
 	
-  1. 
-
-
-<blockquote>Fork the gallery [repository](https://github.com/ggplot2-exts/gallery) on Github.</blockquote>
-
-
-
-
-	
-  2. 
-
-
-<blockquote>Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the `images` directory of [the gallery repository](https://github.com/ggplot2-exts/gallery).</blockquote>
-
-
-
-
-	
-  3. 
-
-
-<blockquote>Add an entry for your extension in the `_config.yml` file of [the repository](https://github.com/ggplot2-exts/gallery) with the meta data for your extension.</blockquote>
-
-
-
-
-	
-  4. 
-
-
-<blockquote>Push your changes and create a pull request.</blockquote>
-
-
-
+  1. Fork the gallery [repository](https://github.com/ggplot2-exts/gallery) on Github.
+  2. Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the `images` directory of [the gallery repository](https://github.com/ggplot2-exts/gallery).
+  3. Add an entry for your extension in the `_config.yml` file of [the repository](https://github.com/ggplot2-exts/gallery) with the meta data for your extension.
+  4. Push your changes and create a pull request.
 
 
 **Acknowledgement**: Special thanks to [Dr. Ryan Hafen](http://ryanhafen.com/) ([@hafenstats](https://twitter.com/hafenstats)) for inspiring the design of this [Gallery page](http://www.ggplot2-exts.org/gallery/).

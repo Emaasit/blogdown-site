@@ -14,10 +14,6 @@ categories:
 slug: using-apache-sparkr-to-power-shiny-applications-part-i
 ---
 
-_This post was first published on [SparkIQ Labs' blog](http://blog.sparkiq-labs.com) and re-posted on my personal blog._
-
-
-
 ### [![shiny-sparkr](https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300)](https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg)
 
 

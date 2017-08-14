@@ -66,33 +66,14 @@
 
 &lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
 
-&lt;!-- more --&gt;
-
 &lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;Fork the gallery &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt; on Github.&lt;/li&gt;
+&lt;li&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the &lt;code&gt;images&lt;/code&gt; directory of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the gallery repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Add an entry for your extension in the &lt;code&gt;_config.yml&lt;/code&gt; file of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the repository&lt;/a&gt; with the meta data for your extension.&lt;/li&gt;
+&lt;li&gt;Push your changes and create a pull request.&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;blockquote&gt;Fork the gallery [repository](https://github.com/ggplot2-exts/gallery) on Github.&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the `images` directory of [the gallery repository](https://github.com/ggplot2-exts/gallery).&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;Add an entry for your extension in the `_config.yml` file of [the repository](https://github.com/ggplot2-exts/gallery) with the meta data for your extension.&lt;/blockquote&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;Push your changes and create a pull request.&lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -104,34 +85,17 @@
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
       <guid>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:
-&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:&lt;/p&gt;
 
-&gt; 
-&gt; ## Synopsis
-&gt; 
-&gt; 
+&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
 
-&gt; 
-&gt; In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&#39;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.
-&gt; 
-&gt; 
+&lt;p&gt;In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&amp;rsquo;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.&lt;/p&gt;
 
-&gt; 
-&gt; In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.
-&gt; 
-&gt; 
-![Daniel Emaasit](https://www.dominodatalab.com/images/resources/daniel-e.jpg)
-
-&gt; 
-&gt; ## About the Speaker
-&gt; 
-&gt; 
-Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where his research interests involve the development of probabilistic machine learning methods for high-dimensional data, with applications to urban mobility, transport planning, highway safety, &amp; traffic operations.&lt;/blockquote&gt;
+&lt;p&gt;In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.&lt;/p&gt;
 
 &lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
 </description>
@@ -143,25 +107,23 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
       <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
-      <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
+      <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/47IjdD2yyGE&#34; target=&#34;_blank&#34;&gt;https://youtu.be/47IjdD2yyGE&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;You can download slides for my talk from &lt;a href=&#34;https://www.dropbox.com/s/v53ymxth8x4hpe1/dsa_2016_presentation.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;[slideshare id=63828079&amp;amp;doc=dsa2016presentation-160707230510]&lt;/p&gt;
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6RhjZngF83Q7r9&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/DanielEmaasit/sustainable-urban-transport-planning-using-big-data-from-mobile-phones&#34; title=&#34;Sustainable Urban Transport Planning using Big Data from Mobile Phones&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/DanielEmaasit&#34; target=&#34;_blank&#34;&gt;Daniel Emaasit&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
 
-&lt;p&gt;There were also talks from my colleagues at &lt;a href=&#34;http://www.research.ibm.com/labs/africa/&#34; target=&#34;_blank&#34;&gt;IBM Research - Africa&lt;/a&gt; including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:&lt;/p&gt;
+There were also talks from my colleagues at [IBM Research - Africa](http://www.research.ibm.com/labs/africa/) including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:
 
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/gxFstDWf9VU&#34; target=&#34;_blank&#34;&gt;https://youtu.be/gxFstDWf9VU&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gxFstDWf9VU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;I would like to thank Dr. John Quinn and the entire team a the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;UNGP - Kampala&lt;/a&gt; for the invitation to speak and for a well organized event.  You can read more about the workshop from this &lt;a href=&#34;http://unglobalpulse.org/news/data-science-in-africa-2016&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; at the &lt;a href=&#34;http://unglobalpulse.org/blog&#34; target=&#34;_blank&#34;&gt;UNGP blog&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;[caption id=&amp;ldquo;attachment_510&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;525&amp;rdquo;]&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt; United Nations Global Pulse Lab Kampala and partners from academia, industry, non-profit, government came together for the second workshop on Data Science in Africa, which was organized between 27 June - 1 July in Kampala, Uganda[/caption]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -195,11 +157,9 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
       <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
       
       <guid>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
-      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://vimeo.com/156607218&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/156607218&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
+&lt;iframe src=&#34;https://player.vimeo.com/video/156607218&#34; width=&#34;640&#34; height=&#34;480&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;You can access the material used for this webinar from &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Lab&lt;/a&gt;&amp;rsquo;s platform using the following links:&lt;/p&gt;
 
@@ -223,57 +183,28 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
       <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
       
       <guid>/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/02/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
 
-&lt;blockquote&gt;
+&lt;p&gt;Spatial and spatial-temporal data have become pervasive. We are generating spatial data from route planners, sensors, mobile devices, and computers in different fields like transportation, agriculture, and social media. These data need to be analyzed to generate hidden insights that can improve business processes, help fight crime in cities, and much more.&lt;/p&gt;
 
-&gt; 
-&gt; ## Synopsis
-&gt; 
-&gt; 
-Spatial and spatial-temporal data have become pervasive. We are generating spatial data from route planners, sensors, mobile devices, and computers in different fields like transportation, agriculture, and social media. These data need to be analyzed to generate hidden insights that can improve business processes, help fight crime in cities, and much more.
+&lt;p&gt;Simply creating static maps is not enough. In this webinar we shall look at techniques of importing and exporting spatial data into R; understanding the foundation classes for spatial data; manipulation of spatial data; and techniques for spatial visualization. This webinar is meant to provide introductory knowledge of spatial data analysis in R needed to understand more complex spatial data modeling techniques.&lt;/p&gt;
 
-Simply creating static maps is not enough. In this webinar we shall look at techniques of importing and exporting spatial data into R; understanding the foundation classes for spatial data; manipulation of spatial data; and techniques for spatial visualization. This webinar is meant to provide introductory knowledge of spatial data analysis in R needed to understand more complex spatial data modeling techniques.
+&lt;p&gt;We will cover the following topics:&lt;/p&gt;
 
-We will cover the following topics:
-
-&gt; 
-&gt; 
-    
-&gt;   1. Why use R for spatial analysis
-&gt; 
-    
-&gt;   2. Packages for spatial data analysis
-&gt; 
-    
-&gt;   3. Types of spatial data
-&gt; 
-    
-&gt;   4. Classes and methods in R for spatial data analysis
-&gt; 
-    
-&gt;   5. Importing and exporting spatial data
-&gt; 
-    
-&gt;   6. Visualizing spatial data in R
-&gt; 
-
-
-&gt; 
-&gt; ## About the Speaker
-&gt; 
-&gt; 
-![](https://www.dominodatalab.com/images/avatars/daniel-emaasit.jpg)
-
-**Daniel Emaasit, Ph.D Student at University of Nevada, Las Vegas**
-
-Daniel is a Ph.D Student of Transportation Engineering at UNLV where his research involves application of statistical machine learning to developing Activity-Based Travel Demand Models using Big Data from mobile phones. The objective of his research is to improve Transportation Planning by developing methods that model urban mobility patterns and trends.
-
-He is an organizer of several Data Science and R meetup groups and actively contributes to open-source technologies in the R community.&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Why use R for spatial analysis&lt;/li&gt;
+&lt;li&gt;Packages for spatial data analysis&lt;/li&gt;
+&lt;li&gt;Types of spatial data&lt;/li&gt;
+&lt;li&gt;Classes and methods in R for spatial data analysis&lt;/li&gt;
+&lt;li&gt;Importing and exporting spatial data&lt;/li&gt;
+&lt;li&gt;Visualizing spatial data in R&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
 </description>
@@ -336,8 +267,6 @@ He is an organizer of several Data Science and R meetup groups and actively cont
       
       <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
-
-&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;shiny-sparkr-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg-w-300-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg&#34;&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/a&gt;&lt;/h3&gt;
 
@@ -454,9 +383,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
       <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
       
       <guid>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 

@@ -11,11 +11,9 @@ categories:
 slug: incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r
 ---
 
-In case you missed my free webinar on "**[Getting Started with Spatial Data Analysis with R](http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/)**",  here is the recording.
+In case you missed my free webinar on "**[Getting Started with Spatial Data Analysis with R](https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/)**",  here is the recording.
 
-https://vimeo.com/156607218
-
-<!-- more -->
+<iframe src="https://player.vimeo.com/video/156607218" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 You can access the material used for this webinar from [Domino Data Lab](https://www.dominodatalab.com/)'s platform using the following links:
 

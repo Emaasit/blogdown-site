@@ -16,34 +16,17 @@
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
       <guid>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+      <description>
 
-&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:
-&lt;!-- more --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
+&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:&lt;/p&gt;
 
-&gt; 
-&gt; ## Synopsis
-&gt; 
-&gt; 
+&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
 
-&gt; 
-&gt; In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&#39;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.
-&gt; 
-&gt; 
+&lt;p&gt;In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&amp;rsquo;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.&lt;/p&gt;
 
-&gt; 
-&gt; In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.
-&gt; 
-&gt; 
-![Daniel Emaasit](https://www.dominodatalab.com/images/resources/daniel-e.jpg)
-
-&gt; 
-&gt; ## About the Speaker
-&gt; 
-&gt; 
-Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where his research interests involve the development of probabilistic machine learning methods for high-dimensional data, with applications to urban mobility, transport planning, highway safety, &amp; traffic operations.&lt;/blockquote&gt;
+&lt;p&gt;In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.&lt;/p&gt;
 
 &lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
 </description>
@@ -55,11 +38,9 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
       <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
       
       <guid>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
-      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;http://blog.danielemaasit.com/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
+      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://vimeo.com/156607218&#34; target=&#34;_blank&#34;&gt;https://vimeo.com/156607218&lt;/a&gt;&lt;/p&gt;
-
-&lt;!-- more --&gt;
+&lt;iframe src=&#34;https://player.vimeo.com/video/156607218&#34; width=&#34;640&#34; height=&#34;480&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;You can access the material used for this webinar from &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Lab&lt;/a&gt;&amp;rsquo;s platform using the following links:&lt;/p&gt;
 
@@ -84,8 +65,6 @@ Daniel Emaasit is a Ph.D Student of Transportation Engineering at UNLV, where hi
       
       <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
-
-&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;shiny-sparkr-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg-w-300-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg&#34;&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/a&gt;&lt;/h3&gt;
 
@@ -202,9 +181,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
       <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
       
       <guid>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
-      <description>&lt;p&gt;&lt;em&gt;This post was first published on &lt;a href=&#34;http://blog.sparkiq-labs.com&#34; target=&#34;_blank&#34;&gt;SparkIQ Labs&amp;rsquo; blog&lt;/a&gt; and re-posted on my personal blog.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
