@@ -1,5 +1,5 @@
 baseurl = "https://danielemaasit.com/"  # End your URL with a `/` trailing slash. e.g https://danielemaasit.com/
-# title = "Daniel Emaasit"
+title = "Daniel Emaasit"
 copyright = "&copy; 2016 Daniel Emaasit"
 theme = "hugo-academic"
 enableEmoji = true
