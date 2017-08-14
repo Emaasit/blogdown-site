@@ -20,29 +20,20 @@
     </item>
     
     <item>
-      <title>Safety effectiveness evaluation of the cable rail systems in Tennessee</title>
-      <link>/publication/cable-rail-systems/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/cable-rail-systems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Stochastic dynamic user equilibrium using a mixed logit modeling framework</title>
-      <link>/publication/stochastic-dynamic/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/stochastic-dynamic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The living roads project: Giving a voice to roads in developing cities</title>
       <link>/publication/living-roads-project/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/living-roads-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stochastic dynamic user equilibrium using a mixed logit modeling framework</title>
+      <link>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</link>
+      <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</guid>
       <description></description>
     </item>
     
@@ -74,11 +65,20 @@
     </item>
     
     <item>
-      <title>Impact of abandoned anddisabled vehicles on freeway incident duration</title>
+      <title>Impact of abandoned and disabled vehicles on freeway incident duration</title>
       <link>/publication/abandoned-and-disabled/</link>
       <pubDate>Sun, 20 Jan 2013 00:00:00 +0000</pubDate>
       
       <guid>/publication/abandoned-and-disabled/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Safety effectiveness evaluation of the cable rail systems in Tennessee</title>
+      <link>/publication/safety-effectiveness-of-cable-rail-systems/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/safety-effectiveness-of-cable-rail-systems/</guid>
       <description></description>
     </item>
     

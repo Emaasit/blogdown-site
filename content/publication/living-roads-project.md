@@ -12,14 +12,14 @@ selected = false
 title = "The living roads project: Giving a voice to roads in developing cities"
 url_code = ""
 url_dataset = ""
-url_pdf = ""
+url_pdf = "https://trid.trb.org/view.aspx?id=1439767"
 url_project = ""
 url_slides = ""
 url_video = ""
 
-[[url_custom]]
-name = "Get the paper"
-url = "https://trid.trb.org/view.aspx?id=1439767"
+# [[url_custom]]
+# name = "Get the paper"
+# url = "https://trid.trb.org/view.aspx?id=1439767"
 
 # Optional featured image (relative to `static/img/` folder).
 # [header]

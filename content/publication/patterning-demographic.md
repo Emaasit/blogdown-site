@@ -1,18 +1,18 @@
 +++
-abstract = "Currently, research interest is growing regarding integrated modeling of travel behavior considering the effects of activity-duration and trip-scheduling decisions. Capturing interdependencies between these decisions is fundamental to estimate traffic flow in urban transportation networks. Given that integrated models capture simultaneity of these decisions, they are expected to achieve better model realism compared to sequential-based models. However, simultaneous consideration of many behavioral decisions introduces some modeling challenges, including high dimensionality, model uncertainty, complex model specification, and computational intractability. Most of the current literature focus on parametric models that impose strong restrictive assumptions by prespecifying the functional form and number of parameters. It is difficult to know a priori the most appropriate function to use to model complex integrated decisions. To address these modeling challenges, a nonparametric Bayesian approach is proposed to estimate an integrated travel demand model of work duration and commute mode. The proposed nonparametric model, a generalized additive Gaussian process model, precludes the need to prespecify a functional form. The additive structure of the model enables computational tractability in high dimensions of covariates. Bayesian estimation was adopted for inference to quantify uncertainty using probability distributions."
-abstract_short = "A nonparametric Bayesian approach is proposed to estimate an integrated travel demand model of work duration and commute mode. The proposed nonparametric model, a generalized additive Gaussian process model, precludes the need to prespecify a functional form. The additive structure of the model enables computational tractability in high dimensions of covariates. Bayesian estimation was adopted for inference to quantify uncertainty using probability distributions."
-authors = ["Emaasit, D.", "Chimba, D."]
+abstract = "The objective of this study was to investigate factors influencing occurrence of pedestrian and bicycle crashes in Tennessee. Of interest were demographic and socio-economic, roadway geometry, traffic, and land use factors that could influence pedestrian crash rates on specific infrastructure. Geographic Information System (GIS) and statistical modeling were applied to study the crash patterns with respect to these factors. GIS was used to geo-locate and cluster the crash locations onto the roadway network, joined with background data of the crash locations. Negative Binomial (NB) regression was used to model the relationship between contributing factors and the crashes to detect any positive or negative correlations with the crashes. The following factors were found to have significant correlation with pedestrian and bicycle crash occurrences; percentage distribution of population by race, age groups, mean household income, percentage in the labor force, poverty level, and vehicle ownership. Land use, number of lanes crossed by pedestrians or bicyclists, posted speed limit and the presence of special speed zones, all were found to influence the occurrence of these crashes significantly. The findings were used to identify patterns of pedestrian and bicycle high crash locations in Tennessee and flagged combination of demographic, socioeconomic and geometry variables which if present are good indicators to TDOT as areas likely to experience pedestrian and bicycle crashes."
+abstract_short = "The objective of this study was to investigate factors influencing occurrence of pedestrian and bicycle crashes in Tennessee. Of interest were demographic and socio-economic, roadway geometry, traffic, and land use factors that could influence pedestrian crash rates on specific infrastructure. Geographic Information System (GIS) and statistical modeling were applied to study the crash patterns with respect to these factors."
+authors = ["Emaasit, D.", "Chimba, D.", "Cherry, C.", "Panell, Z."]
 date = "2014-01-20"
 image_preview = ""
 math = true
 publication_types = ["1"]
-publication = "In *Transportation ResearchBoard 93rd Annual Meeting, number 14-0600, 2014*, MTRB."
+publication = "In *Transportation ResearchBoard 93rd Annual Meeting, number 14-0600, 2014*, TRB."
 publication_short = "In *TRB*"
 selected = false
 title = "Patterning demographic and socioeconomic characteristics affecting pedestrian and bicycle crash frequency"
-url_code = "#"
+url_code = ""
 url_dataset = ""
-url_pdf = ""
+url_pdf = "http://docs.trb.org/prp/14-0600.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
