@@ -5,7 +5,7 @@
     
     <url>
     
-      <loc>/misc/</loc>
+      <loc>http://www.danielemaasit.com/misc/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -14,7 +14,7 @@
     
     <url>
     
-      <loc>/software/</loc>
+      <loc>http://www.danielemaasit.com/software/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -23,7 +23,7 @@
     
     <url>
     
-      <loc>/project/</loc>
+      <loc>http://www.danielemaasit.com/project/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -32,7 +32,7 @@
     
     <url>
     
-      <loc>/talk/gaussian-processes-in-stan/</loc>
+      <loc>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</loc>
       <lastmod>2017-10-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -41,7 +41,7 @@
     
     <url>
     
-      <loc>/publication/integrated-tdm/</loc>
+      <loc>http://www.danielemaasit.com/publication/integrated-tdm/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -50,7 +50,7 @@
     
     <url>
     
-      <loc>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</loc>
+      <loc>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
     </url>
     
@@ -59,7 +59,7 @@
     
     <url>
     
-      <loc>/talk/intro-to-pml/</loc>
+      <loc>http://www.danielemaasit.com/talk/intro-to-pml/</loc>
       <lastmod>2017-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +68,7 @@
     
     <url>
     
-      <loc>/talk/capturing-latent-travel-patterns/</loc>
+      <loc>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</loc>
       <lastmod>2017-01-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -77,7 +77,7 @@
     
     <url>
     
-      <loc>/publication/living-roads-project/</loc>
+      <loc>http://www.danielemaasit.com/publication/living-roads-project/</loc>
       <lastmod>2017-01-11T00:00:00+00:00</lastmod>
     </url>
     
@@ -86,7 +86,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
+      <loc>http://www.danielemaasit.com/tags/academic/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -95,7 +95,7 @@
     
     <url>
     
-      <loc>/post/</loc>
+      <loc>http://www.danielemaasit.com/post/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -104,7 +104,7 @@
     
     <url>
     
-      <loc>/publication/</loc>
+      <loc>http://www.danielemaasit.com/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -113,7 +113,7 @@
     
     <url>
     
-      <loc>/talk/</loc>
+      <loc>http://www.danielemaasit.com/talk/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,7 +122,7 @@
     
     <url>
     
-      <loc>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</loc>
+      <loc>http://www.danielemaasit.com/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</loc>
       <lastmod>2016-12-26T00:00:00+00:00</lastmod>
     </url>
     
@@ -131,7 +131,7 @@
     
     <url>
     
-      <loc>/publication/mixed-logic-based/</loc>
+      <loc>http://www.danielemaasit.com/publication/mixed-logic-based/</loc>
       <lastmod>2016-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -140,7 +140,7 @@
     
     <url>
     
-      <loc>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</loc>
       <lastmod>2016-08-03T07:41:44+00:00</lastmod>
     </url>
     
@@ -149,7 +149,7 @@
     
     <url>
     
-      <loc>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</loc>
       <lastmod>2016-07-29T02:58:44+00:00</lastmod>
     </url>
     
@@ -158,7 +158,7 @@
     
     <url>
     
-      <loc>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</loc>
       <lastmod>2016-07-16T22:36:00+00:00</lastmod>
     </url>
     
@@ -167,7 +167,7 @@
     
     <url>
     
-      <loc>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</loc>
       <lastmod>2016-07-07T23:16:47+00:00</lastmod>
     </url>
     
@@ -176,7 +176,7 @@
     
     <url>
     
-      <loc>/talk/intro-to-mbml/</loc>
+      <loc>http://www.danielemaasit.com/talk/intro-to-mbml/</loc>
       <lastmod>2016-07-06T00:00:00+00:00</lastmod>
     </url>
     
@@ -185,7 +185,7 @@
     
     <url>
     
-      <loc>/talk/sustainable-urban-planning-using-big-data/</loc>
+      <loc>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</loc>
       <lastmod>2016-06-30T00:00:00+00:00</lastmod>
     </url>
     
@@ -194,7 +194,7 @@
     
     <url>
     
-      <loc>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</loc>
       <lastmod>2016-06-28T10:36:32+00:00</lastmod>
     </url>
     
@@ -203,7 +203,7 @@
     
     <url>
     
-      <loc>/project/auto-tdm/</loc>
+      <loc>http://www.danielemaasit.com/project/auto-tdm/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -212,7 +212,7 @@
     
     <url>
     
-      <loc>/project/integrated-tdms/</loc>
+      <loc>http://www.danielemaasit.com/project/integrated-tdms/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -221,7 +221,7 @@
     
     <url>
     
-      <loc>/project/cdr-project/</loc>
+      <loc>http://www.danielemaasit.com/project/cdr-project/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -230,7 +230,7 @@
     
     <url>
     
-      <loc>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</loc>
       <lastmod>2016-02-25T17:22:11+00:00</lastmod>
     </url>
     
@@ -239,7 +239,7 @@
     
     <url>
     
-      <loc>/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</loc>
       <lastmod>2016-02-15T17:39:49+00:00</lastmod>
     </url>
     
@@ -248,7 +248,7 @@
     
     <url>
     
-      <loc>/post/2016/02/01/tracking-ggplot2-extensions/</loc>
+      <loc>http://www.danielemaasit.com/post/2016/02/01/tracking-ggplot2-extensions/</loc>
       <lastmod>2016-02-01T23:55:06+00:00</lastmod>
     </url>
     
@@ -257,7 +257,7 @@
     
     <url>
     
-      <loc>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</loc>
+      <loc>http://www.danielemaasit.com/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</loc>
       <lastmod>2015-12-08T17:24:26+00:00</lastmod>
     </url>
     
@@ -266,7 +266,7 @@
     
     <url>
     
-      <loc>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</loc>
+      <loc>http://www.danielemaasit.com/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</loc>
       <lastmod>2015-11-10T09:41:40+00:00</lastmod>
     </url>
     
@@ -275,7 +275,7 @@
     
     <url>
     
-      <loc>/talk/deploying-predictive-models/</loc>
+      <loc>http://www.danielemaasit.com/talk/deploying-predictive-models/</loc>
       <lastmod>2015-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -284,7 +284,7 @@
     
     <url>
     
-      <loc>/publication/factors-affecting-cable-barrier-crash-frequency/</loc>
+      <loc>http://www.danielemaasit.com/publication/factors-affecting-cable-barrier-crash-frequency/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -293,7 +293,7 @@
     
     <url>
     
-      <loc>/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</loc>
+      <loc>http://www.danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</loc>
       <lastmod>2015-07-26T09:11:00+00:00</lastmod>
     </url>
     
@@ -302,7 +302,7 @@
     
     <url>
     
-      <loc>/talk/workflow-for-managing-utility-info/</loc>
+      <loc>http://www.danielemaasit.com/talk/workflow-for-managing-utility-info/</loc>
       <lastmod>2015-01-10T00:00:00+00:00</lastmod>
     </url>
     
@@ -311,7 +311,7 @@
     
     <url>
     
-      <loc>/publication/patterning-demographic/</loc>
+      <loc>http://www.danielemaasit.com/publication/patterning-demographic/</loc>
       <lastmod>2014-01-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -320,7 +320,7 @@
     
     <url>
     
-      <loc>/publication/local-spatial-autocorrelation/</loc>
+      <loc>http://www.danielemaasit.com/publication/local-spatial-autocorrelation/</loc>
       <lastmod>2013-01-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -329,7 +329,7 @@
     
     <url>
     
-      <loc>/publication/abandoned-and-disabled/</loc>
+      <loc>http://www.danielemaasit.com/publication/abandoned-and-disabled/</loc>
       <lastmod>2013-01-20T00:00:00+00:00</lastmod>
     </url>
     
@@ -338,7 +338,7 @@
     
     <url>
     
-      <loc>/publication/safety-effectiveness-of-cable-rail-systems/</loc>
+      <loc>http://www.danielemaasit.com/publication/safety-effectiveness-of-cable-rail-systems/</loc>
       <lastmod>2013-01-12T00:00:00+00:00</lastmod>
     </url>
     
@@ -347,7 +347,7 @@
     
     <url>
     
-      <loc>/publication/integrating-od-survey/</loc>
+      <loc>http://www.danielemaasit.com/publication/integrating-od-survey/</loc>
       <lastmod>2012-10-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -356,7 +356,7 @@
     
     <url>
     
-      <loc>/publication/likelihood-param/</loc>
+      <loc>http://www.danielemaasit.com/publication/likelihood-param/</loc>
       <lastmod>2012-07-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -365,7 +365,7 @@
     
     <url>
     
-      <loc>/publication_types/1/</loc>
+      <loc>http://www.danielemaasit.com/publication_types/1/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -375,7 +375,7 @@
     
     <url>
     
-      <loc>/publication_types/2/</loc>
+      <loc>http://www.danielemaasit.com/publication_types/2/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -385,7 +385,7 @@
     
     <url>
     
-      <loc>/categories/apache-spark/</loc>
+      <loc>http://www.danielemaasit.com/categories/apache-spark/</loc>
       <lastmod>2015-12-08T17:24:26+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -395,7 +395,7 @@
     
     <url>
     
-      <loc>/tags/bayesian/</loc>
+      <loc>http://www.danielemaasit.com/tags/bayesian/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -405,7 +405,7 @@
     
     <url>
     
-      <loc>/categories/bayesian/</loc>
+      <loc>http://www.danielemaasit.com/categories/bayesian/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -415,7 +415,7 @@
     
     <url>
     
-      <loc>/categories/big-data/</loc>
+      <loc>http://www.danielemaasit.com/categories/big-data/</loc>
       <lastmod>2016-08-03T07:41:44+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -425,7 +425,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>http://www.danielemaasit.com/categories/</loc>
       <lastmod>2015-12-08T17:24:26+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -435,7 +435,7 @@
     
     <url>
     
-      <loc>/categories/conference/</loc>
+      <loc>http://www.danielemaasit.com/categories/conference/</loc>
       <lastmod>2016-07-07T23:16:47+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -445,7 +445,7 @@
     
     <url>
     
-      <loc>/</loc>
+      <loc>http://www.danielemaasit.com/</loc>
       <lastmod>2016-04-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -455,7 +455,7 @@
     
     <url>
     
-      <loc>/tags/data-science/</loc>
+      <loc>http://www.danielemaasit.com/tags/data-science/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -465,7 +465,7 @@
     
     <url>
     
-      <loc>/categories/data-science/</loc>
+      <loc>http://www.danielemaasit.com/categories/data-science/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -475,7 +475,7 @@
     
     <url>
     
-      <loc>/categories/data-visualization/</loc>
+      <loc>http://www.danielemaasit.com/categories/data-visualization/</loc>
       <lastmod>2016-07-29T02:58:44+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -485,7 +485,7 @@
     
     <url>
     
-      <loc>/categories/ggplot2/</loc>
+      <loc>http://www.danielemaasit.com/categories/ggplot2/</loc>
       <lastmod>2016-07-29T02:58:44+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -495,7 +495,7 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
+      <loc>http://www.danielemaasit.com/tags/machine-learning/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -505,7 +505,7 @@
     
     <url>
     
-      <loc>/categories/machine-learning/</loc>
+      <loc>http://www.danielemaasit.com/categories/machine-learning/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -515,7 +515,7 @@
     
     <url>
     
-      <loc>/tags/meetup/</loc>
+      <loc>http://www.danielemaasit.com/tags/meetup/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -525,7 +525,7 @@
     
     <url>
     
-      <loc>/publication_types/</loc>
+      <loc>http://www.danielemaasit.com/publication_types/</loc>
       <lastmod>2017-09-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -535,7 +535,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>http://www.danielemaasit.com/tags/r/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -545,7 +545,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>http://www.danielemaasit.com/categories/r/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -555,7 +555,7 @@
     
     <url>
     
-      <loc>/categories/rstudio/</loc>
+      <loc>http://www.danielemaasit.com/categories/rstudio/</loc>
       <lastmod>2016-07-16T22:36:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -565,7 +565,7 @@
     
     <url>
     
-      <loc>/categories/shiny/</loc>
+      <loc>http://www.danielemaasit.com/categories/shiny/</loc>
       <lastmod>2015-12-08T17:24:26+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -575,7 +575,7 @@
     
     <url>
     
-      <loc>/tags/smart-cities/</loc>
+      <loc>http://www.danielemaasit.com/tags/smart-cities/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -585,7 +585,7 @@
     
     <url>
     
-      <loc>/categories/sparkr/</loc>
+      <loc>http://www.danielemaasit.com/categories/sparkr/</loc>
       <lastmod>2015-12-08T17:24:26+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -595,7 +595,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>http://www.danielemaasit.com/tags/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -605,7 +605,7 @@
     
     <url>
     
-      <loc>/categories/united-nations/</loc>
+      <loc>http://www.danielemaasit.com/categories/united-nations/</loc>
       <lastmod>2016-07-07T23:16:47+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -615,7 +615,7 @@
     
     <url>
     
-      <loc>/tags/urban-mobility/</loc>
+      <loc>http://www.danielemaasit.com/tags/urban-mobility/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -625,7 +625,7 @@
     
     <url>
     
-      <loc>/categories/webinar/</loc>
+      <loc>http://www.danielemaasit.com/categories/webinar/</loc>
       <lastmod>2016-08-03T07:41:44+00:00</lastmod>
       <priority>0</priority>
     </url>

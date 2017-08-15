@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://www.danielemaasit.com/"
 title = "Daniel Emaasit"
 copyright = "&copy; 2016 Daniel Emaasit"
 theme = "hugo-academic"
