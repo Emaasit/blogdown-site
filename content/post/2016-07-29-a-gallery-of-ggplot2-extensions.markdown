@@ -15,7 +15,7 @@ A couple of months ago, I announced the [ggplot2-extensions website](http://www.
 
 Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a [Gallery page](http://www.ggplot2-exts.org/gallery/). You can now search packages based on a filter like: if it's on CRAN; or if  it's for a particular task e.g. time series, networks, tech, etc.
 
-![gallery](https://emaasit.files.wordpress.com/2016/07/gallery.png)
+![gallery](/img/gallery.png)
 
 It's now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these [simple instructions](https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension):
 
