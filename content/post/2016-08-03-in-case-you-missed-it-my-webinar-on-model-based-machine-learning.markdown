@@ -10,7 +10,7 @@ categories:
   - R
   - Webinar
 slug: in-case-you-missed-it-my-webinar-on-model-based-machine-learning
-summary: 'In case you missed my free webinar on "**[Model-Based Machine Learning](https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/)**",  here is the recording.'
+summary: 'In case you missed my free webinar on "**[Model-Based Machine Learning](https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/)**",  here is the recording. If you have any questions, please do not hesitate to contact me.'
 ---
 
 In case you missed my free webinar on "**[Model-Based Machine Learning](https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/)**",  here is the recording.

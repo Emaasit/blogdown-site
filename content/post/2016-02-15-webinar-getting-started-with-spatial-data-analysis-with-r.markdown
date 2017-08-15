@@ -8,9 +8,10 @@ categories:
   - R
   - Webinar
 slug: webinar-getting-started-with-spatial-data-analysis-with-r
+summary: 'I am glad to announce that I shall be presenting a live webinar with [Domino Data Labs](https://www.dominodatalab.com/) on February 24, 2016 from 11:00 - 11:30 AM PST: [Getting Started with Spatial Data Analysis with R](https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r). If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along'
 ---
 
-![webinar3](https://emaasit.files.wordpress.com/2016/02/webinar3.png)
+![webinar3](/img/webinar3.png)
 
 I am glad to announce that I shall be presenting a live webinar with [Domino Data Labs](https://www.dominodatalab.com/) on February 24, 2016 from 11:00 - 11:30 AM PST: [Getting Started with Spatial Data Analysis with R](https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r). If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:
 

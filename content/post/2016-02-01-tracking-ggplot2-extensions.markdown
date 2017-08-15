@@ -7,9 +7,10 @@ categories:
   - Data Visualization
   - R
 slug: tracking-ggplot2-extensions
+summary: 'The purpose of this blog post is to inform R users of a website that I created to track and list **ggplot2 extensions**. The site is available at: [http://ggplot2-exts.github.io](http://ggplot2-exts.github.io). The purpose of this site is to help other R users easily find ggplot2 extensions that are coming in "fast and furious" from the R community'
 ---
 
-![ggplot2-2](https://emaasit.files.wordpress.com/2016/02/ggplot2-2.png)
+![ggplot2-2](/img/ggplot2-2.png)
 
 
 ### **Introduction**
@@ -21,8 +22,6 @@ If you have developed or intend on developing ggplot2 extensions, submit them s
 
 Incase you are wondering what ggplot2 extensions are; these are R packages that extend the functionality of the [ggplot2 package](http://ggplot2.org/) by [Dr. Hadley Wickham](http://had.co.nz/). This extensibility mechanism became available in ggplot2 version 2.0.0 [released on December 17th, 2015](http://blog.rstudio.org/2015/12/21/ggplot2-2-0-0/).
 
-<!-- more -->
-
 
 ### **Motivation for Developing this Website**
 
@@ -31,23 +30,23 @@ When Hadley announced the release of ggplot2 2.0.0, perhaps the most exciting ne
 
 Immediately after this announcement, several extensions started popping up. I was able to learn of some because they were posted out on twitter by [@hadleywickham](https://twitter.com/hadleywickham).
 
-![Screenshot_2016-01-30-10-52-46-1](https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-52-46-1.png?w=680)
+![Screenshot_2016-01-30-10-52-46-1](/img/screenshot_2016-01-30-10-52-46-1.png)
 
 But it got me thinking..... R users who are not active on social media must be missing out on these new cool extensions. In addition, if I didn't check my twitter feed on a particular day, I would miss tweets about new extension-packages. This was not an effective way of searching for packages. There has to be a better way to track and list ggplot2 extensions. Quickly, I sprang into action to help fill this gap. But first, I had to find out if such an initiative already existed in the R community.
 
-![Screenshot_2016-01-30-10-52-27-1](https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-52-27-1.png?w=680)
+![Screenshot_2016-01-30-10-52-27-1](/img/screenshot_2016-01-30-10-52-27-1.png)
 
 It turned out none existed. I quickly started developing one and a couple of hours later, we had a working website ([http://ggplot2-exts.github.io](http://ggplot2-exts.github.io/)) with a list of extensions known to me then.
 
-![ggplot2-3](https://emaasit.files.wordpress.com/2016/02/ggplot2-3.png)
+![ggplot2-3](/img/ggplot2-3.png)
 
 Hadley was kind enough to inform his followers on twitter about this new initiative. (I should mention, it was the highlight of my life getting a "thumps up" from Hadley Wickham).
 
-![Screenshot_2016-02-01-15-12-16-1](https://emaasit.files.wordpress.com/2016/02/screenshot_2016-02-01-15-12-16-1.png?w=680)
+![Screenshot_2016-02-01-15-12-16-1](/img/screenshot_2016-02-01-15-12-16-1.png)
 
 As it turns out, I was not the only one concerned about this issue. Several other R users had made similar inquiries.
 
-![Screenshot_2016-01-30-10-49-14-2](https://emaasit.files.wordpress.com/2016/02/screenshot_2016-01-30-10-49-14-2.png)
+![Screenshot_2016-01-30-10-49-14-2](/img/screenshot_2016-01-30-10-49-14-2.png)
 
 
 ### **Closing Remarks**

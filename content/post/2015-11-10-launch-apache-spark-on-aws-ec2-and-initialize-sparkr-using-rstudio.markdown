@@ -10,21 +10,18 @@ categories:
   - RStudio
   - SparkR
 slug: launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio
+summary: 'In this blog post, we shall learn how to launch a Spark stand alone cluster on Amazon Web Services (AWS) Elastic Compute Cloud (EC2) for analysis of Big Data. This is a continuation from our previous blog, which showed us how to download Apache Spark and start SparkR locally on windows OS and RStudio'
 ---
 
 **Introduction**
 
-[![sparkr-ec2](https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300)](https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg)
+![sparkr-ec2](/img/sparkr-ec2.jpg)
 
-In this blog post, we shall learn how to launch a Spark stand alone cluster on [Amazon Web Services (AWS) Elastic Compute Cloud (EC2)](http://aws.amazon.com/) for analysis of Big Data. This is a continuation from our [previous blog](http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/), which showed us how to download [Apache Spark](http://spark.apache.org/) and start SparkR locally on windows OS and [RStudio](https://www.rstudio.com/).
+In this blog post, we shall learn how to launch a Spark stand alone cluster on [Amazon Web Services (AWS) Elastic Compute Cloud (EC2)](http://aws.amazon.com/) for analysis of Big Data. This is a continuation from our [previous blog](https://danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/), which showed us how to download [Apache Spark](http://spark.apache.org/) and start SparkR locally on windows OS and [RStudio](https://www.rstudio.com/).
 
 We shall use _Spark 1.5.1_ (released on October 02, 2015) which has a _spark-ec2_ script that is used to install stand alone Spark on AWS EC2.  A nice feature about this _spark-ec2_ script is that it installs RStudio server as well. This means that you don't need to install RStudio server separately. Thus you can start working with your data immediately after Spark is installed.
 
-<!-- more -->
-
 **Prerequisites**
-
-
 
 	
   * You should have already downloaded [Apache Spark](http://spark.apache.org/) onto your local desktop from the [official site](http://spark.apache.org/). You can find instructions on how to do so in our [previous post](http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/).

@@ -12,9 +12,10 @@ categories:
   - Shiny
   - SparkR
 slug: using-apache-sparkr-to-power-shiny-applications-part-i
+summary: 'The objective of this blog post is demonstrate how to use Apache SparkR to power Shiny applications. I have been curious about what the use cases for a "Shiny-SparkR" application would be and how to develop and deploy such an app.'
 ---
 
-### [![shiny-sparkr](https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300)](https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg)
+### ![shiny-sparkr](/img/shiny-sparkr.jpg)
 
 
 
@@ -27,8 +28,6 @@ The objective of this blog post is demonstrate how to use [Apache SparkR](http:/
 **SparkR** is an R package that provides a light-weight frontend to use Apache Spark from R. SparkR provides a distributed data frame implementation that supports operations like selection, filtering, aggregation etc. (similar to R data frames, dplyr) but on large datasets. SparkR also supports distributed machine learning using MLlib.
 
 **Shiny** is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge.
-
-<!-- more -->
 
 
 ### **Use Cases**
@@ -101,7 +100,7 @@ Once you have downloaded the app-folder, open the project in RStudio and open th
 
 
 
-[![Change Spark home](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/spark-home.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/spark-home.png)
+![Change Spark home](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/spark-home.png)
 
 
 
@@ -109,7 +108,7 @@ Once you have downloaded the app-folder, open the project in RStudio and open th
   1. **Run the App**. Run the shiny app by using this command `shiny::runApp()`. It will take some time for SparkR to be initialized before you can see the results of the underlying analysis are displayed.
 
 
-[![The App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png)
+![The App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png)
 
 Here is the the code for the "server.R" file.
 
@@ -128,7 +127,7 @@ Here is the the code for the "server.R" file.
 
 
 
-[![App without the results](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/no-results.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/no-results.png)
+![App without the results](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/no-results.png)
 
 
 
@@ -138,7 +137,7 @@ Here is the the code for the "server.R" file.
 
 
 
-[![SparkR is initialized](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/java-launch.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/java-launch.png)
+![SparkR is initialized](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/java-launch.png)
 
 
 
@@ -148,11 +147,11 @@ Here is the the code for the "server.R" file.
 
 
 
-[![Results in the App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png)
+![Results in the App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png)
 
 You can use the Spark UI to check the jobs that were completed, in the event timeline, to produce the final results in the shiny app. Go to localhost and listen on port 4040.
 
-[![Results in the App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/event-timeline.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/event-timeline.png)
+![Results in the App](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/event-timeline.png)
 
 
 
@@ -160,7 +159,7 @@ You can use the Spark UI to check the jobs that were completed, in the event tim
   1. **Stage 4:** When you change the input values in the app and click the "Predict Sepal Length" button, the application uses the already exciting Spark Context to run the predict function and displays the predicted value. This operations takes a shorter time than the initial launch of the shiny app.
 
 
-[![Change values](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/new-result.png)](https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/new-result.png)
+![Change values](https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/new-result.png)
 
 
 ### **Moving Forward**

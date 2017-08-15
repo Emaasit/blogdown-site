@@ -22,9 +22,9 @@
 
 &lt;p&gt;You can download slides for my talk from &lt;a href=&#34;https://www.dropbox.com/s/v53ymxth8x4hpe1/dsa_2016_presentation.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6RhjZngF83Q7r9&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; &lt;div style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a href=&#34;//www.slideshare.net/DanielEmaasit/sustainable-urban-transport-planning-using-big-data-from-mobile-phones&#34; title=&#34;Sustainable Urban Transport Planning using Big Data from Mobile Phones&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&#34;https://www.slideshare.net/DanielEmaasit&#34; target=&#34;_blank&#34;&gt;Daniel Emaasit&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6RhjZngF83Q7r9&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; 
 
-There were also talks from my colleagues at [IBM Research - Africa](http://www.research.ibm.com/labs/africa/) including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:
+&lt;p&gt;There were also talks from my colleagues at &lt;a href=&#34;http://www.research.ibm.com/labs/africa/&#34; target=&#34;_blank&#34;&gt;IBM Research - Africa&lt;/a&gt; including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gxFstDWf9VU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -32,7 +32,7 @@ There were also talks from my colleagues at [IBM Research - Africa](http://www.r
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/07/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -42,13 +42,11 @@ There were also talks from my colleagues at [IBM Research - Africa](http://www.r
       <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
       
       <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
 
-&lt;!-- more --&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://emaasit.files.wordpress.com/2016/06/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
 

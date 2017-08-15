@@ -9,6 +9,7 @@ categories:
   - RStudio
   - SparkR
 slug: installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio
+summary: 'With the recent release of Apache Spark 1.4.1 on July 15th, 2015, I wanted to write a step-by-step guide to help new users get up and running with SparkR locally on a Windows machine using command shell and RStudio. SparkR provides an R frontend to Apache Spark and using Spark’s distributed computation engine allows R-Users to run large scale data analysis from the R shell'
 ---
 
 **Introduction**

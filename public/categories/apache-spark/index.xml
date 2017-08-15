@@ -18,7 +18,7 @@
       <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
 
-&lt;h3 id=&#34;shiny-sparkr-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg-w-300-https-sparkiqlabs-files-wordpress-com-2015-11-shiny-sparkr-jpg&#34;&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/shiny-sparkr.jpg?w=300&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;shiny-sparkr-img-shiny-sparkr-jpg&#34;&gt;&lt;img src=&#34;/img/shiny-sparkr.jpg&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 
@@ -27,8 +27,6 @@
 &lt;p&gt;&lt;strong&gt;SparkR&lt;/strong&gt; is an R package that provides a light-weight frontend to use Apache Spark from R. SparkR provides a distributed data frame implementation that supports operations like selection, filtering, aggregation etc. (similar to R data frames, dplyr) but on large datasets. SparkR also supports distributed machine learning using MLlib.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Shiny&lt;/strong&gt; is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge.&lt;/p&gt;
-
-&lt;!-- more --&gt;
 
 &lt;h3 id=&#34;use-cases&#34;&gt;&lt;strong&gt;Use Cases&lt;/strong&gt;&lt;/h3&gt;
 
@@ -78,13 +76,13 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 &lt;pre&gt;&lt;code&gt;1. **Change Spark Home**. Change the path of the **SPARK_HOME** environment variable to point to the destination of your Spark installation.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/spark-home.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/spark-home.png&#34; alt=&#34;Change Spark home&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/spark-home.png&#34; alt=&#34;Change Spark home&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Run the App&lt;/strong&gt;. Run the shiny app by using this command &lt;code&gt;shiny::runApp()&lt;/code&gt;. It will take some time for SparkR to be initialized before you can see the results of the underlying analysis are displayed.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;The App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;The App&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Here is the the code for the &amp;ldquo;server.R&amp;rdquo; file.&lt;/p&gt;
 
@@ -95,27 +93,27 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 &lt;pre&gt;&lt;code&gt;1. **Stage 1:** When you run the app, the user interface is displayed but without the rendered text output or model summary.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/no-results.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/no-results.png&#34; alt=&#34;App without the results&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/no-results.png&#34; alt=&#34;App without the results&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;1. **Stage 2:** Meanwhile, in the background on your computer node(s), java is launched using the Spark-submit file, then the SparkR library is loaded and then SparkR is initialized.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/java-launch.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/java-launch.png&#34; alt=&#34;SparkR is initialized&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/java-launch.png&#34; alt=&#34;SparkR is initialized&#34; /&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;1. **Stage 3:** SparkR commands in the Server.R file are then executed, which finally shows the output within the shiny app.
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/app.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/app.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use the Spark UI to check the jobs that were completed, in the event timeline, to produce the final results in the shiny app. Go to localhost and listen on port 4040.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/event-timeline.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/event-timeline.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/event-timeline.png&#34; alt=&#34;Results in the App&#34; /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Stage 4:&lt;/strong&gt; When you change the input values in the app and click the &amp;ldquo;Predict Sepal Length&amp;rdquo; button, the application uses the already exciting Spark Context to run the predict function and displays the predicted value. This operations takes a shorter time than the initial launch of the shiny app.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/SparkIQ-Labs/Demos/blob/master/shiny-sparkr-demo-1/img/new-result.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/new-result.png&#34; alt=&#34;Change values&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://github.com/SparkIQ-Labs/Demos/raw/master/shiny-sparkr-demo-1/img/new-result.png&#34; alt=&#34;Change values&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;moving-forward&#34;&gt;&lt;strong&gt;Moving Forward&lt;/strong&gt;&lt;/h3&gt;
 
@@ -135,13 +133,11 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
       <guid>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://sparkiqlabs.files.wordpress.com/2015/11/sparkr-ec2.jpg?w=300&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/sparkr-ec2.jpg&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In this blog post, we shall learn how to launch a Spark stand alone cluster on &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;Amazon Web Services (AWS) Elastic Compute Cloud (EC2)&lt;/a&gt; for analysis of Big Data. This is a continuation from our &lt;a href=&#34;http://blog.sparkiq-labs.com/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/&#34; target=&#34;_blank&#34;&gt;previous blog&lt;/a&gt;, which showed us how to download &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache Spark&lt;/a&gt; and start SparkR locally on windows OS and &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In this blog post, we shall learn how to launch a Spark stand alone cluster on &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;Amazon Web Services (AWS) Elastic Compute Cloud (EC2)&lt;/a&gt; for analysis of Big Data. This is a continuation from our &lt;a href=&#34;https://danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/&#34; target=&#34;_blank&#34;&gt;previous blog&lt;/a&gt;, which showed us how to download &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache Spark&lt;/a&gt; and start SparkR locally on windows OS and &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We shall use &lt;em&gt;Spark 1.5.1&lt;/em&gt; (released on October 02, 2015) which has a &lt;em&gt;spark-ec2&lt;/em&gt; script that is used to install stand alone Spark on AWS EC2.  A nice feature about this &lt;em&gt;spark-ec2&lt;/em&gt; script is that it installs RStudio server as well. This means that you don&amp;rsquo;t need to install RStudio server separately. Thus you can start working with your data immediately after Spark is installed.&lt;/p&gt;
-
-&lt;!-- more --&gt;
 
 &lt;p&gt;&lt;strong&gt;Prerequisites&lt;/strong&gt;&lt;/p&gt;
 
