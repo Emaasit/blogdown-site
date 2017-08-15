@@ -16,7 +16,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [permalinks]
-    post = "post/:year/:month/:day/:slug/"
+    post = "/post/:year/:month/:day/:slug/"
 
 [blackfriday]
   hrefTargetBlank = true
