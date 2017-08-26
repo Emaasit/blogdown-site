@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference on Daniel Emaasit</title>
-    <link>/categories/conference/</link>
+    <link>http://www.danielemaasit.com/categories/conference/</link>
     <description>Recent content in Conference on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -32,21 +32,21 @@
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
+      <link>http://www.danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
       <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
       
-      <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
+      <guid>http://www.danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
 

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny on Daniel Emaasit</title>
-    <link>/categories/shiny/</link>
+    <link>http://www.danielemaasit.com/categories/shiny/</link>
     <description>Recent content in Shiny on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,13 +12,13 @@
     
     <item>
       <title>Using Apache SparkR to Power Shiny Applications: Part I</title>
-      <link>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
+      <link>http://www.danielemaasit.com/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
+      <guid>http://www.danielemaasit.com/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
 
-&lt;h3 id=&#34;shiny-sparkr-img-shiny-sparkr-jpg&#34;&gt;&lt;img src=&#34;/img/shiny-sparkr.jpg&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;shiny-sparkr-img-shiny-sparkr-jpg&#34;&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/shiny-sparkr.jpg&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 
