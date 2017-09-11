@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/tags/meetup/</link>
+    <link>/tags/meetup/</link>
     <description>Recent content in Meetup on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>ICYMI: My talk on Introduction to Probabilistic Machine Learning</title>
-      <link>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
+      <link>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
+      <guid>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
       <description>&lt;p&gt;Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R &amp;amp; Data Science Meetup groups.&lt;/p&gt;
 &lt;p&gt;I introduced probabilistic machine learning and probabilistic programming with Stan. I discussed the basics of machine learning from a probabilistic/Bayesian perspective and contrasted it with traditional/algorithmic machine learning. I also discussed how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly I used Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning.&lt;/p&gt;
 &lt;p&gt;Slides and code can be found on Github &lt;a href=&#34;https://bit.ly/intro-pml-lv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;

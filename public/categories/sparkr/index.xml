@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sparkr on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/categories/sparkr/</link>
+    <link>/categories/sparkr/</link>
     <description>Recent content in Sparkr on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,13 +12,13 @@
     
     <item>
       <title>Using Apache SparkR to Power Shiny Applications: Part I</title>
-      <link>http://www.danielemaasit.com/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
+      <link>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
+      <guid>/post/2015/12/08/using-apache-sparkr-to-power-shiny-applications-part-i/</guid>
       <description>
 
-&lt;h3 id=&#34;shiny-sparkr-img-shiny-sparkr-jpg&#34;&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/shiny-sparkr.jpg&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;shiny-sparkr-img-shiny-sparkr-jpg&#34;&gt;&lt;img src=&#34;/img/shiny-sparkr.jpg&#34; alt=&#34;shiny-sparkr&#34; /&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 
@@ -127,13 +127,13 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
     
     <item>
       <title>Launch Apache Spark on AWS EC2 and Initialize SparkR Using RStudio</title>
-      <link>http://www.danielemaasit.com/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
+      <link>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</link>
       <pubDate>Tue, 10 Nov 2015 09:41:40 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
+      <guid>/post/2015/11/10/launch-apache-spark-on-aws-ec2-and-initialize-sparkr-using-rstudio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/sparkr-ec2.jpg&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/sparkr-ec2.jpg&#34; alt=&#34;sparkr-ec2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In this blog post, we shall learn how to launch a Spark stand alone cluster on &lt;a href=&#34;http://aws.amazon.com/&#34; target=&#34;_blank&#34;&gt;Amazon Web Services (AWS) Elastic Compute Cloud (EC2)&lt;/a&gt; for analysis of Big Data. This is a continuation from our &lt;a href=&#34;https://danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-os-and-rstudio/&#34; target=&#34;_blank&#34;&gt;previous blog&lt;/a&gt;, which showed us how to download &lt;a href=&#34;http://spark.apache.org/&#34; target=&#34;_blank&#34;&gt;Apache Spark&lt;/a&gt; and start SparkR locally on windows OS and &lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/p&gt;
 
@@ -295,10 +295,10 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
     
     <item>
       <title>Installing and Starting SparkR Locally on Windows OS and RStudio</title>
-      <link>http://www.danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</link>
+      <link>/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</link>
       <pubDate>Sun, 26 Jul 2015 09:11:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</guid>
+      <guid>/post/2015/07/26/installing-and-starting-sparkr-locally-on-windows-8-1-and-rstudio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;With the recent release of Apache Spark 1.4.1 on July 15th, 2015, I wanted to write a step-by-step guide to help new users get up and running with SparkR locally on a Windows machine using command shell and RStudio. SparkR provides an R frontend to Apache Spark and using Spark’s distributed computation engine allows R-Users to run large scale data analysis from the R shell. The steps listed here &lt;strong&gt;WILL&lt;/strong&gt; also be documented in my upcoming online book titled &amp;ldquo;&lt;a href=&#34;http://www.danielemaasit.com/getting-started-with-sparkr/&#34; target=&#34;_blank&#34;&gt;Getting Started with SparkR for Big Data Analysis&lt;/a&gt;&amp;rdquo; which can be accessed at: &lt;a href=&#34;http://www.danielemaasit.com/getting-started-with-sparkr/&#34; target=&#34;_blank&#34;&gt;http://www.danielemaasit.com/getting-started-with-sparkr/&lt;/a&gt;. These steps will get you up and running in less than 5 mins.&lt;/p&gt;
@@ -312,7 +312,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/greenbutton.png&#34; /&gt;
+        &lt;img src=&#34;/img/greenbutton.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -328,7 +328,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/2-downloadpage.png&#34; /&gt;
+        &lt;img src=&#34;/img/2-downloadpage.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -344,7 +344,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/3-prebuilt.png&#34; /&gt;
+        &lt;img src=&#34;/img/3-prebuilt.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -360,7 +360,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/4-downloadtype.png&#34; /&gt;
+        &lt;img src=&#34;/img/4-downloadtype.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -376,7 +376,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/5-download.png&#34; /&gt;
+        &lt;img src=&#34;/img/5-download.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -392,7 +392,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/6-save.png&#34; /&gt;
+        &lt;img src=&#34;/img/6-save.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -410,7 +410,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/7-unzippedfiles.png&#34; /&gt;
+        &lt;img src=&#34;/img/7-unzippedfiles.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -428,7 +428,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/8-startcmd.png&#34; /&gt;
+        &lt;img src=&#34;/img/8-startcmd.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -444,7 +444,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/9-startsparkr.png&#34; /&gt;
+        &lt;img src=&#34;/img/9-startsparkr.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -460,7 +460,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/10-ready.png&#34; /&gt;
+        &lt;img src=&#34;/img/10-ready.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -488,7 +488,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/1-setenv.png&#34; /&gt;
+        &lt;img src=&#34;/img/1-setenv.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -508,7 +508,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/12-libpaths.png&#34; /&gt;
+        &lt;img src=&#34;/img/12-libpaths.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -528,7 +528,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/13-loadsparkr.png&#34; /&gt;
+        &lt;img src=&#34;/img/13-loadsparkr.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -550,7 +550,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/14-sc.png&#34; /&gt;
+        &lt;img src=&#34;/img/14-sc.png&#34; /&gt;
     
     
     &lt;figcaption&gt;
@@ -566,7 +566,7 @@ In a recent &lt;a href=&#34;http://bit.ly/1LbWPhl&#34; target=&#34;_blank&#34;&g
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://www.danielemaasit.com/img/15-ready.png&#34; /&gt;
+        &lt;img src=&#34;/img/15-ready.png&#34; /&gt;
     
     
     &lt;figcaption&gt;

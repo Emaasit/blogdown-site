@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Emaasit on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/</link>
+    <link>/</link>
     <description>Recent content in Daniel Emaasit on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Gaussian Process Regression and Classification with Stan</title>
-      <link>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</link>
+      <link>/talk/gaussian-processes-in-stan/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</guid>
+      <guid>/talk/gaussian-processes-in-stan/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -32,19 +32,19 @@
     
     <item>
       <title>An Integrated Travel Demand Model of Work Duration and Commute-mode Choices: A Flexible Modeling Approach</title>
-      <link>http://www.danielemaasit.com/publication/integrated-tdm/</link>
+      <link>/publication/integrated-tdm/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/integrated-tdm/</guid>
+      <guid>/publication/integrated-tdm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICYMI: My talk on Introduction to Probabilistic Machine Learning</title>
-      <link>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
+      <link>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
+      <guid>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
       <description>&lt;p&gt;Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R &amp;amp; Data Science Meetup groups.&lt;/p&gt;
 &lt;p&gt;I introduced probabilistic machine learning and probabilistic programming with Stan. I discussed the basics of machine learning from a probabilistic/Bayesian perspective and contrasted it with traditional/algorithmic machine learning. I also discussed how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly I used Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning.&lt;/p&gt;
 &lt;p&gt;Slides and code can be found on Github &lt;a href=&#34;https://bit.ly/intro-pml-lv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -63,10 +63,10 @@
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-pml/</link>
+      <link>/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/intro-to-pml/</guid>
+      <guid>/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -83,46 +83,46 @@
     
     <item>
       <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
-      <link>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</link>
+      <link>/talk/capturing-latent-travel-patterns/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</guid>
+      <guid>/talk/capturing-latent-travel-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The living roads project: Giving a voice to roads in developing cities</title>
-      <link>http://www.danielemaasit.com/publication/living-roads-project/</link>
+      <link>/publication/living-roads-project/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/living-roads-project/</guid>
+      <guid>/publication/living-roads-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stochastic dynamic user equilibrium using a mixed logit modeling framework</title>
-      <link>http://www.danielemaasit.com/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</link>
+      <link>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</guid>
+      <guid>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mixed logit-based stochastic dynamic user equilibrium</title>
-      <link>http://www.danielemaasit.com/publication/mixed-logic-based/</link>
+      <link>/publication/mixed-logic-based/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/mixed-logic-based/</guid>
+      <guid>/publication/mixed-logic-based/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
-      <link>http://www.danielemaasit.com/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <link>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
       <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <guid>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 
@@ -141,15 +141,15 @@
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
-      <link>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
+      <link>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
+      <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
       <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
 
@@ -166,13 +166,13 @@
     
     <item>
       <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
-      <link>http://www.danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
+      <link>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
+      <guid>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:&lt;/p&gt;
 
@@ -188,10 +188,10 @@
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -208,16 +208,16 @@
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Introduction to Model-Based Machine Learning</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-mbml/</link>
+      <link>/talk/intro-to-mbml/</link>
       <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/intro-to-mbml/</guid>
+      <guid>/talk/intro-to-mbml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -234,24 +234,24 @@
     
     <item>
       <title>Sustainable Urban Planning Using Big Data from Mobile Phones</title>
-      <link>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</link>
+      <link>/talk/sustainable-urban-planning-using-big-data/</link>
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</guid>
+      <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>http://www.danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
+      <link>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
       <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
+      <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
 

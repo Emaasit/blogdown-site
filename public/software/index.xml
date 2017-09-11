@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SOFTWARE on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/software/</link>
+    <link>/software/</link>
     <description>Recent content in SOFTWARE on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

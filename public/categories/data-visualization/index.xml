@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Visualization on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/categories/data-visualization/</link>
+    <link>/categories/data-visualization/</link>
     <description>Recent content in Data Visualization on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,15 +12,15 @@
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
-      <link>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
+      <link>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
+      <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
       <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
 
@@ -37,10 +37,10 @@
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -57,16 +57,16 @@
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Incase you missed it: My Webinar on Spatial Data Analysis with R</title>
-      <link>http://www.danielemaasit.com/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
+      <link>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</link>
       <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
+      <guid>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 &lt;iframe src=&#34;https://player.vimeo.com/video/156607218&#34; width=&#34;640&#34; height=&#34;480&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
@@ -89,13 +89,13 @@
     
     <item>
       <title>Webinar: Getting Started with Spatial Data Analysis with R</title>
-      <link>http://www.danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</link>
+      <link>/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</link>
       <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
+      <guid>/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
 
@@ -122,13 +122,13 @@
     
     <item>
       <title>Tracking ggplot2 Extensions</title>
-      <link>http://www.danielemaasit.com/post/2016/02/01/tracking-ggplot2-extensions/</link>
+      <link>/post/2016/02/01/tracking-ggplot2-extensions/</link>
       <pubDate>Mon, 01 Feb 2016 23:55:06 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/02/01/tracking-ggplot2-extensions/</guid>
+      <guid>/post/2016/02/01/tracking-ggplot2-extensions/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/ggplot2-2.png&#34; alt=&#34;ggplot2-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/ggplot2-2.png&#34; alt=&#34;ggplot2-2&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
 
@@ -144,23 +144,23 @@
 
 &lt;p&gt;Immediately after this announcement, several extensions started popping up. I was able to learn of some because they were posted out on twitter by &lt;a href=&#34;https://twitter.com/hadleywickham&#34; target=&#34;_blank&#34;&gt;@hadleywickham&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/screenshot_2016-01-30-10-52-46-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-46-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-52-46-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-46-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;But it got me thinking&amp;hellip;.. R users who are not active on social media must be missing out on these new cool extensions. In addition, if I didn&amp;rsquo;t check my twitter feed on a particular day, I would miss tweets about new extension-packages. This was not an effective way of searching for packages. There has to be a better way to track and list ggplot2 extensions. Quickly, I sprang into action to help fill this gap. But first, I had to find out if such an initiative already existed in the R community.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/screenshot_2016-01-30-10-52-27-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-27-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-52-27-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-27-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It turned out none existed. I quickly started developing one and a couple of hours later, we had a working website (&lt;a href=&#34;http://ggplot2-exts.github.io/&#34; target=&#34;_blank&#34;&gt;http://ggplot2-exts.github.io&lt;/a&gt;) with a list of extensions known to me then.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/ggplot2-3.png&#34; alt=&#34;ggplot2-3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/ggplot2-3.png&#34; alt=&#34;ggplot2-3&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Hadley was kind enough to inform his followers on twitter about this new initiative. (I should mention, it was the highlight of my life getting a &amp;ldquo;thumps up&amp;rdquo; from Hadley Wickham).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/screenshot_2016-02-01-15-12-16-1.png&#34; alt=&#34;Screenshot_2016-02-01-15-12-16-1&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-02-01-15-12-16-1.png&#34; alt=&#34;Screenshot_2016-02-01-15-12-16-1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As it turns out, I was not the only one concerned about this issue. Several other R users had made similar inquiries.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/screenshot_2016-01-30-10-49-14-2.png&#34; alt=&#34;Screenshot_2016-01-30-10-49-14-2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-49-14-2.png&#34; alt=&#34;Screenshot_2016-01-30-10-49-14-2&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;closing-remarks&#34;&gt;&lt;strong&gt;Closing Remarks&lt;/strong&gt;&lt;/h3&gt;
 
