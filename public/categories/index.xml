@@ -22,7 +22,7 @@
     <item>
       <title>Bayesian</title>
       <link>/categories/bayesian/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/bayesian/</guid>
       <description></description>
@@ -76,9 +76,18 @@
     <item>
       <title>Machine Learning</title>
       <link>/categories/machine-learning/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Programming</title>
+      <link>/categories/probabilistic-programming/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/probabilistic-programming/</guid>
       <description></description>
     </item>
     
@@ -88,6 +97,15 @@
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roundups</title>
+      <link>/categories/roundups/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/roundups/</guid>
       <description></description>
     </item>
     
@@ -124,15 +142,6 @@
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
       <guid>/categories/united-nations/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Webinar</title>
-      <link>/categories/webinar/</link>
-      <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
-      
-      <guid>/categories/webinar/</guid>
       <description></description>
     </item>
     

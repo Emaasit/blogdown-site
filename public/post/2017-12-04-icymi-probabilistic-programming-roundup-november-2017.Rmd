@@ -1,0 +1,50 @@
+---
+title: 'ICYMI: Probabilistic Programming Roundup November 2017'
+author: Daniel Emaasit
+date: '2017-12-04'
+slug: icymi-probabilistic-programming-roundup-november-2017
+categories:
+  - Bayesian
+  - Machine Learning
+  - Probabilistic Programming
+  - Roundups
+tags:
+  - Bayesian
+  - Data Science
+  - Probabilistic Programming
+summary: "In case you missed them, here are some articles from November 2017 of particular interest to users of [Probabilistic Programming Languages](http://probabilistic-programming.org)(PPL)."
+---
+
+In case you missed them, here are some articles from November 2017 of particular interest to users of [Probabilistic Programming Languages](http://probabilistic-programming.org)(PPL).
+
+* [Uber AI](http://uber.ai/) Lab [open sourced their deep probabilistic programming language](https://eng.uber.com/pyro/) called [Pyro](http://pyro.ai/). Pyro is a tool for deep probabilistic modeling, unifying the best of modern deeplearning and Bayesian modeling.
+
+* [PyMC3 documentation](https://buff.ly/2yQBDPu) was improved with new styling and builds on travis. You can help at this [link](https://buff.ly/2yQfilg). 
+
+* Prof. Aki Vehtari prepared [this case study](http://mc-stan.org/users/documentation/case-studies/gpareto_functions.html) to demonstrate how to implement user defined probability functions in Stan.
+
+* Michael Betancourt updated his [personal page with several Stan case studies](https://t.co/4PwsEjjoTf). Check out the robust Stan workflows in [PyStan](https://t.co/iT2WHLNVcQ) and [RStan](https://t.co/ilgsXyo5Pu).
+
+* "Statistical Rethinking" book by Richard McElreath was [ported to PyMC3 and Python](https://t.co/B4q3PYa8bJ).
+
+* A message by Christopher Fonnesbeck on [Theano and the Future of PyMC](https://www.numfocus.org/blog/theano-and-the-future-of-pymc/S).
+
+* Join this [discussion](https://t.co/O467r31TF1) to help shape the future of PyMC3. With Theano development stopping, a new backend is needed for PyMC.
+
+* A [study using PyMC3 about penalty scoring & saving ability](https://t.co/M4NaUrXErB) in Major League Soccer (MLS). The conclusion was that it is hard to tell who is good at them.
+
+* In this video, Prof. Zoubin Ghahramani (Uber AI labs & University of Cambridge) made the case for the use of Probabilistic Programming. <iframe width="560" height="315" src="https://www.youtube.com/embed/-47G_ULKAHk?t=43m13s" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+* Blei et al. (2017) prepared this gentle [review of variational inference](https://arxiv.org/abs/1601.00670) for non-ML researchers.
+
+* A [lecture series](https://t.co/rFZ2iNOgSS) to help you get started with Bayesian modeling using PyMC3.
+
+* [Slides](http://austinrochford.com/resources/talks/nba-fouls-pydata-nyc-2017.slides.html#/) by Austin Rochford explaining NBA foul calls with Python and PyMC3. 
+
+* A blog post by Jim Savage on [Bayesian Instrumental variables in Stan](https://t.co/1yt97FeTCo). 
+
+* A Blog post about [diffusion/Wiener model analysis with Stan](https://t.co/1Te3gNAHlI) using R package brms.
+
+* Kevin Pei's blog post on [hierarchical Bayesian rating in PyMC3](https://t.co/8AB7UkdUtj) with application to eSports. 
+
+Please send any suggestions that I may have missed to me at [daniel.emaasit@gmail.com](mailto:daniel.emaasit@gmail.com). For weekly updates, follow me on Twitter @[emaasit](https://twitter.com/emaasit).

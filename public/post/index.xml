@@ -11,6 +11,34 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ICYMI: Probabilistic Programming Roundup November 2017</title>
+      <link>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
+      <description>&lt;p&gt;In case you missed them, here are some articles from November 2017 of particular interest to users of &lt;a href=&#34;http://probabilistic-programming.org&#34;&gt;Probabilistic Programming Languages&lt;/a&gt;(PPL).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://uber.ai/&#34;&gt;Uber AI&lt;/a&gt; Lab &lt;a href=&#34;https://eng.uber.com/pyro/&#34;&gt;open sourced their deep probabilistic programming language&lt;/a&gt; called &lt;a href=&#34;http://pyro.ai/&#34;&gt;Pyro&lt;/a&gt;. Pyro is a tool for deep probabilistic modeling, unifying the best of modern deeplearning and Bayesian modeling.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://buff.ly/2yQBDPu&#34;&gt;PyMC3 documentation&lt;/a&gt; was improved with new styling and builds on travis. You can help at this &lt;a href=&#34;https://buff.ly/2yQfilg&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Prof. Aki Vehtari prepared &lt;a href=&#34;http://mc-stan.org/users/documentation/case-studies/gpareto_functions.html&#34;&gt;this case study&lt;/a&gt; to demonstrate how to implement user defined probability functions in Stan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Michael Betancourt updated his &lt;a href=&#34;https://t.co/4PwsEjjoTf&#34;&gt;personal page with several Stan case studies&lt;/a&gt;. Check out the robust Stan workflows in &lt;a href=&#34;https://t.co/iT2WHLNVcQ&#34;&gt;PyStan&lt;/a&gt; and &lt;a href=&#34;https://t.co/ilgsXyo5Pu&#34;&gt;RStan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“Statistical Rethinking” book by Richard McElreath was &lt;a href=&#34;https://t.co/B4q3PYa8bJ&#34;&gt;ported to PyMC3 and Python&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A message by Christopher Fonnesbeck on &lt;a href=&#34;https://www.numfocus.org/blog/theano-and-the-future-of-pymc/S&#34;&gt;Theano and the Future of PyMC&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Join this &lt;a href=&#34;https://t.co/O467r31TF1&#34;&gt;discussion&lt;/a&gt; to help shape the future of PyMC3. With Theano development stopping, a new backend is needed for PyMC.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://t.co/M4NaUrXErB&#34;&gt;study using PyMC3 about penalty scoring &amp;amp; saving ability&lt;/a&gt; in Major League Soccer (MLS). The conclusion was that it is hard to tell who is good at them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In this video, Prof. Zoubin Ghahramani (Uber AI labs &amp;amp; University of Cambridge) made the case for the use of Probabilistic Programming. &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-47G_ULKAHk?t=43m13s&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blei et al. (2017) prepared this gentle &lt;a href=&#34;https://arxiv.org/abs/1601.00670&#34;&gt;review of variational inference&lt;/a&gt; for non-ML researchers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://t.co/rFZ2iNOgSS&#34;&gt;lecture series&lt;/a&gt; to help you get started with Bayesian modeling using PyMC3.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://austinrochford.com/resources/talks/nba-fouls-pydata-nyc-2017.slides.html#/&#34;&gt;Slides&lt;/a&gt; by Austin Rochford explaining NBA foul calls with Python and PyMC3.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A blog post by Jim Savage on &lt;a href=&#34;https://t.co/1yt97FeTCo&#34;&gt;Bayesian Instrumental variables in Stan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A Blog post about &lt;a href=&#34;https://t.co/1Te3gNAHlI&#34;&gt;diffusion/Wiener model analysis with Stan&lt;/a&gt; using R package brms.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Kevin Pei’s blog post on &lt;a href=&#34;https://t.co/8AB7UkdUtj&#34;&gt;hierarchical Bayesian rating in PyMC3&lt;/a&gt; with application to eSports.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please send any suggestions that I may have missed to me at &lt;a href=&#34;mailto:daniel.emaasit@gmail.com&#34;&gt;daniel.emaasit@gmail.com&lt;/a&gt;. For weekly updates, follow me on Twitter @&lt;a href=&#34;https://twitter.com/emaasit&#34;&gt;emaasit&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>ICYMI: My talk on Introduction to Probabilistic Machine Learning</title>
       <link>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>

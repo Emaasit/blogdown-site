@@ -11,6 +11,34 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>ICYMI: Probabilistic Programming Roundup November 2017</title>
+      <link>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
+      <description>&lt;p&gt;In case you missed them, here are some articles from November 2017 of particular interest to users of &lt;a href=&#34;http://probabilistic-programming.org&#34;&gt;Probabilistic Programming Languages&lt;/a&gt;(PPL).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://uber.ai/&#34;&gt;Uber AI&lt;/a&gt; Lab &lt;a href=&#34;https://eng.uber.com/pyro/&#34;&gt;open sourced their deep probabilistic programming language&lt;/a&gt; called &lt;a href=&#34;http://pyro.ai/&#34;&gt;Pyro&lt;/a&gt;. Pyro is a tool for deep probabilistic modeling, unifying the best of modern deeplearning and Bayesian modeling.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://buff.ly/2yQBDPu&#34;&gt;PyMC3 documentation&lt;/a&gt; was improved with new styling and builds on travis. You can help at this &lt;a href=&#34;https://buff.ly/2yQfilg&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Prof. Aki Vehtari prepared &lt;a href=&#34;http://mc-stan.org/users/documentation/case-studies/gpareto_functions.html&#34;&gt;this case study&lt;/a&gt; to demonstrate how to implement user defined probability functions in Stan.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Michael Betancourt updated his &lt;a href=&#34;https://t.co/4PwsEjjoTf&#34;&gt;personal page with several Stan case studies&lt;/a&gt;. Check out the robust Stan workflows in &lt;a href=&#34;https://t.co/iT2WHLNVcQ&#34;&gt;PyStan&lt;/a&gt; and &lt;a href=&#34;https://t.co/ilgsXyo5Pu&#34;&gt;RStan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“Statistical Rethinking” book by Richard McElreath was &lt;a href=&#34;https://t.co/B4q3PYa8bJ&#34;&gt;ported to PyMC3 and Python&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A message by Christopher Fonnesbeck on &lt;a href=&#34;https://www.numfocus.org/blog/theano-and-the-future-of-pymc/S&#34;&gt;Theano and the Future of PyMC&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Join this &lt;a href=&#34;https://t.co/O467r31TF1&#34;&gt;discussion&lt;/a&gt; to help shape the future of PyMC3. With Theano development stopping, a new backend is needed for PyMC.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://t.co/M4NaUrXErB&#34;&gt;study using PyMC3 about penalty scoring &amp;amp; saving ability&lt;/a&gt; in Major League Soccer (MLS). The conclusion was that it is hard to tell who is good at them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In this video, Prof. Zoubin Ghahramani (Uber AI labs &amp;amp; University of Cambridge) made the case for the use of Probabilistic Programming. &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-47G_ULKAHk?t=43m13s&#34; frameborder=&#34;0&#34; gesture=&#34;media&#34; allow=&#34;encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Blei et al. (2017) prepared this gentle &lt;a href=&#34;https://arxiv.org/abs/1601.00670&#34;&gt;review of variational inference&lt;/a&gt; for non-ML researchers.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A &lt;a href=&#34;https://t.co/rFZ2iNOgSS&#34;&gt;lecture series&lt;/a&gt; to help you get started with Bayesian modeling using PyMC3.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://austinrochford.com/resources/talks/nba-fouls-pydata-nyc-2017.slides.html#/&#34;&gt;Slides&lt;/a&gt; by Austin Rochford explaining NBA foul calls with Python and PyMC3.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A blog post by Jim Savage on &lt;a href=&#34;https://t.co/1yt97FeTCo&#34;&gt;Bayesian Instrumental variables in Stan&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A Blog post about &lt;a href=&#34;https://t.co/1Te3gNAHlI&#34;&gt;diffusion/Wiener model analysis with Stan&lt;/a&gt; using R package brms.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Kevin Pei’s blog post on &lt;a href=&#34;https://t.co/8AB7UkdUtj&#34;&gt;hierarchical Bayesian rating in PyMC3&lt;/a&gt; with application to eSports.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please send any suggestions that I may have missed to me at &lt;a href=&#34;mailto:daniel.emaasit@gmail.com&#34;&gt;daniel.emaasit@gmail.com&lt;/a&gt;. For weekly updates, follow me on Twitter @&lt;a href=&#34;https://twitter.com/emaasit&#34;&gt;emaasit&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Gaussian Process Regression and Classification with Stan</title>
       <link>/talk/gaussian-processes-in-stan/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
@@ -239,28 +267,6 @@
       
       <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>A Preview of My Talk for the Data Science Africa Workshop organized by the United Nations</title>
-      <link>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</link>
-      <pubDate>Tue, 28 Jun 2016 10:36:32 +0000</pubDate>
-      
-      <guid>/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/un.png&#34; alt=&#34;un&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am excited to be invited by the &lt;a href=&#34;http://www.unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse lab&lt;/a&gt; to speak at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2nd Data Science Africa Workshop&lt;/a&gt; scheduled to take place in Kampala, Uganda from 30th June to 1st July. The theme of this workshop is &amp;ldquo;&lt;em&gt;Using data science to monitor and achieve the global goals (UNDP goals) in Africa&lt;/em&gt;&amp;rdquo;. I will be speaking particularly on &amp;ldquo;&lt;em&gt;Data Science for Sustainable Cities&amp;rdquo;&lt;/em&gt;. My talk is titled: &amp;ldquo;&lt;em&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/em&gt;&amp;rdquo;; which is the work I am doing as part of my PhD research. Particularly, I will talk about how developing countries can leverage low-cost, readily available and massive amounts of mobile phone data to improve their Transportation Planning policies.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/congestion1.jpg&#34; alt=&#34;congestion1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the past decades, there has been rapid urbanization as more and more people migrate into cities. The World Health Organization (WHO) estimates that by 2017, a majority of people will be living in urban areas. By 2030, 5 billion people—60 percent of the world’s population—will live in cities, compared with 3.6 billion in 2013. Developing nations must cope with this rapid urbanization. Transportation and urban planners must estimate travel demand for transportation facilities and use this to plan transportation infrastructure. Presently, the technique used for transportation planning uses data inputs from local and national household travel surveys. However, these surveys are expensive to conduct, cover smaller areas of cities and the time between surveys range from 5 to 10 years. This calls for new and innovative ways for Transportation Planning using new data sources.&lt;/p&gt;
-
-&lt;p&gt;In recent years, we have witnessed the proliferation of ubiquitous mobile computing devices in developing countries. These mobile phones capture the movement of vehicles and people in near real time and generate massive amounts of new data.  My PhD research investigates how we can utilize anonymized mobile phone data ( i.e. Call Detail Records) and probabilistic machine learning to infer travel/mobility patterns. One of the objectives of this research is to demonstrate that these new “big” data sources are cheaper alternatives for transport modeling and travel behavior studies.&lt;/p&gt;
-
-&lt;p&gt;We&amp;rsquo;ll have various UN and government people doing urban planning who I think would enjoy this topic — see you there! .&lt;/p&gt;
-
-&lt;p&gt;If you haven’t already, register for &lt;a href=&#34;http://goo.gl/forms/Et8ztKOQmo&#34; target=&#34;_blank&#34;&gt;Data Science Africa Workshop 2016 here&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
