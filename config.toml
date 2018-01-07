@@ -1,6 +1,6 @@
 baseurl = "http://www.danielemaasit.com/"
 title = "Daniel Emaasit"
-copyright = "&copy; 2016 Daniel Emaasit"
+copyright = "&copy; 2018 Daniel Emaasit"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -23,15 +23,15 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Daniel Emaasit"
-  role = "Ph.D. Candidate of Transportation Engineering"
-  organization = "University of Nevada Las Vegas"
-  organization_url = "https://www.unlv.edu/"
+  role = "Data Scientist"
+  organization = "Haystax Technology"
+  organization_url = "https://www.haystax.com/"
   gravatar = true  # Get your avatar from Gravatar.com? (true/false)
   avatar = "dan-dv.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "daniel.emaasit@gmail.com"
-  address = "Science and Engineering Building (SEB) Room 240, University of Nevada, Las Vegas, Nevada, USA"
-  office_hours = "Monday - Friday 9:00 to 17:00 or email for appointment"
-  phone = "702 895 3701"
+  address = "8251 Greensboro Dr, Suite 1000, McLean, Virginia, USA"
+  office_hours = "Monday - Friday 8:00 to 16:00 or email for appointment"
+  phone = "571 297 3800"
   skype = ""
   telegram = ""
 
