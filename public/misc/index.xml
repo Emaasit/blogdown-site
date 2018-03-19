@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MISC on Daniel Emaasit</title>
-    <link>/misc/</link>
+    <link>http://www.danielemaasit.com/misc/</link>
     <description>Recent content in MISC on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

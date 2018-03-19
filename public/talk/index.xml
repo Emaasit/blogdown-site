@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Daniel Emaasit</title>
-    <link>/talk/</link>
+    <link>http://www.danielemaasit.com/talk/</link>
     <description>Recent content in Talks on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>Gaussian Process Regression and Classification with Stan</title>
-      <link>/talk/gaussian-processes-in-stan/</link>
+      <link>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/gaussian-processes-in-stan/</guid>
+      <guid>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -32,10 +32,10 @@
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>/talk/intro-to-pml/</link>
+      <link>http://www.danielemaasit.com/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/intro-to-pml/</guid>
+      <guid>http://www.danielemaasit.com/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -52,19 +52,19 @@
     
     <item>
       <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
-      <link>/talk/capturing-latent-travel-patterns/</link>
+      <link>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/talk/capturing-latent-travel-patterns/</guid>
+      <guid>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introduction to Model-Based Machine Learning</title>
-      <link>/talk/intro-to-mbml/</link>
+      <link>http://www.danielemaasit.com/talk/intro-to-mbml/</link>
       <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talk/intro-to-mbml/</guid>
+      <guid>http://www.danielemaasit.com/talk/intro-to-mbml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -81,19 +81,19 @@
     
     <item>
       <title>Sustainable Urban Planning Using Big Data from Mobile Phones</title>
-      <link>/talk/sustainable-urban-planning-using-big-data/</link>
+      <link>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</link>
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
+      <guid>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deploying Predictive Models in R</title>
-      <link>/talk/deploying-predictive-models/</link>
+      <link>http://www.danielemaasit.com/talk/deploying-predictive-models/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talk/deploying-predictive-models/</guid>
+      <guid>http://www.danielemaasit.com/talk/deploying-predictive-models/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -109,10 +109,10 @@
     
     <item>
       <title>Workflow for Managing Utility Information</title>
-      <link>/talk/workflow-for-managing-utility-info/</link>
+      <link>http://www.danielemaasit.com/talk/workflow-for-managing-utility-info/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>/talk/workflow-for-managing-utility-info/</guid>
+      <guid>http://www.danielemaasit.com/talk/workflow-for-managing-utility-info/</guid>
       <description></description>
     </item>
     

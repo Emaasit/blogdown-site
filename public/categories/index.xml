@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Daniel Emaasit</title>
-    <link>/categories/</link>
+    <link>http://www.danielemaasit.com/categories/</link>
     <description>Recent content in Categories on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,136 +12,136 @@
     
     <item>
       <title>Apache Spark</title>
-      <link>/categories/apache-spark/</link>
+      <link>http://www.danielemaasit.com/categories/apache-spark/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/categories/apache-spark/</guid>
+      <guid>http://www.danielemaasit.com/categories/apache-spark/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bayesian</title>
-      <link>/categories/bayesian/</link>
-      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      <link>http://www.danielemaasit.com/categories/bayesian/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/bayesian/</guid>
+      <guid>http://www.danielemaasit.com/categories/bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Big Data</title>
-      <link>/categories/big-data/</link>
+      <link>http://www.danielemaasit.com/categories/big-data/</link>
       <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
       
-      <guid>/categories/big-data/</guid>
+      <guid>http://www.danielemaasit.com/categories/big-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conference</title>
-      <link>/categories/conference/</link>
+      <link>http://www.danielemaasit.com/categories/conference/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>/categories/conference/</guid>
+      <guid>http://www.danielemaasit.com/categories/conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>/categories/data-science/</link>
-      <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+      <link>http://www.danielemaasit.com/categories/data-science/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/data-science/</guid>
+      <guid>http://www.danielemaasit.com/categories/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Visualization</title>
-      <link>/categories/data-visualization/</link>
+      <link>http://www.danielemaasit.com/categories/data-visualization/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>/categories/data-visualization/</guid>
+      <guid>http://www.danielemaasit.com/categories/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaussian Process</title>
+      <link>http://www.danielemaasit.com/categories/gaussian-process/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.danielemaasit.com/categories/gaussian-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ggplot2</title>
-      <link>/categories/ggplot2/</link>
+      <link>http://www.danielemaasit.com/categories/ggplot2/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>/categories/ggplot2/</guid>
+      <guid>http://www.danielemaasit.com/categories/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>/categories/machine-learning/</link>
-      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      <link>http://www.danielemaasit.com/categories/machine-learning/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/machine-learning/</guid>
+      <guid>http://www.danielemaasit.com/categories/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probabilistic Programming</title>
-      <link>/categories/probabilistic-programming/</link>
+      <link>http://www.danielemaasit.com/categories/probabilistic-programming/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/probabilistic-programming/</guid>
+      <guid>http://www.danielemaasit.com/categories/probabilistic-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>http://www.danielemaasit.com/categories/r/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/r/</guid>
+      <guid>http://www.danielemaasit.com/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roundups</title>
-      <link>/categories/roundups/</link>
+      <link>http://www.danielemaasit.com/categories/roundups/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/categories/roundups/</guid>
+      <guid>http://www.danielemaasit.com/categories/roundups/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>/categories/rstudio/</link>
+      <link>http://www.danielemaasit.com/categories/rstudio/</link>
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
-      <guid>/categories/rstudio/</guid>
+      <guid>http://www.danielemaasit.com/categories/rstudio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shiny</title>
-      <link>/categories/shiny/</link>
+      <link>http://www.danielemaasit.com/categories/shiny/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/categories/shiny/</guid>
+      <guid>http://www.danielemaasit.com/categories/shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sparkr</title>
-      <link>/categories/sparkr/</link>
+      <link>http://www.danielemaasit.com/categories/sparkr/</link>
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
-      <guid>/categories/sparkr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>United Nations</title>
-      <link>/categories/united-nations/</link>
-      <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
-      
-      <guid>/categories/united-nations/</guid>
+      <guid>http://www.danielemaasit.com/categories/sparkr/</guid>
       <description></description>
     </item>
     
