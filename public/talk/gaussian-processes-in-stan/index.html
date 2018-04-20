@@ -48,17 +48,17 @@
     
   
 
-  <link rel="alternate" href="http://www.danielemaasit.com/index.xml" type="application/rss+xml" title="Daniel Emaasit">
-  <link rel="feed" href="http://www.danielemaasit.com/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="http://www.danielemaasit.com/talk/gaussian-processes-in-stan/">
+  <link rel="canonical" href="/talk/gaussian-processes-in-stan/">
 
   
 
-  <title>Gaussian Process Regression and Classification with Stan | Daniel Emaasit</title>
+  <title>Gaussian Process Regression and Classification with PyMC3 | Daniel Emaasit</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -196,7 +196,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Gaussian Process Regression and Classification with Stan</h1>
+      <h1 itemprop="name">Gaussian Process Regression and Classification with PyMC3</h1>
       <span class="pub-authors" itemprop="author">
         
       </span>
@@ -206,35 +206,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.danielemaasit.com%2ftalk%2fgaussian-processes-in-stan%2f"
+         href="https://www.facebook.com/sharer.php?u=%2ftalk%2fgaussian-processes-in-stan%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Gaussian%20Process%20Regression%20and%20Classification%20with%20Stan&amp;url=http%3a%2f%2fwww.danielemaasit.com%2ftalk%2fgaussian-processes-in-stan%2f"
+         href="https://twitter.com/intent/tweet?text=Gaussian%20Process%20Regression%20and%20Classification%20with%20PyMC3&amp;url=%2ftalk%2fgaussian-processes-in-stan%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fwww.danielemaasit.com%2ftalk%2fgaussian-processes-in-stan%2f&amp;title=Gaussian%20Process%20Regression%20and%20Classification%20with%20Stan"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2ftalk%2fgaussian-processes-in-stan%2f&amp;title=Gaussian%20Process%20Regression%20and%20Classification%20with%20PyMC3"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fwww.danielemaasit.com%2ftalk%2fgaussian-processes-in-stan%2f&amp;title=Gaussian%20Process%20Regression%20and%20Classification%20with%20Stan"
+         href="http://service.weibo.com/share/share.php?url=%2ftalk%2fgaussian-processes-in-stan%2f&amp;title=Gaussian%20Process%20Regression%20and%20Classification%20with%20PyMC3"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Gaussian%20Process%20Regression%20and%20Classification%20with%20Stan&amp;body=http%3a%2f%2fwww.danielemaasit.com%2ftalk%2fgaussian-processes-in-stan%2f">
+         href="mailto:?subject=Gaussian%20Process%20Regression%20and%20Classification%20with%20PyMC3&amp;body=%2ftalk%2fgaussian-processes-in-stan%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -247,7 +247,7 @@
 
     
       <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Gaussian processes (GPs) are a powerful, non-parametric Bayesian method that can be used in supervised learning and classification problems. The main advantages of this method are the ability of GPs to provide uncertainty estimates and to learn functions of the underlying phenomena from training data. The aim of this meetup is to introduce GPs for regression and classification with Stan. We will discuss the basics of GPs as a nonparametric Bayesian method. We will also discuss how to build GP models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use Stan (within R), a PP language, to build GP models for regression and classification.</p>
+      <p class="pub-abstract" itemprop="text">Gaussian processes (GPs) are a powerful, non-parametric Bayesian method that can be used in supervised learning and classification problems. The main advantages of this method are the ability of GPs to provide uncertainty estimates and to learn functions of the underlying phenomena from training data. The aim of this meetup is to introduce GPs for regression and classification with Stan. We will discuss the basics of GPs as a nonparametric Bayesian method. We will also discuss how to build GP models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly we shall use PyMC3, a PP language, to build GP models for regression and classification.</p>
     
 
     <div class="row">
@@ -256,7 +256,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            Thu, Oct 26, 2017
+            Sun, Aug 26, 2018
           </div>
         </div>
       </div>
@@ -270,8 +270,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Event</div>
           <div class="col-xs-12 col-sm-9">
-            <a href="https://www.meetup.com/Las-Vegas-R-Users-Group/events/242518621/" target="_blank">
-            Las Vegas R &amp; Data Science Meetup
+            <a href="https://www.meetup.com/Bayesian-Data-Science-DC/" target="_blank">
+            Bayesian Data Science DC Meetup
             </a>
           </div>
         </div>
@@ -286,7 +286,7 @@
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Location</div>
-          <div class="col-xs-12 col-sm-9">Las Vegas, Nevada</div>
+          <div class="col-xs-12 col-sm-9">McLean, Virginia</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -320,8 +320,8 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="http://www.danielemaasit.com/talk/intro-to-pml/"><span
-      aria-hidden="true">&larr;</span> Introduction to Probabilistic Machine Learning with Stan</a></li>
+    <li class="previous"><a href="/talk/intro-to-pml-pymc3/"><span
+      aria-hidden="true">&larr;</span> Introduction to Probabilistic Machine Learning with PyMC3</a></li>
     
 
     

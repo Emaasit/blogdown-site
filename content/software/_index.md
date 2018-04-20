@@ -26,11 +26,10 @@ weight = 1
                     <h2 class="section-heading">Software:
                         <br>Open-Source Projects</h2>
                     <p class="lead">
-                        I am leveraging several open-source programs to conduct data science on real world problems including
-                        but not limited to Transportation Engineering problems. My favorite open-source
-                        languages are <a href="http://r-project.org/" target="_blank">R</a> and <a href="https://isocpp.org/" target="_blank">C++</a>. For data analytics, I regularly use tools such as <a href="http://mc-stan.org/" target="_blank">Stan</a>, <a href="https://spark.rstudio.com/index.html" target="_blank">Apache Spark</a>, 
-                        <a href="http://shiny.rstudio.com/" target="_blank">Shiny</a>, and 
-                        <a href="https://plot.ly/" target="_blank">Plotly</a>.
+                        I am leveraging several open-source programs to conduct data science on real world problems. My favorite open-source
+                        languages are <a href="https://www.python.org/" target="_blank">Python</a>, <a href="http://r-project.org/" target="_blank">R</a> and <a href="https://isocpp.org/" target="_blank">C++</a>. For model building, I use tools such as <a href="http://docs.pymc.io" target="_blank">PyMC3</a> and <a href="http://mc-stan.org/" target="_blank">Stan</a>. For data manipulation, I use <a href="http://dask.pydata.org/en/latest/" target="_blank">dask</a>, 
+                        <a href="https://pandas.pydata.org/" target="_blank">pandas</a>, and 
+                        <a href="https://www.tidyverse.org/" target="_blank">tidyverse tools</a> including dplyr, ggplot2, & purrr.
                         My recent open-source projects include:
 
                     </p><ul class="fa-ul">

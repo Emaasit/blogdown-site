@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Emaasit on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/</link>
+    <link>/</link>
     <description>Recent content in Daniel Emaasit on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Gaussian Process Regression and Classification with PyMC3</title>
+      <link>/talk/gaussian-processes-in-stan/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/gaussian-processes-in-stan/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Probabilistic Machine Learning with PyMC3</title>
+      <link>/talk/intro-to-pml-pymc3/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/intro-to-pml-pymc3/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Gaussian Processes with Spectral Mixture Kernels to Implicitly Capture Hidden Structure from Data</title>
-      <link>http://www.danielemaasit.com/post/2018/03/19/gaussian-processes-with-spectral-mixture-kernels-to-implicitly-capture-hidden-structure-from-data/</link>
+      <link>/post/2018/03/19/gaussian-processes-with-spectral-mixture-kernels-to-implicitly-capture-hidden-structure-from-data/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2018/03/19/gaussian-processes-with-spectral-mixture-kernels-to-implicitly-capture-hidden-structure-from-data/</guid>
+      <guid>/post/2018/03/19/gaussian-processes-with-spectral-mixture-kernels-to-implicitly-capture-hidden-structure-from-data/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;(Note: Cross-posted with the &lt;a href=&#34;https://wp.me/p7rVtH-1Fv&#34; target=&#34;_blank&#34;&gt;Haystax Technology Blog&lt;/a&gt;.)&lt;/strong&gt;&lt;/p&gt;
@@ -720,10 +760,10 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>ICYMI: Probabilistic Programming Roundup November 2017</title>
-      <link>http://www.danielemaasit.com/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
+      <link>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
+      <guid>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
       <description>&lt;p&gt;In case you missed them, here are some articles from November 2017 of particular interest to users of &lt;a href=&#34;http://probabilistic-programming.org&#34;&gt;Probabilistic Programming Languages&lt;/a&gt;(PPL).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://uber.ai/&#34;&gt;Uber AI&lt;/a&gt; Lab &lt;a href=&#34;https://eng.uber.com/pyro/&#34;&gt;open sourced their deep probabilistic programming language&lt;/a&gt; called &lt;a href=&#34;http://pyro.ai/&#34;&gt;Pyro&lt;/a&gt;. Pyro is a tool for deep probabilistic modeling, unifying the best of modern deeplearning and Bayesian modeling.&lt;/p&gt;&lt;/li&gt;
@@ -747,40 +787,20 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     </item>
     
     <item>
-      <title>Gaussian Process Regression and Classification with Stan</title>
-      <link>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</link>
-      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
-&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>An Integrated Travel Demand Model of Work Duration and Commute-mode Choices: A Flexible Modeling Approach</title>
-      <link>http://www.danielemaasit.com/publication/integrated-tdm/</link>
+      <link>/publication/integrated-tdm/</link>
       <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/integrated-tdm/</guid>
+      <guid>/publication/integrated-tdm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ICYMI: My talk on Introduction to Probabilistic Machine Learning</title>
-      <link>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
+      <link>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
+      <guid>/post/2017/08/14/introduction-to-probabilistic-machine-learning/</guid>
       <description>&lt;p&gt;Incase you missed it, here is a recording of my talk on Introduction to Probabilisitic Machine Learning at the Las Vegas R &amp;amp; Data Science Meetup groups.&lt;/p&gt;
 &lt;p&gt;I introduced probabilistic machine learning and probabilistic programming with Stan. I discussed the basics of machine learning from a probabilistic/Bayesian perspective and contrasted it with traditional/algorithmic machine learning. I also discussed how to build probabilistic models in computer code using a new exciting programming paradigm called Probabilistic Programming (PP). Particularly I used Stan (within R), a PP language, to build models ranging from simple generalized linear models to complex hierarchical models and nonparametric models for machine learning.&lt;/p&gt;
 &lt;p&gt;Slides and code can be found on Github &lt;a href=&#34;https://bit.ly/intro-pml-lv&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -799,10 +819,10 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-pml/</link>
+      <link>/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/intro-to-pml/</guid>
+      <guid>/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -819,46 +839,46 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
-      <link>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</link>
+      <link>/talk/capturing-latent-travel-patterns/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</guid>
+      <guid>/talk/capturing-latent-travel-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The living roads project: Giving a voice to roads in developing cities</title>
-      <link>http://www.danielemaasit.com/publication/living-roads-project/</link>
+      <link>/publication/living-roads-project/</link>
       <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/living-roads-project/</guid>
+      <guid>/publication/living-roads-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stochastic dynamic user equilibrium using a mixed logit modeling framework</title>
-      <link>http://www.danielemaasit.com/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</link>
+      <link>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</link>
       <pubDate>Mon, 26 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</guid>
+      <guid>/publication/stochastic-dynamic-user-equilibrium-mixed-logit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mixed logit-based stochastic dynamic user equilibrium</title>
-      <link>http://www.danielemaasit.com/publication/mixed-logic-based/</link>
+      <link>/publication/mixed-logic-based/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/publication/mixed-logic-based/</guid>
+      <guid>/publication/mixed-logic-based/</guid>
       <description></description>
     </item>
     
     <item>
       <title>In case you missed it: My Webinar on Model-Based Machine Learning</title>
-      <link>http://www.danielemaasit.com/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
+      <link>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</link>
       <pubDate>Wed, 03 Aug 2016 07:41:44 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
+      <guid>/post/2016/08/03/in-case-you-missed-it-my-webinar-on-model-based-machine-learning/</guid>
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 
@@ -877,15 +897,15 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
-      <link>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
+      <link>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
+      <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
       <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
 
@@ -902,13 +922,13 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
-      <link>http://www.danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
+      <link>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
       <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
+      <guid>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
       <description>
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:&lt;/p&gt;
 
@@ -924,10 +944,10 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
     
     <item>
       <title>Incase you missed it: My Talk at the United Nations Global Pulse Workshop</title>
-      <link>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
+      <link>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</link>
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
+      <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
       <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -944,27 +964,7 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
 
 &lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.danielemaasit.com/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Model-Based Machine Learning</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-mbml/</link>
-      <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.danielemaasit.com/talk/intro-to-mbml/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
-&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

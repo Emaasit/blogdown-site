@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,92 +12,92 @@
     
     <item>
       <title>Content tagged as &#39;Academic&#39;</title>
-      <link>http://www.danielemaasit.com/tags/academic/</link>
+      <link>/tags/academic/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/academic/</guid>
+      <guid>/tags/academic/</guid>
       <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bayesian</title>
-      <link>http://www.danielemaasit.com/tags/bayesian/</link>
+      <link>/tags/bayesian/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/bayesian/</guid>
+      <guid>/tags/bayesian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>http://www.danielemaasit.com/tags/data-science/</link>
+      <link>/tags/data-science/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/data-science/</guid>
+      <guid>/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gaussian Process</title>
-      <link>http://www.danielemaasit.com/tags/gaussian-process/</link>
+      <link>/tags/gaussian-process/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/gaussian-process/</guid>
+      <guid>/tags/gaussian-process/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://www.danielemaasit.com/tags/machine-learning/</link>
+      <link>/tags/machine-learning/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/machine-learning/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meetup</title>
-      <link>http://www.danielemaasit.com/tags/meetup/</link>
+      <link>/tags/meetup/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/meetup/</guid>
+      <guid>/tags/meetup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probabilistic Programming</title>
-      <link>http://www.danielemaasit.com/tags/probabilistic-programming/</link>
+      <link>/tags/probabilistic-programming/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/probabilistic-programming/</guid>
+      <guid>/tags/probabilistic-programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://www.danielemaasit.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Smart Cities</title>
-      <link>http://www.danielemaasit.com/tags/smart-cities/</link>
+      <link>/tags/smart-cities/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/smart-cities/</guid>
+      <guid>/tags/smart-cities/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Urban Mobility</title>
-      <link>http://www.danielemaasit.com/tags/urban-mobility/</link>
+      <link>/tags/urban-mobility/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/tags/urban-mobility/</guid>
+      <guid>/tags/urban-mobility/</guid>
       <description></description>
     </item>
     

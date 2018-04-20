@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Roundups on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/categories/roundups/</link>
+    <link>/categories/roundups/</link>
     <description>Recent content in Roundups on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,10 +12,10 @@
     
     <item>
       <title>ICYMI: Probabilistic Programming Roundup November 2017</title>
-      <link>http://www.danielemaasit.com/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
+      <link>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</link>
       <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
+      <guid>/post/2017/12/04/icymi-probabilistic-programming-roundup-november-2017/</guid>
       <description>&lt;p&gt;In case you missed them, here are some articles from November 2017 of particular interest to users of &lt;a href=&#34;http://probabilistic-programming.org&#34;&gt;Probabilistic Programming Languages&lt;/a&gt;(PPL).&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://uber.ai/&#34;&gt;Uber AI&lt;/a&gt; Lab &lt;a href=&#34;https://eng.uber.com/pyro/&#34;&gt;open sourced their deep probabilistic programming language&lt;/a&gt; called &lt;a href=&#34;http://pyro.ai/&#34;&gt;Pyro&lt;/a&gt;. Pyro is a tool for deep probabilistic modeling, unifying the best of modern deeplearning and Bayesian modeling.&lt;/p&gt;&lt;/li&gt;

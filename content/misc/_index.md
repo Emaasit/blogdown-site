@@ -25,9 +25,9 @@ weight = 1
                     <h2 class="section-heading">Meetups:
                         <br>Data Science & R Meetups</h2>
                     <p class="lead">
-                        I am the organiser of several R & Data Science Meetup groups in <a href="http://datascience.vegas" target="_blank">Las Vegas (USA)</a>
+                        I am the organiser of several Data Science Meetup groups in <a href="https://www.meetup.com/Bayesian-Data-Science-DC/" target="_blank">Washington D.C. (USA)</a>
                         and <a href="http://datascience-africa.org" target="_blank">Africa</a>. These are non-profit professional groups that bring
-                        together people interested in data science and R-programming in the respective communities to discuss topics such as:
+                        together people interested in data science in the respective communities to discuss topics such as:
                     </p>
                     <ul class="fa-ul">
                         <li><i class="fa-li fa fa-check-square"></i>

@@ -39,6 +39,6 @@ weight = 1
 
 # About Me
 
-I am a Data Scientist at [Haystax Technology](https://www.haystax.com). My interests involve developing principled [probabilistic models](http://mlg.eng.cam.ac.uk/zoubin/bayesian.html) for problems where training data are scarce by leveraging knowledge from subject-matter experts and context information. In particular, I am interested in [flexible](http://mlg.eng.cam.ac.uk/pub/topics/#np) [probabilistic/Bayesian machine learning](http://mlg.eng.cam.ac.uk/zoubin/bayesian.html) methods, such as Gaussian processes and Dirichlet processes, and data-efficient learning methods such as Bayesian optimization.
+I am a Data Scientist at [Haystax Technology](https://www.haystax.com). My interests involve developing principled [probabilistic models](http://mlg.eng.cam.ac.uk/zoubin/bayesian.html) for problems where training data are scarce by leveraging knowledge from subject-matter experts and context information. In particular, I am interested in [flexible](http://mlg.eng.cam.ac.uk/pub/topics/#np) [probabilistic machine learning](http://mlg.eng.cam.ac.uk/zoubin/bayesian.html) methods, such as Gaussian processes and Dirichlet processes, and data-efficient learning methods such as Bayesian optimization.
 
 I am also a Ph.D. Candidate of Transportation Engineering at [UNLV](http://www.unlv.edu/) where my research in [nonparametric Bayesian](http://mlg.eng.cam.ac.uk/pub/topics/#np) methods is focused on developing flexible-statistical models for traveler-behavior analytics.

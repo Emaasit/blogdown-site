@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Daniel Emaasit</title>
-    <link>http://www.danielemaasit.com/talk/</link>
+    <link>/talk/</link>
     <description>Recent content in Talks on Daniel Emaasit</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,11 +11,31 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Gaussian Process Regression and Classification with Stan</title>
-      <link>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</link>
-      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      <title>Gaussian Process Regression and Classification with PyMC3</title>
+      <link>/talk/gaussian-processes-in-stan/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/gaussian-processes-in-stan/</guid>
+      <guid>/talk/gaussian-processes-in-stan/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
+&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Probabilistic Machine Learning with PyMC3</title>
+      <link>/talk/intro-to-pml-pymc3/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/intro-to-pml-pymc3/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -32,10 +52,10 @@
     
     <item>
       <title>Introduction to Probabilistic Machine Learning with Stan</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-pml/</link>
+      <link>/talk/intro-to-pml/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/intro-to-pml/</guid>
+      <guid>/talk/intro-to-pml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -52,19 +72,19 @@
     
     <item>
       <title>Capturing Latent Travel Patterns with an Unknown Number of Activities</title>
-      <link>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</link>
+      <link>/talk/capturing-latent-travel-patterns/</link>
       <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/capturing-latent-travel-patterns/</guid>
+      <guid>/talk/capturing-latent-travel-patterns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Introduction to Model-Based Machine Learning</title>
-      <link>http://www.danielemaasit.com/talk/intro-to-mbml/</link>
+      <link>/talk/intro-to-mbml/</link>
       <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/intro-to-mbml/</guid>
+      <guid>/talk/intro-to-mbml/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -81,19 +101,19 @@
     
     <item>
       <title>Sustainable Urban Planning Using Big Data from Mobile Phones</title>
-      <link>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</link>
+      <link>/talk/sustainable-urban-planning-using-big-data/</link>
       <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/sustainable-urban-planning-using-big-data/</guid>
+      <guid>/talk/sustainable-urban-planning-using-big-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deploying Predictive Models in R</title>
-      <link>http://www.danielemaasit.com/talk/deploying-predictive-models/</link>
+      <link>/talk/deploying-predictive-models/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/deploying-predictive-models/</guid>
+      <guid>/talk/deploying-predictive-models/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -109,10 +129,10 @@
     
     <item>
       <title>Workflow for Managing Utility Information</title>
-      <link>http://www.danielemaasit.com/talk/workflow-for-managing-utility-info/</link>
+      <link>/talk/workflow-for-managing-utility-info/</link>
       <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://www.danielemaasit.com/talk/workflow-for-managing-utility-info/</guid>
+      <guid>/talk/workflow-for-managing-utility-info/</guid>
       <description></description>
     </item>
     
