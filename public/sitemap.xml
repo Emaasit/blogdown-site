@@ -430,7 +430,7 @@
     
     <url>
     
-      <loc>/categories/bayesian/</loc>
+      <loc>/tags/bayesian/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -440,7 +440,7 @@
     
     <url>
     
-      <loc>/tags/bayesian/</loc>
+      <loc>/categories/bayesian/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -490,7 +490,7 @@
     
     <url>
     
-      <loc>/categories/data-science/</loc>
+      <loc>/tags/data-science/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -500,7 +500,7 @@
     
     <url>
     
-      <loc>/tags/data-science/</loc>
+      <loc>/categories/data-science/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -520,7 +520,7 @@
     
     <url>
     
-      <loc>/categories/gaussian-process/</loc>
+      <loc>/tags/gaussian-process/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -530,7 +530,7 @@
     
     <url>
     
-      <loc>/tags/gaussian-process/</loc>
+      <loc>/categories/gaussian-process/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -550,7 +550,7 @@
     
     <url>
     
-      <loc>/categories/machine-learning/</loc>
+      <loc>/tags/machine-learning/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -560,7 +560,7 @@
     
     <url>
     
-      <loc>/tags/machine-learning/</loc>
+      <loc>/categories/machine-learning/</loc>
       <lastmod>2018-03-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -580,7 +580,7 @@
     
     <url>
     
-      <loc>/categories/probabilistic-programming/</loc>
+      <loc>/tags/probabilistic-programming/</loc>
       <lastmod>2017-12-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -590,7 +590,7 @@
     
     <url>
     
-      <loc>/tags/probabilistic-programming/</loc>
+      <loc>/categories/probabilistic-programming/</loc>
       <lastmod>2017-12-04T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -610,7 +610,7 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
+      <loc>/tags/r/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -620,7 +620,7 @@
     
     <url>
     
-      <loc>/tags/r/</loc>
+      <loc>/categories/r/</loc>
       <lastmod>2017-08-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
