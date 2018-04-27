@@ -23,8 +23,4 @@ url_video = ""
 
 ### Pre-requisites:
 
-The following software tools are required to run the demo(s):
-
-1. R + RStudio:- Follow this [link](https://www.r-project.org/) to install R. Also install [RStudio](https://www.rstudio.com/products/rstudio/download/preview/).
-2. rstan:- Follow this [link](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) to install rstan.
-3. bayesplot:- Follow this [link](https://github.com/stan-dev/bayesplot) to install bayesplot
+Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.
