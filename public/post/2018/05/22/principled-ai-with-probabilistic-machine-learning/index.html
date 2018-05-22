@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.32.2" />
+  <meta name="author" content="Daniel Emaasit">
+  <meta name="description" content="Data Scientist">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+  <link rel="stylesheet" href="/css/cc-fonts.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', '59805065', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Daniel Emaasit">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="/post/2018/05/22/principled-ai-with-probabilistic-machine-learning/">
+
+  
+
+  <title>Principled AI with Probabilistic Machine Learning | Daniel Emaasit</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Daniel Emaasit</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/publication">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="https://www.dropbox.com/s/j9jobrzdknz6mma/CV_Daniel_Emaasit.pdf?dl=0">
+            
+            <span>CV</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/talk">
+            
+            <span>Talks</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/software">
+            
+            <span>Software</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/post">
+            
+            <span>Blog</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/misc">
+            
+            <span>Misc</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Principled AI with Probabilistic Machine Learning</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2018-05-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Tue, May 22, 2018
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/bayesian">Bayesian</a
+    >, 
+    
+    <a href="/categories/data-science">Data science</a
+    >, 
+    
+    <a href="/categories/machine-learning">Machine Learning</a
+    >, 
+    
+    <a href="/categories/artificial-intelligence">Artificial Intelligence</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/bayesian">Bayesian</a
+    >, 
+    
+    <a href="/tags/data-science">Data Science</a
+    >, 
+    
+    <a href="/tags/machine-learning">Machine Learning</a
+    >, 
+    
+    <a href="/tags/artificial-intelligence">Artificial Intelligence</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2f2018%2f05%2f22%2fprincipled-ai-with-probabilistic-machine-learning%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Principled%20AI%20with%20Probabilistic%20Machine%20Learning&amp;url=%2fpost%2f2018%2f05%2f22%2fprincipled-ai-with-probabilistic-machine-learning%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2018%2f05%2f22%2fprincipled-ai-with-probabilistic-machine-learning%2f&amp;title=Principled%20AI%20with%20Probabilistic%20Machine%20Learning"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2f2018%2f05%2f22%2fprincipled-ai-with-probabilistic-machine-learning%2f&amp;title=Principled%20AI%20with%20Probabilistic%20Machine%20Learning"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Principled%20AI%20with%20Probabilistic%20Machine%20Learning&amp;body=%2fpost%2f2018%2f05%2f22%2fprincipled-ai-with-probabilistic-machine-learning%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><strong>(Note: Cross-posted with the <a href="https://wp.me/p7rVtH-1Fv" target="_blank">Haystax Technology Blog</a>.)</strong></p>
+
+<p>At Haystax Technology, we are proponents and early adopters of principled approaches to machine learning (ML) and artificial intelligence (AI) for cybersecurity.</p>
+
+<p>We use the term &lsquo;principled AI&rsquo; to describe what we call our model-based approach, which is built on coherent mathematical principles. These principles help us keep our AI transparent, explainable and interpretable. Most importantly, they enable our systems to quantify uncertainty, unlike the black-box approach of deep neural networks. Our users and followers often hear us evangelize this principled approach through publications and conferences, boot camps and local meetups.</p>
+
+<p>Last month, I gave a presentation titled &ldquo;<em>Introduction to Probabilistic Machine Learning using PyMC3</em>&rdquo; at two local meetup groups (Bayesian Data Science D.C. and Data Science &amp; Cybersecurity) in McLean, Virginia:</p>
+
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Guests just devoured delicious kabobs and spirits and now our <a href="https://twitter.com/Emaasit?ref_src=twsrc%5Etfw">@Emaasit</a> is showing us how to build probabilistic models in computer code using PyMC3 (<a href="https://t.co/kWxaUL0ZGM">https://t.co/kWxaUL0ZGM</a>) a Python PP language.  Join future Data Science Meetups: <a href="https://t.co/vvHaXwT6ms">https://t.co/vvHaXwT6ms</a> <a href="https://t.co/9tDTKW95sp">pic.twitter.com/9tDTKW95sp</a></p>&mdash; Haystax Technology (@HaystaxTech) <a href="https://twitter.com/HaystaxTech/status/989649743818223622?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>The following is a summary of the concepts we discussed during the meetup.</p>
+
+<h3 id="general-overview">General Overview</h3>
+
+<p>Many data-driven solutions in cybersecurity are seeing a heavy use of machine learning to detect and predict cyber crimes. This may include monitoring streams of network data and predicting unusual events that deviate from the norm. For example, an employee downloading large volumes of intellectual property (IP) on a weekend. <strong>Immediately</strong>, we are faced with our first challenge, that is, we are dealing with quantities (unusual volume &amp; unusual period) whose values are uncertain. To be more concrete, we start off very uncertain whether this download event is unusually large and then slowly get more and more certain as we uncover more clues such as the period of the week, performance reviews for the employee, did they visit WikiLeaks, etc.</p>
+
+<p>In fact, the need to deal with uncertainty arises throughout our increasingly data-driven world. Whether it is Uber autonomous vehicles dealing with predicting pedestrians on roadways or Amazon&rsquo;s logistics apparatus that has to optimize its supply chain system. All these applications have to handle and manipulate uncertainty. Consequently, we need a principled framework for quantifying uncertainty which will allow us to create applications and build solutions in ways that can represent and process uncertain values. Fortunately, there is a simple framework for manipulating uncertain quantities which uses probability to quantify the degree of uncertainty. To quote Prof. Zhoubin Ghahramani, Uber&rsquo;s Chief Scientist and Professor of AI at University of Cambridge:
+<blockquote>Just as Calculus is the fundamental mathematical principle for calculating rates of change, Probability is the fundamental mathematical principle for quantifying uncertainty.</blockquote>
+This has resulted in a principled approach to machine learning based on probability theory called <strong>Probabilistic Machine Learning (PML)</strong>. It is an exciting area of research that is currently receiving a lot of attention in many conferences (<a href="https://nips.cc/">NIPS</a>, <a href="http://www.auai.org/">UAI</a>, <a href="https://www.aistats.org/">AISTATS</a>), journals (<a href="http://www.jmlr.org/">JMLR</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">IEEE PAMI</a>), open-source software tools (<a href="https://medium.com/tensorflow/introducing-tensorflow-probability-dca4c304e245">TensorFlow Probability</a>, <a href="https://eng.uber.com/pyro/">Pyro</a>) and practical applications at notable companies such as <a href="http://uber.ai/">Uber AI</a>, <a href="https://research.fb.com/prophet-forecasting-at-scale/">Facebook AI Research</a>, <a href="https://x.company/loon/">Google AI</a>, <a href="https://www.microsoft.com/en-us/research/project/infernet/">Microsoft Research</a>.
+<h3>Probabilistic Machine Learning</h3>
+In general, Probabilistic Machine Learning can be defined as an interdisciplinary field focusing on both the mathematical foundations and practical applications of systems that learn <strong>models</strong> from data. It brings together ideas from Statistics, Computer Science, Engineering and Cognitive Science as illustrated in the Figure below.</p>
+
+<p><img class="wp-image-6502 size-medium" src="http://haystax.com/wp-content/uploads/2018/05/Screen_Shot_2018-04-25_at_1.17.31_PM-352x282.png" alt="" width="352" height="282" /> Image Credit: <a href="http://mlg.eng.cam.ac.uk/zoubin/" target="_blank">http://mlg.eng.cam.ac.uk/zoubin/</a></p>
+
+<p>In this framework, a <strong>model</strong> is defined as a description of data one could observe from a system. In other words, a model is a set of assumptions that describe the process by which the observed data was generated. This model can be developed graphically inform of a Probabilistic Graphical Model (PGM) as illustrated in the Figure below.</p>
+
+<p><img class="aligncenter wp-image-6503" src="http://haystax.com/wp-content/uploads/2018/05/Screen-Shot-2018-05-21-at-3.19.02-PM-1024x491.png" alt="" width="600" height="288" /></p>
+
+<p>In the Figure above, the circular nodes represent random variables for the uncertain quantities (e.g. unusual volume or unusual period) and the square nodes represent the uncertainty over the corresponding quantities (e.g. probability of unusual volume). The downward arrow shows the direction of the process that generated the data. The upward arrow shows the direction of inference, that is, given observed data we can learn the parameters of the probability distributions that generated the observed data. As we observe more and more data, our uncertainty over the random variables (e.g. unusual volume) decreases. This is the modern view of machine learning according to Prof. Chris Bishop of Microsoft Research.</p>
+
+<p>Learning follows from two simple rules of probability, namely:
+<ul>
+    <li>The sum rule: $p(\mathbf{\theta}) = \sum_{y} p(\mathbf{\theta}, y)$</li>
+    <li>The product rule: $p(\mathbf{\theta}, y) = p(\mathbf{\theta}) p(y \mid \mathbf{\theta})$</li>
+</ul>
+These two rules can be formulated into Bayes Theorem which tells us the new information we have gained about our original hypothesis (or parameters) given observed data.</p>
+
+<p>\begin{equation}\label{eqn:bayes}
+p(\mathbf{\theta}\mid \textbf{y}) = \frac{p(\textbf{y} \mid \mathbf{\theta}) \, p(\mathbf{\theta})}{\textbf{y}},
+\end{equation}</p>
+
+<p>where:</p>
+
+<p>\begin{aligned}
+p(\mathbf{\theta}\mid \textbf{y}) &amp;= \text{the posterior distribution of the hypothesis (or parameters), given the observed data} <br />
+p(\textbf{y} \mid \mathbf{\theta}) &amp;= \text{the data likelihood, given the hypothesis (or parameters)} <br />
+p(\mathbf{\theta}) &amp;= \text{the prior over all possible hypotheses (or parameters)} <br />
+p(\textbf{y}) &amp;= \text{the data (constant)}
+\end{aligned}</p>
+
+<p>The probabilistic approach to machine learning has proven to be preferable to deep learning in many applications that require transparency and oversight. Although deep learning has produced amazing performance on many benchmark tasks in specific applications such as computer vision and conversational AI (e.g in the recent <a href="https://youtu.be/D5VN56jQMWM">Google Duplex</a>), it has several limitations in much more general and broader use cases such as Cybersecurity, and <a href="https://blogs.wsj.com/cio/2018/05/11/bank-of-america-confronts-ais-black-box-with-fraud-detection-effort/">Banking</a>. Deep learning systems are generally:</p>
+
+<ul>
+    <li type="square">very <strong>data hungry</strong> (i.e. often require millions of examples for training)</li>
+    <li type="square">very <strong>compute-intensive</strong> to train and deploy (i.e. require cloud GPU &amp; TPU resources)</li>
+    <li type="square">poor at representing <strong>uncertainty</strong></li>
+    <li type="square"><strong>easily fooled</strong> by adversarial examples</li>
+    <li type="square"><strong>finicky to optimize</strong>: choice of architecture, learning procedure, etc, require expert knowledge and experimentation</li>
+    <li type="square">uninterpretable <strong>black-boxes</strong>, lacking in transparency, difficult to trust</li>
+</ul>
+
+<p>In contrast, PML systems are transparent, explainable, do not require lots of data and computer power. Currently, it is easier than ever to get started building PML systems. This is attributed to the plethora of open source software tools called Probabilistic Programming Languages. These include Google&rsquo;s TensorFlow Probability, Uber&rsquo;s Pyro, Microsoft&rsquo;s Infer.Net, PyMC3, Stan, and many others.</p>
+
+<p>These are a few of the topics that we discussed during this meetup. Materials from the meetup including slides and source code are provided below.</p>
+
+<iframe style="border: 3px solid #EEE;" src="//slides.com/emaasit/intro-pml-dc/embed" width="576" height="420" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe>
+
+<p><em>Daniel Emaasit is a Data Scientist at Haystax Technology. For a more detailed treatment of this subject, please see <a href="https://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/" target="_blank" rel="noopener">Daniel&rsquo;s blog</a>.</em></p>
+
+<h4 id="source-code">Source code</h4>
+
+<p>For interested readers, two options are provided below to access the source code used for the demo:</p>
+
+<ol>
+<li><p>The entire project (code, notebooks, data and results) can be found <a href="https://github.com/Emaasit/meetups/tree/master/2018_04_26_Intro_to_PML_DC" target="_blank" rel="noopener">here</a> on GitHub.</p></li>
+
+<li><p>Click the Binder icon below to open the notebooks in a web browser and explore the entire project without downloading and installing any software.<a href="https://mybinder.org/v2/gh/Emaasit/meetups/master?urlpath=lab" target="_blank"><img src="https://mybinder.org/badge.svg" alt="Binder" /></a></p></li>
+</ol>
+
+<h4 id="references">References</h4>
+
+<ol>
+<li><p>Ghahramani, Z. (2015). Probabilistic machine learning and artificial intelligence. Nature, 521(7553), 452.</p></li>
+
+<li><p>Bishop, C. M. (2013). Model-based machine learning. Phil. Trans. R. Soc. A, 371(1984), 20120222.</p></li>
+
+<li><p>Murphy, K. P. (2012). Machine learning: a probabilistic perspective. MIT Press.</p></li>
+
+<li><p>Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.</p></li>
+
+<li><p>Salvatier, J., Wiecki, T. V., &amp; Fonnesbeck, C. (2016). Probabilistic programming in Python using PyMC3. PeerJ Computer Science, 2, e55.</p></li>
+</ol>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="/post/2018/03/19/gaussian-processes-with-spectral-mixture-kernels-to-implicitly-capture-hidden-structure-from-data/"><span
+      aria-hidden="true">&larr;</span> Gaussian Processes with Spectral Mixture Kernels to Implicitly Capture Hidden Structure from Data</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "emaasit" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Daniel Emaasit &middot; 
+
+      <span class="cc"> C bn
+            
+      </span>
+      <br>
+      Content shareable: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC-BY-NC</a> 
+      
+      <br>Website composed in <a href="http://rmarkdown.rstudio.com/" target="_blank">R Markdown</a> via <a href="https://bookdown.org/yihui/blogdown/" target="_blank">Blogdown</a>.
+      
+      Web theme is <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>. Free hosting via <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

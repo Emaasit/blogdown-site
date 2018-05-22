@@ -20,9 +20,18 @@
     </item>
     
     <item>
+      <title>Artificial Intelligence</title>
+      <link>/categories/artificial-intelligence/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bayesian</title>
       <link>/categories/bayesian/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/bayesian/</guid>
       <description></description>
@@ -49,7 +58,7 @@
     <item>
       <title>Data Science</title>
       <link>/categories/data-science/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/data-science/</guid>
       <description></description>
@@ -85,7 +94,7 @@
     <item>
       <title>Machine Learning</title>
       <link>/categories/machine-learning/</link>
-      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/machine-learning/</guid>
       <description></description>
@@ -133,15 +142,6 @@
       <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
       
       <guid>/categories/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sparkr</title>
-      <link>/categories/sparkr/</link>
-      <pubDate>Tue, 08 Dec 2015 17:24:26 +0000</pubDate>
-      
-      <guid>/categories/sparkr/</guid>
       <description></description>
     </item>
     

@@ -7,8 +7,112 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
-    <lastBuildDate>Mon, 19 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 May 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/categories/machine-learning/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Principled AI with Probabilistic Machine Learning</title>
+      <link>/post/2018/05/22/principled-ai-with-probabilistic-machine-learning/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/05/22/principled-ai-with-probabilistic-machine-learning/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;(Note: Cross-posted with the &lt;a href=&#34;https://wp.me/p7rVtH-1Fv&#34; target=&#34;_blank&#34;&gt;Haystax Technology Blog&lt;/a&gt;.)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At Haystax Technology, we are proponents and early adopters of principled approaches to machine learning (ML) and artificial intelligence (AI) for cybersecurity.&lt;/p&gt;
+
+&lt;p&gt;We use the term &amp;lsquo;principled AI&amp;rsquo; to describe what we call our model-based approach, which is built on coherent mathematical principles. These principles help us keep our AI transparent, explainable and interpretable. Most importantly, they enable our systems to quantify uncertainty, unlike the black-box approach of deep neural networks. Our users and followers often hear us evangelize this principled approach through publications and conferences, boot camps and local meetups.&lt;/p&gt;
+
+&lt;p&gt;Last month, I gave a presentation titled &amp;ldquo;&lt;em&gt;Introduction to Probabilistic Machine Learning using PyMC3&lt;/em&gt;&amp;rdquo; at two local meetup groups (Bayesian Data Science D.C. and Data Science &amp;amp; Cybersecurity) in McLean, Virginia:&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Guests just devoured delicious kabobs and spirits and now our &lt;a href=&#34;https://twitter.com/Emaasit?ref_src=twsrc%5Etfw&#34;&gt;@Emaasit&lt;/a&gt; is showing us how to build probabilistic models in computer code using PyMC3 (&lt;a href=&#34;https://t.co/kWxaUL0ZGM&#34;&gt;https://t.co/kWxaUL0ZGM&lt;/a&gt;) a Python PP language.  Join future Data Science Meetups: &lt;a href=&#34;https://t.co/vvHaXwT6ms&#34;&gt;https://t.co/vvHaXwT6ms&lt;/a&gt; &lt;a href=&#34;https://t.co/9tDTKW95sp&#34;&gt;pic.twitter.com/9tDTKW95sp&lt;/a&gt;&lt;/p&gt;&amp;mdash; Haystax Technology (@HaystaxTech) &lt;a href=&#34;https://twitter.com/HaystaxTech/status/989649743818223622?ref_src=twsrc%5Etfw&#34;&gt;April 26, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;The following is a summary of the concepts we discussed during the meetup.&lt;/p&gt;
+
+&lt;h3 id=&#34;general-overview&#34;&gt;General Overview&lt;/h3&gt;
+
+&lt;p&gt;Many data-driven solutions in cybersecurity are seeing a heavy use of machine learning to detect and predict cyber crimes. This may include monitoring streams of network data and predicting unusual events that deviate from the norm. For example, an employee downloading large volumes of intellectual property (IP) on a weekend. &lt;strong&gt;Immediately&lt;/strong&gt;, we are faced with our first challenge, that is, we are dealing with quantities (unusual volume &amp;amp; unusual period) whose values are uncertain. To be more concrete, we start off very uncertain whether this download event is unusually large and then slowly get more and more certain as we uncover more clues such as the period of the week, performance reviews for the employee, did they visit WikiLeaks, etc.&lt;/p&gt;
+
+&lt;p&gt;In fact, the need to deal with uncertainty arises throughout our increasingly data-driven world. Whether it is Uber autonomous vehicles dealing with predicting pedestrians on roadways or Amazon&amp;rsquo;s logistics apparatus that has to optimize its supply chain system. All these applications have to handle and manipulate uncertainty. Consequently, we need a principled framework for quantifying uncertainty which will allow us to create applications and build solutions in ways that can represent and process uncertain values. Fortunately, there is a simple framework for manipulating uncertain quantities which uses probability to quantify the degree of uncertainty. To quote Prof. Zhoubin Ghahramani, Uber&amp;rsquo;s Chief Scientist and Professor of AI at University of Cambridge:
+&lt;blockquote&gt;Just as Calculus is the fundamental mathematical principle for calculating rates of change, Probability is the fundamental mathematical principle for quantifying uncertainty.&lt;/blockquote&gt;
+This has resulted in a principled approach to machine learning based on probability theory called &lt;strong&gt;Probabilistic Machine Learning (PML)&lt;/strong&gt;. It is an exciting area of research that is currently receiving a lot of attention in many conferences (&lt;a href=&#34;https://nips.cc/&#34;&gt;NIPS&lt;/a&gt;, &lt;a href=&#34;http://www.auai.org/&#34;&gt;UAI&lt;/a&gt;, &lt;a href=&#34;https://www.aistats.org/&#34;&gt;AISTATS&lt;/a&gt;), journals (&lt;a href=&#34;http://www.jmlr.org/&#34;&gt;JMLR&lt;/a&gt;, &lt;a href=&#34;https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34&#34;&gt;IEEE PAMI&lt;/a&gt;), open-source software tools (&lt;a href=&#34;https://medium.com/tensorflow/introducing-tensorflow-probability-dca4c304e245&#34;&gt;TensorFlow Probability&lt;/a&gt;, &lt;a href=&#34;https://eng.uber.com/pyro/&#34;&gt;Pyro&lt;/a&gt;) and practical applications at notable companies such as &lt;a href=&#34;http://uber.ai/&#34;&gt;Uber AI&lt;/a&gt;, &lt;a href=&#34;https://research.fb.com/prophet-forecasting-at-scale/&#34;&gt;Facebook AI Research&lt;/a&gt;, &lt;a href=&#34;https://x.company/loon/&#34;&gt;Google AI&lt;/a&gt;, &lt;a href=&#34;https://www.microsoft.com/en-us/research/project/infernet/&#34;&gt;Microsoft Research&lt;/a&gt;.
+&lt;h3&gt;Probabilistic Machine Learning&lt;/h3&gt;
+In general, Probabilistic Machine Learning can be defined as an interdisciplinary field focusing on both the mathematical foundations and practical applications of systems that learn &lt;strong&gt;models&lt;/strong&gt; from data. It brings together ideas from Statistics, Computer Science, Engineering and Cognitive Science as illustrated in the Figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;wp-image-6502 size-medium&#34; src=&#34;http://haystax.com/wp-content/uploads/2018/05/Screen_Shot_2018-04-25_at_1.17.31_PM-352x282.png&#34; alt=&#34;&#34; width=&#34;352&#34; height=&#34;282&#34; /&gt; Image Credit: &lt;a href=&#34;http://mlg.eng.cam.ac.uk/zoubin/&#34; target=&#34;_blank&#34;&gt;http://mlg.eng.cam.ac.uk/zoubin/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this framework, a &lt;strong&gt;model&lt;/strong&gt; is defined as a description of data one could observe from a system. In other words, a model is a set of assumptions that describe the process by which the observed data was generated. This model can be developed graphically inform of a Probabilistic Graphical Model (PGM) as illustrated in the Figure below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;aligncenter wp-image-6503&#34; src=&#34;http://haystax.com/wp-content/uploads/2018/05/Screen-Shot-2018-05-21-at-3.19.02-PM-1024x491.png&#34; alt=&#34;&#34; width=&#34;600&#34; height=&#34;288&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the Figure above, the circular nodes represent random variables for the uncertain quantities (e.g. unusual volume or unusual period) and the square nodes represent the uncertainty over the corresponding quantities (e.g. probability of unusual volume). The downward arrow shows the direction of the process that generated the data. The upward arrow shows the direction of inference, that is, given observed data we can learn the parameters of the probability distributions that generated the observed data. As we observe more and more data, our uncertainty over the random variables (e.g. unusual volume) decreases. This is the modern view of machine learning according to Prof. Chris Bishop of Microsoft Research.&lt;/p&gt;
+
+&lt;p&gt;Learning follows from two simple rules of probability, namely:
+&lt;ul&gt;
+    &lt;li&gt;The sum rule: $p(\mathbf{\theta}) = \sum_{y} p(\mathbf{\theta}, y)$&lt;/li&gt;
+    &lt;li&gt;The product rule: $p(\mathbf{\theta}, y) = p(\mathbf{\theta}) p(y \mid \mathbf{\theta})$&lt;/li&gt;
+&lt;/ul&gt;
+These two rules can be formulated into Bayes Theorem which tells us the new information we have gained about our original hypothesis (or parameters) given observed data.&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:bayes}
+p(\mathbf{\theta}\mid \textbf{y}) = \frac{p(\textbf{y} \mid \mathbf{\theta}) \, p(\mathbf{\theta})}{\textbf{y}},
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;where:&lt;/p&gt;
+
+&lt;p&gt;\begin{aligned}
+p(\mathbf{\theta}\mid \textbf{y}) &amp;amp;= \text{the posterior distribution of the hypothesis (or parameters), given the observed data} &lt;br /&gt;
+p(\textbf{y} \mid \mathbf{\theta}) &amp;amp;= \text{the data likelihood, given the hypothesis (or parameters)} &lt;br /&gt;
+p(\mathbf{\theta}) &amp;amp;= \text{the prior over all possible hypotheses (or parameters)} &lt;br /&gt;
+p(\textbf{y}) &amp;amp;= \text{the data (constant)}
+\end{aligned}&lt;/p&gt;
+
+&lt;p&gt;The probabilistic approach to machine learning has proven to be preferable to deep learning in many applications that require transparency and oversight. Although deep learning has produced amazing performance on many benchmark tasks in specific applications such as computer vision and conversational AI (e.g in the recent &lt;a href=&#34;https://youtu.be/D5VN56jQMWM&#34;&gt;Google Duplex&lt;/a&gt;), it has several limitations in much more general and broader use cases such as Cybersecurity, and &lt;a href=&#34;https://blogs.wsj.com/cio/2018/05/11/bank-of-america-confronts-ais-black-box-with-fraud-detection-effort/&#34;&gt;Banking&lt;/a&gt;. Deep learning systems are generally:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li type=&#34;square&#34;&gt;very &lt;strong&gt;data hungry&lt;/strong&gt; (i.e. often require millions of examples for training)&lt;/li&gt;
+    &lt;li type=&#34;square&#34;&gt;very &lt;strong&gt;compute-intensive&lt;/strong&gt; to train and deploy (i.e. require cloud GPU &amp;amp; TPU resources)&lt;/li&gt;
+    &lt;li type=&#34;square&#34;&gt;poor at representing &lt;strong&gt;uncertainty&lt;/strong&gt;&lt;/li&gt;
+    &lt;li type=&#34;square&#34;&gt;&lt;strong&gt;easily fooled&lt;/strong&gt; by adversarial examples&lt;/li&gt;
+    &lt;li type=&#34;square&#34;&gt;&lt;strong&gt;finicky to optimize&lt;/strong&gt;: choice of architecture, learning procedure, etc, require expert knowledge and experimentation&lt;/li&gt;
+    &lt;li type=&#34;square&#34;&gt;uninterpretable &lt;strong&gt;black-boxes&lt;/strong&gt;, lacking in transparency, difficult to trust&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In contrast, PML systems are transparent, explainable, do not require lots of data and computer power. Currently, it is easier than ever to get started building PML systems. This is attributed to the plethora of open source software tools called Probabilistic Programming Languages. These include Google&amp;rsquo;s TensorFlow Probability, Uber&amp;rsquo;s Pyro, Microsoft&amp;rsquo;s Infer.Net, PyMC3, Stan, and many others.&lt;/p&gt;
+
+&lt;p&gt;These are a few of the topics that we discussed during this meetup. Materials from the meetup including slides and source code are provided below.&lt;/p&gt;
+
+&lt;iframe style=&#34;border: 3px solid #EEE;&#34; src=&#34;//slides.com/emaasit/intro-pml-dc/embed&#34; width=&#34;576&#34; height=&#34;420&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen=&#34;allowfullscreen&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;Daniel Emaasit is a Data Scientist at Haystax Technology. For a more detailed treatment of this subject, please see &lt;a href=&#34;https://www.danielemaasit.com/post/2017/08/14/introduction-to-probabilistic-machine-learning/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniel&amp;rsquo;s blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;source-code&#34;&gt;Source code&lt;/h4&gt;
+
+&lt;p&gt;For interested readers, two options are provided below to access the source code used for the demo:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;The entire project (code, notebooks, data and results) can be found &lt;a href=&#34;https://github.com/Emaasit/meetups/tree/master/2018_04_26_Intro_to_PML_DC&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt; on GitHub.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click the Binder icon below to open the notebooks in a web browser and explore the entire project without downloading and installing any software.&lt;a href=&#34;https://mybinder.org/v2/gh/Emaasit/meetups/master?urlpath=lab&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://mybinder.org/badge.svg&#34; alt=&#34;Binder&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ghahramani, Z. (2015). Probabilistic machine learning and artificial intelligence. Nature, 521(7553), 452.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Bishop, C. M. (2013). Model-based machine learning. Phil. Trans. R. Soc. A, 371(1984), 20120222.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Murphy, K. P. (2012). Machine learning: a probabilistic perspective. MIT Press.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Salvatier, J., Wiecki, T. V., &amp;amp; Fonnesbeck, C. (2016). Probabilistic programming in Python using PyMC3. PeerJ Computer Science, 2, e55.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Gaussian Processes with Spectral Mixture Kernels to Implicitly Capture Hidden Structure from Data</title>
