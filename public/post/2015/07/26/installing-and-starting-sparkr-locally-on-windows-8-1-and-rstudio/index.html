@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32.2" />
+  <meta name="generator" content="Hugo 0.40.3" />
   <meta name="author" content="Daniel Emaasit">
   <meta name="description" content="Data Scientist">
 
@@ -291,7 +291,7 @@
 <p>Open your web browser and open this web page: <a href="http://spark.apache.org/" target="_blank">http://spark.apache.org/</a>. This is the official website for the Apache Spark project. You should see a large green button to the right of the page that reads &ldquo;Download Spark&rdquo;, as shown in Figure 1. Click the green button.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/greenbutton.png" />
     
@@ -307,7 +307,7 @@
 <p>Clicking the green button will take you to the download page as shown in Figure 2 below.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/2-downloadpage.png" />
     
@@ -323,7 +323,7 @@
 <p>You should follow the steps 1 to 3 to create a download link for a Spark Package of your choice. On the <em>&ldquo;2. Choose a package type&rdquo;</em> option, select any pre-built package type from the drop-down list (Figure 3). Since we want to experiment locally on windows, a pre-built package for Hadoop 2.6  and later will suffice.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/3-prebuilt.png" />
     
@@ -339,7 +339,7 @@
 <p>On the _&ldquo;3. Choose a download type&rdquo; _option, select &ldquo;Direct Download&rdquo; from the drop-down list (Figure 4).</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/4-downloadtype.png" />
     
@@ -355,7 +355,7 @@
 <p>After selecting the download type, a link is created next to the option <em>&ldquo;4. Download Spark&rdquo;</em> (Figure 5). Click this link to download Spark.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/5-download.png" />
     
@@ -371,7 +371,7 @@
 <p>Save the zipped file to your computer (Figure 6).</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/6-save.png" />
     
@@ -389,7 +389,7 @@
 <p>Unzip and save the files to a directory folder of your choice. In Figure 7 below, I chose to save to &ldquo;C:/Apache/Spark-1.4.1&rdquo;.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/7-unzippedfiles.png" />
     
@@ -407,7 +407,7 @@
 <p>Now start your favorite command shell and change directory to your Spark folder as shown in Figure 8.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/8-startcmd.png" />
     
@@ -423,7 +423,7 @@
 <p>To start SparkR, simply run the command <code>&quot;.\bin\sparkR&quot;</code> on the top-level Spark directory as shown in Figure 9 below.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/9-startsparkr.png" />
     
@@ -439,7 +439,7 @@
 <p>You will see logs on your screen that should take at most 15 seconds to launch SparkR. If everything ran smoothly you should see a welcome message that reads &rdquo;Welcome to SparkR!&rdquo; as shown in Figure 10.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/10-ready.png" />
     
@@ -467,7 +467,7 @@
 <p>Once you have opened RStudio, you need to set the system environment first. You have to point your R session to the installed version of SparkR. Use the code shown in Figure 11 below but replace the <strong>SPARK_HOME</strong> variable using the path to your Spark folder. Mine is &ldquo;C:/Apache/Spark-1.4.1&rdquo;.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/1-setenv.png" />
     
@@ -487,7 +487,7 @@
 <p>Second, you have to set the library path for Spark a shown in Figure 12 below.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/12-libpaths.png" />
     
@@ -507,7 +507,7 @@
 <p>Next, you can now load SparkR just as you would any other R library using the <code>library()</code> command as shown in Figure 13.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/13-loadsparkr.png" />
     
@@ -529,7 +529,7 @@
 <p>Also, you need to create a SQL context to be able to work with DataFrames (the main abstraction in SparkR). Use the command <code>sparkRSQL.init()</code> to create a SQL context from your Spark context as shown in Figure 14.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/14-sc.png" />
     
@@ -545,7 +545,7 @@
 <p>When you run the above commands (From step 4.1 to 4.4), this invokes the &ldquo;spark-submit&rdquo; script that launches java, as shown in Figure 15. If this runs successfully, your Spark context and SQL context should be created and at this stage you should be able to start experimenting with SparkR.</p>
 
 
-<figure >
+<figure>
     
         <img src="/img/15-ready.png" />
     

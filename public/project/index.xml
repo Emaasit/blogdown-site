@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Automating Hyperparameter tuning</title>
@@ -16,8 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/auto-tdm/</guid>
-      <description>&lt;p&gt;Statistical estimation of integrated travel demand models (TDMs) is tedious and involves an iterative process which requires expert knowledge and time to perform several tasks including but not limited to: preprocessing data, selecting appropriate attributes, selecting appropriate models, finding model parameters, and critically analyzing results (Castiglione et al., 2015). Model estimation involves varying some free parameters, hyperparameters, to produce several models which are compared to select the most superior one. Considerable time and expertise are required to tune hyperparameters and consequently select appropriate models; which is prone to subjective error. The subjectivity of tuning hyperparameters for integrated TDMs makes published results difficult to reproduce, extend, and development is more an art than a science (Bergstra et al., 2011). There is a need for methods to minimize subjectivity in hyperparameter tuning and model selection.&lt;/p&gt;
-</description>
+      <description>Statistical estimation of integrated travel demand models (TDMs) is tedious and involves an iterative process which requires expert knowledge and time to perform several tasks including but not limited to: preprocessing data, selecting appropriate attributes, selecting appropriate models, finding model parameters, and critically analyzing results (Castiglione et al., 2015). Model estimation involves varying some free parameters, hyperparameters, to produce several models which are compared to select the most superior one. Considerable time and expertise are required to tune hyperparameters and consequently select appropriate models; which is prone to subjective error.</description>
     </item>
     
     <item>
@@ -26,10 +27,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/integrated-tdms/</guid>
-      <description>&lt;p&gt;Currently, there is growing research interest in integrated travel demand models that consider simultaneously many influencing factors that affect travel behavior (Pinjari et al., 2011; Pendyala et al., 2012). Integrated models are mathematical representations of real-world decision processes made by travelers. It is typical for travelers to simultaneously make several decisions, such as where to live and work, how many vehicles to own, and decisions regarding their daily activities and travel. Such decisions are made as part of an overall decision process rather than as independent choices exercised in a sequential manner (Pinjari et al., 2011).&lt;/p&gt;
-
-&lt;p&gt;Most of the current literature focus on parametric models that impose strong restrictive assumptions by prespecifying the functional form and number of parameters (Habib et al., 2011; Pinjari et al., 2011; Habib, 2012). Prespecifying a functional form for a joint model could lead to either overly complex model specifications or simplistic models. It is difficult to know a priori the most appropriate function to use for modeling complex travel behavior that involve jointly made decision choices; long-term, medium-term, and short-term decisions; and many other influencing factors. Due to a finite number of parameters, parametric models are not necessarily the best to capture the entire structure of complex processes (Ghahramani, 2015), such as travel behavior.&lt;/p&gt;
-</description>
+      <description>Currently, there is growing research interest in integrated travel demand models that consider simultaneously many influencing factors that affect travel behavior (Pinjari et al., 2011; Pendyala et al., 2012). Integrated models are mathematical representations of real-world decision processes made by travelers. It is typical for travelers to simultaneously make several decisions, such as where to live and work, how many vehicles to own, and decisions regarding their daily activities and travel.</description>
     </item>
     
     <item>
@@ -38,10 +36,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/cdr-project/</guid>
-      <description>&lt;p&gt;Data collected using intelligent transportation systems (ITS) technologies typically do not include information about the type of associated activity. For instance, cell-phone data typically consist of locations and time stamps of calls made and received. However, the corresponding activity-based travel patterns, such as working or shopping, are not as clear. Similarly, corresponding periodic variations of travel patterns as well as the distinct behavioral clusters of travelers are not explicitly provided in these data sets. Traditionally, these inexplicit (i.e., hidden patterns) are extracted by developing probabilistic models that attempt to explain the observed data. These models assume that the data were generated by an underlying latent process with parameters that can be inferred. In travel demand modeling, these underlying processes are the activities of travelers.&lt;/p&gt;
-
-&lt;p&gt;The existing literature has focused primarily on the use of parametric models to estimate travel activities. Hence, a priori bounds on model complexity and size (i.e. the number of latent activities) need to be imposed. In particular, inference using the standard expectation maximization (EM) algorithm involves pre-specifying the total number of unknown latent activities. Choosing very low bounds results in simple models that underestimate the number of actual activities. On the other hand, choosing too many activities may result in overly complex models that overfit or are expensive to compute. Hence, parametric models are not necessarily the best to capture unknown latent travel activities when using such ITS data sources as cell phone and GIS&lt;/p&gt;
-</description>
+      <description>Data collected using intelligent transportation systems (ITS) technologies typically do not include information about the type of associated activity. For instance, cell-phone data typically consist of locations and time stamps of calls made and received. However, the corresponding activity-based travel patterns, such as working or shopping, are not as clear. Similarly, corresponding periodic variations of travel patterns as well as the distinct behavioral clusters of travelers are not explicitly provided in these data sets.</description>
     </item>
     
   </channel>

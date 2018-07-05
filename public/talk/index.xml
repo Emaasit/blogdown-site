@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Gaussian Process Regression and Classification with PyMC3</title>
@@ -16,12 +18,7 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/talk/gaussian-processes-in-pymc3/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.&lt;/p&gt;
-</description>
+      <description>Pre-requisites: Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.</description>
     </item>
     
     <item>
@@ -30,12 +27,7 @@
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/talk/intro-to-pml-pymc3/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;Only a laptop with a modern web browser like Google chrome or Mozilla Firefox. Click the Binder icon below to open the notebooks in a web browser without installing any software.&lt;a href=&#34;https://mybinder.org/v2/gh/Emaasit/meetups/master?urlpath=lab&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://mybinder.org/badge.svg&#34; alt=&#34;Binder&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Pre-requisites: Only a laptop with a modern web browser like Google chrome or Mozilla Firefox. Click the Binder icon below to open the notebooks in a web browser without installing any software.</description>
     </item>
     
     <item>
@@ -44,18 +36,8 @@
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/talk/intro-to-pml/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
-&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description> Pre-requisites: The following software tools are required to run the demo(s):
+ R + RStudio:- Follow this link to install R. Also install RStudio. rstan:- Follow this link to install rstan. bayesplot:- Follow this link to install bayesplot  </description>
     </item>
     
     <item>
@@ -73,18 +55,8 @@
       <pubDate>Wed, 06 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>/talk/intro-to-mbml/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;rstan:- Follow this &lt;a href=&#34;https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install rstan.&lt;/li&gt;
-&lt;li&gt;bayesplot:- Follow this &lt;a href=&#34;https://github.com/stan-dev/bayesplot&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install bayesplot&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description> Pre-requisites: The following software tools are required to run the demo(s):
+ R + RStudio:- Follow this link to install R. Also install RStudio. rstan:- Follow this link to install rstan. bayesplot:- Follow this link to install bayesplot  </description>
     </item>
     
     <item>
@@ -102,17 +74,8 @@
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>/talk/deploying-predictive-models/</guid>
-      <description>
-
-&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
-
-&lt;p&gt;The following software tools are required to run the demo(s):&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;R + RStudio:- Follow this &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install R. Also install &lt;a href=&#34;https://www.rstudio.com/products/rstudio/download/preview/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;domino:- Follow this &lt;a href=&#34;https://cran.r-project.org/web/packages/domino/index.html&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to install domino.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <description> Pre-requisites: The following software tools are required to run the demo(s):
+ R + RStudio:- Follow this link to install R. Also install RStudio. domino:- Follow this link to install domino.  </description>
     </item>
     
     <item>

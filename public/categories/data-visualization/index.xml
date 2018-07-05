@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
     <lastBuildDate>Fri, 29 Jul 2016 02:58:44 +0000</lastBuildDate>
-    <atom:link href="/categories/data-visualization/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/categories/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
@@ -16,23 +18,8 @@
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
       <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
-      <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fork the gallery &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt; on Github.&lt;/li&gt;
-&lt;li&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the &lt;code&gt;images&lt;/code&gt; directory of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the gallery repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Add an entry for your extension in the &lt;code&gt;_config.yml&lt;/code&gt; file of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the repository&lt;/a&gt; with the meta data for your extension.&lt;/li&gt;
-&lt;li&gt;Push your changes and create a pull request.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>A couple of months ago, I announced the ggplot2-extensions website which tracks and lists extensions built on top of the popular R visualization package ggplot2.
+Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a Gallery page. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if it&amp;rsquo;s for a particular task e.</description>
     </item>
     
     <item>
@@ -41,24 +28,9 @@
       <pubDate>Thu, 07 Jul 2016 23:16:47 +0000</pubDate>
       
       <guid>/post/2016/07/07/incase-you-missed-it-my-talk-at-the-united-nations-global-pulse-worshop/</guid>
-      <description>&lt;p&gt;In case you missed my talk at the &lt;a href=&#34;http://www.datascienceafrica.org/dsa2016/#workshop&#34; target=&#34;_blank&#34;&gt;2016 Data Science Africa Workshop&lt;/a&gt; organized by the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;United Nations Global Pulse Lab&lt;/a&gt;, here is the recording. My talk was titled &amp;ldquo;&lt;em&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/06/28/a-preview-of-my-talk-for-the-data-science-africa-workshop-organized-by-the-united-nations/&#34; target=&#34;_blank&#34;&gt;Sustainable Urban Transport Planning using Big Data from Mobile Phones&lt;/a&gt;&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/47IjdD2yyGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;You can download slides for my talk from &lt;a href=&#34;https://www.dropbox.com/s/v53ymxth8x4hpe1/dsa_2016_presentation.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/6RhjZngF83Q7r9&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt; 
-
-&lt;p&gt;There were also talks from my colleagues at &lt;a href=&#34;http://www.research.ibm.com/labs/africa/&#34; target=&#34;_blank&#34;&gt;IBM Research - Africa&lt;/a&gt; including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya. Here is their recording:&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/gxFstDWf9VU&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;I would like to thank Dr. John Quinn and the entire team a the &lt;a href=&#34;http://unglobalpulse.org/kampala&#34; target=&#34;_blank&#34;&gt;UNGP - Kampala&lt;/a&gt; for the invitation to speak and for a well organized event.  You can read more about the workshop from this &lt;a href=&#34;http://unglobalpulse.org/news/data-science-in-africa-2016&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; at the &lt;a href=&#34;http://unglobalpulse.org/blog&#34; target=&#34;_blank&#34;&gt;UNGP blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was great meeting a lot of people from academia, industry, non-profits and government who are using Data Science to solve several challenges on the African continent, ranging from health care to agriculture and to sustainable cities. I look forward to attending more events in the future.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/dsa-pic.jpg&#34; alt=&#34;dsa-pic&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>In case you missed my talk at the 2016 Data Science Africa Workshop organized by the United Nations Global Pulse Lab, here is the recording. My talk was titled &amp;ldquo;Sustainable Urban Transport Planning using Big Data from Mobile Phones&amp;rdquo;.
+ You can download slides for my talk from here.
+ There were also talks from my colleagues at IBM Research - Africa including Oliver Bent, Simone Fobi and Skyler Speakman who gave a general overview of the work we are doing in our lab in Nairobi, Kenya.</description>
     </item>
     
     <item>
@@ -67,24 +39,12 @@
       <pubDate>Thu, 25 Feb 2016 17:22:11 +0000</pubDate>
       
       <guid>/post/2016/02/25/incase-you-missed-it-my-webinar-on-spatial-data-analysis-with-r/</guid>
-      <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
-
-&lt;iframe src=&#34;https://player.vimeo.com/video/156607218&#34; width=&#34;640&#34; height=&#34;480&#34; frameborder=&#34;0&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;You can access the material used for this webinar from &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Lab&lt;/a&gt;&amp;rsquo;s platform using the following links:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The Slides [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/domino-presentation.pdf?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;domino-presentation.pdf&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The RMarkdown Script [&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/view/ReadMe.Rmd?commitId=fca395c2d9501d3282b24029fea7d16e6d8b91d0&#34; target=&#34;_blank&#34;&gt;ReadMe.Rmd&lt;/a&gt;]&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://app.dominodatalab.com/SparkIQLabs/spatial-analysis/browse&#34; target=&#34;_blank&#34;&gt;The Whole Project&lt;/a&gt; [All files including data]&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you have any questions, please do not hesitate to contact me. If you have more topics (related to R) that you are interested in learning about, send them my way so we can prepare another webinar.&lt;/p&gt;
-
-&lt;p&gt;Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/annaanisin&#34; target=&#34;_blank&#34;&gt;Anna Anisin&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
-</description>
+      <description>In case you missed my free webinar on &amp;ldquo;Getting Started with Spatial Data Analysis with R&amp;rdquo;, here is the recording.
+ You can access the material used for this webinar from Domino Data Lab&amp;rsquo;s platform using the following links:
+ The Slides [domino-presentation.pdf]
+ The RMarkdown Script [ReadMe.Rmd]
+ The Whole Project [All files including data]
+  If you have any questions, please do not hesitate to contact me. If you have more topics (related to R) that you are interested in learning about, send them my way so we can prepare another webinar.</description>
     </item>
     
     <item>
@@ -93,31 +53,8 @@
       <pubDate>Mon, 15 Feb 2016 17:39:49 +0000</pubDate>
       
       <guid>/post/2016/02/15/webinar-getting-started-with-spatial-data-analysis-with-r/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;/img/webinar3.png&#34; alt=&#34;webinar3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on February 24, 2016 from 11:00 - 11:30 AM PST: &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;Getting Started with Spatial Data Analysis with R&lt;/a&gt;. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:&lt;/p&gt;
-
-&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
-
-&lt;p&gt;Spatial and spatial-temporal data have become pervasive. We are generating spatial data from route planners, sensors, mobile devices, and computers in different fields like transportation, agriculture, and social media. These data need to be analyzed to generate hidden insights that can improve business processes, help fight crime in cities, and much more.&lt;/p&gt;
-
-&lt;p&gt;Simply creating static maps is not enough. In this webinar we shall look at techniques of importing and exporting spatial data into R; understanding the foundation classes for spatial data; manipulation of spatial data; and techniques for spatial visualization. This webinar is meant to provide introductory knowledge of spatial data analysis in R needed to understand more complex spatial data modeling techniques.&lt;/p&gt;
-
-&lt;p&gt;We will cover the following topics:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Why use R for spatial analysis&lt;/li&gt;
-&lt;li&gt;Packages for spatial data analysis&lt;/li&gt;
-&lt;li&gt;Types of spatial data&lt;/li&gt;
-&lt;li&gt;Classes and methods in R for spatial data analysis&lt;/li&gt;
-&lt;li&gt;Importing and exporting spatial data&lt;/li&gt;
-&lt;li&gt;Visualizing spatial data in R&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/getting_started_spacial_data_analysis_r&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
-</description>
+      <description>I am glad to announce that I shall be presenting a live webinar with Domino Data Labs on February 24, 2016 from 11:00 - 11:30 AM PST: Getting Started with Spatial Data Analysis with R. If you are interested or know someone interested in learning how to manipulate spatial and spatial-temporal data with R, please send them along. Here is the abstract:
+Synopsis Spatial and spatial-temporal data have become pervasive.</description>
     </item>
     
     <item>
@@ -126,46 +63,8 @@
       <pubDate>Mon, 01 Feb 2016 23:55:06 +0000</pubDate>
       
       <guid>/post/2016/02/01/tracking-ggplot2-extensions/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;/img/ggplot2-2.png&#34; alt=&#34;ggplot2-2&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;introduction&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;The purpose of this blog post is to inform R users of a &lt;a href=&#34;http://ggplot2-exts.github.io/index.html&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt; that I created to track and list &lt;strong&gt;ggplot2 extensions&lt;/strong&gt;. The site is available at: &lt;a href=&#34;http://ggplot2-exts.github.io&#34; target=&#34;_blank&#34;&gt;http://ggplot2-exts.github.io&lt;/a&gt;. The purpose of this site is to help other R users easily find &lt;a href=&#34;http://ggplot2.org/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt; extensions that are coming in &amp;ldquo;fast and furious&amp;rdquo; from the R community.&lt;/p&gt;
-
-&lt;p&gt;If you have developed or intend on developing ggplot2 extensions, submit them so that other R users can easily find them. To do so, simply create an issue or a pull request on this &lt;a href=&#34;https://github.com/ggplot2-exts/ggplot2-exts.github.io/tree/dev&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt; repository.&lt;/p&gt;
-
-&lt;p&gt;Incase you are wondering what ggplot2 extensions are; these are R packages that extend the functionality of the &lt;a href=&#34;http://ggplot2.org/&#34; target=&#34;_blank&#34;&gt;ggplot2 package&lt;/a&gt; by &lt;a href=&#34;http://had.co.nz/&#34; target=&#34;_blank&#34;&gt;Dr. Hadley Wickham&lt;/a&gt;. This extensibility mechanism became available in ggplot2 version 2.0.0 &lt;a href=&#34;http://blog.rstudio.org/2015/12/21/ggplot2-2-0-0/&#34; target=&#34;_blank&#34;&gt;released on December 17th, 2015&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;motivation-for-developing-this-website&#34;&gt;&lt;strong&gt;Motivation for Developing this Website&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;When Hadley announced the release of ggplot2 2.0.0, perhaps the most exciting news was the addition of an official extension mechanism. This mechanism allows other R developers to easily create their on stats, geoms and positions, and provide them in other packages. This means that even when less development occurs in the ggplot2 package itself, the community will continue to release packages for graphical analysis that extend/solve different requirements. (To learn how you can develop your own extensions, there&amp;rsquo;s a step by step tutorial here: &lt;a href=&#34;https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html&#34; target=&#34;_blank&#34;&gt;https://cran.r-project.org/web/packages/ggplot2/vignettes/extending-ggplot2.html&lt;/a&gt;)&lt;/p&gt;
-
-&lt;p&gt;Immediately after this announcement, several extensions started popping up. I was able to learn of some because they were posted out on twitter by &lt;a href=&#34;https://twitter.com/hadleywickham&#34; target=&#34;_blank&#34;&gt;@hadleywickham&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-52-46-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-46-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;But it got me thinking&amp;hellip;.. R users who are not active on social media must be missing out on these new cool extensions. In addition, if I didn&amp;rsquo;t check my twitter feed on a particular day, I would miss tweets about new extension-packages. This was not an effective way of searching for packages. There has to be a better way to track and list ggplot2 extensions. Quickly, I sprang into action to help fill this gap. But first, I had to find out if such an initiative already existed in the R community.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-52-27-1.png&#34; alt=&#34;Screenshot_2016-01-30-10-52-27-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It turned out none existed. I quickly started developing one and a couple of hours later, we had a working website (&lt;a href=&#34;http://ggplot2-exts.github.io/&#34; target=&#34;_blank&#34;&gt;http://ggplot2-exts.github.io&lt;/a&gt;) with a list of extensions known to me then.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/ggplot2-3.png&#34; alt=&#34;ggplot2-3&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Hadley was kind enough to inform his followers on twitter about this new initiative. (I should mention, it was the highlight of my life getting a &amp;ldquo;thumps up&amp;rdquo; from Hadley Wickham).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-02-01-15-12-16-1.png&#34; alt=&#34;Screenshot_2016-02-01-15-12-16-1&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;As it turns out, I was not the only one concerned about this issue. Several other R users had made similar inquiries.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/screenshot_2016-01-30-10-49-14-2.png&#34; alt=&#34;Screenshot_2016-01-30-10-49-14-2&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;closing-remarks&#34;&gt;&lt;strong&gt;Closing Remarks&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;In closing, I hope to see more cool extensions being developed and shared with the rest of the community on &lt;a href=&#34;http://ggplot2-exts.github.io&#34; target=&#34;_blank&#34;&gt;ggplot2-exts.github.io&lt;/a&gt; so that other R Users can easily find them. Don&amp;rsquo;t forget to create an issue or a pull request on this &lt;a href=&#34;https://github.com/ggplot2-exts/ggplot2-exts.github.io/tree/dev&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt; repo.&lt;/p&gt;
-</description>
+      <description>Introduction The purpose of this blog post is to inform R users of a website that I created to track and list ggplot2 extensions. The site is available at: http://ggplot2-exts.github.io. The purpose of this site is to help other R users easily find ggplot2 extensions that are coming in &amp;ldquo;fast and furious&amp;rdquo; from the R community.
+If you have developed or intend on developing ggplot2 extensions, submit them so that other R users can easily find them.</description>
     </item>
     
   </channel>

@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
     <lastBuildDate>Fri, 29 Jul 2016 02:58:44 +0000</lastBuildDate>
-    <atom:link href="/categories/ggplot2/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/categories/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>A Gallery of ggplot2 Extensions</title>
@@ -16,23 +18,8 @@
       <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
       
       <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
-      <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fork the gallery &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt; on Github.&lt;/li&gt;
-&lt;li&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the &lt;code&gt;images&lt;/code&gt; directory of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the gallery repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Add an entry for your extension in the &lt;code&gt;_config.yml&lt;/code&gt; file of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the repository&lt;/a&gt; with the meta data for your extension.&lt;/li&gt;
-&lt;li&gt;Push your changes and create a pull request.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>A couple of months ago, I announced the ggplot2-extensions website which tracks and lists extensions built on top of the popular R visualization package ggplot2.
+Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a Gallery page. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if it&amp;rsquo;s for a particular task e.</description>
     </item>
     
   </channel>

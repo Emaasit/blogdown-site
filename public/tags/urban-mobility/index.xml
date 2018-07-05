@@ -8,7 +8,9 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Daniel Emaasit</copyright>
     <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/urban-mobility/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/tags/urban-mobility/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Integrated Travel Demand Modeling</title>
@@ -16,10 +18,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/project/integrated-tdms/</guid>
-      <description>&lt;p&gt;Currently, there is growing research interest in integrated travel demand models that consider simultaneously many influencing factors that affect travel behavior (Pinjari et al., 2011; Pendyala et al., 2012). Integrated models are mathematical representations of real-world decision processes made by travelers. It is typical for travelers to simultaneously make several decisions, such as where to live and work, how many vehicles to own, and decisions regarding their daily activities and travel. Such decisions are made as part of an overall decision process rather than as independent choices exercised in a sequential manner (Pinjari et al., 2011).&lt;/p&gt;
-
-&lt;p&gt;Most of the current literature focus on parametric models that impose strong restrictive assumptions by prespecifying the functional form and number of parameters (Habib et al., 2011; Pinjari et al., 2011; Habib, 2012). Prespecifying a functional form for a joint model could lead to either overly complex model specifications or simplistic models. It is difficult to know a priori the most appropriate function to use for modeling complex travel behavior that involve jointly made decision choices; long-term, medium-term, and short-term decisions; and many other influencing factors. Due to a finite number of parameters, parametric models are not necessarily the best to capture the entire structure of complex processes (Ghahramani, 2015), such as travel behavior.&lt;/p&gt;
-</description>
+      <description>Currently, there is growing research interest in integrated travel demand models that consider simultaneously many influencing factors that affect travel behavior (Pinjari et al., 2011; Pendyala et al., 2012). Integrated models are mathematical representations of real-world decision processes made by travelers. It is typical for travelers to simultaneously make several decisions, such as where to live and work, how many vehicles to own, and decisions regarding their daily activities and travel.</description>
     </item>
     
   </channel>
