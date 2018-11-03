@@ -13,11 +13,20 @@
     
     
     <item>
-      <title>Gaussian Process Regression and Classification with PyMC3</title>
-      <link>/talk/gaussian-processes-in-pymc3/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      <title>pymc-learn: Practical Probabilistic Machine Learning in Python</title>
+      <link>/talk/pymc-learn/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/talk/gaussian-processes-in-pymc3/</guid>
+      <guid>/talk/pymc-learn/</guid>
+      <description>Pre-requisites: Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.</description>
+    </item>
+    
+    <item>
+      <title>Custom PyMC3 nonparametric Bayesian models built on top of the scikit-learn API</title>
+      <link>/talk/custom-pymc3-non-parametric/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/custom-pymc3-non-parametric/</guid>
       <description>Pre-requisites: Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.</description>
     </item>
     

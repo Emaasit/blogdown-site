@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Pymc-learn</title>
+      <link>/project/pymc-learn/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pymc-learn/</guid>
+      <description>pymc-learn is a library for practical probabilistic machine learning in Python.
+It provides a variety of state-of-the art probabilistic models for supervised and unsupervised machine learning. It is inspired by scikit-learn and focuses on bringing probabilistic machine learning to non-specialists. It uses a syntax that mimics scikit-learn. Emphasis is put on ease of use, productivity, flexibility, performance, documentation, and an API consistent with scikit-learn. It depends on scikit-learn and PyMC3 and is distributed under the new BSD-3 license, encouraging its use in both academia and industry.</description>
+    </item>
+    
+    <item>
       <title>Automating Hyperparameter tuning</title>
       <link>/project/auto-tdm/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
