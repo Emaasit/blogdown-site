@@ -32,6 +32,15 @@
     
     <url>
     
+      <loc>/talk/pymc-learn/</loc>
+      <lastmod>2019-03-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/pymc-learn/</loc>
       <lastmod>2018-11-02T00:00:00+00:00</lastmod>
     </url>
@@ -41,8 +50,8 @@
     
     <url>
     
-      <loc>/talk/gaussian-processes-in-pymc3/</loc>
-      <lastmod>2018-08-26T00:00:00+00:00</lastmod>
+      <loc>/talk/custom-pymc3-non-parametric/</loc>
+      <lastmod>2018-10-11T00:00:00+00:00</lastmod>
     </url>
     
   

@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>pymc-learn: Practical Probabilistic Machine Learning in Python</title>
+      <link>/talk/pymc-learn/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pymc-learn/</guid>
+      <description>
+
+&lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
+
+&lt;p&gt;Only a laptop with a modern web browser like Google chrome or Mozilla Firefox.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pymc-learn</title>
       <link>/project/pymc-learn/</link>
       <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
@@ -25,11 +39,11 @@
     </item>
     
     <item>
-      <title>Gaussian Process Regression and Classification with PyMC3</title>
-      <link>/talk/gaussian-processes-in-pymc3/</link>
-      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      <title>Custom PyMC3 nonparametric Bayesian models built on top of the scikit-learn API</title>
+      <link>/talk/custom-pymc3-non-parametric/</link>
+      <pubDate>Thu, 11 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>/talk/gaussian-processes-in-pymc3/</guid>
+      <guid>/talk/custom-pymc3-non-parametric/</guid>
       <description>
 
 &lt;h3 id=&#34;pre-requisites&#34;&gt;Pre-requisites:&lt;/h3&gt;
@@ -998,31 +1012,6 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
 &lt;iframe src=&#34;//www.slideshare.net/slideshow/embed_code/key/joTxMMvOmslHWt&#34; width=&#34;595&#34; height=&#34;485&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; style=&#34;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&#34; allowfullscreen&gt; &lt;/iframe&gt;
 
 &lt;p&gt;If you have any questions, please do not hesitate to contact me. Finally, I would like to thank &lt;a href=&#34;https://www.linkedin.com/in/enthoven&#34; target=&#34;_blank&#34;&gt;Daniel Enthoven&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/danielchalef&#34; target=&#34;_blank&#34;&gt;Daniel Chalef&lt;/a&gt; from Domino Data Lab for setting up this webinar.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Gallery of ggplot2 Extensions</title>
-      <link>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</link>
-      <pubDate>Fri, 29 Jul 2016 02:58:44 +0000</pubDate>
-      
-      <guid>/post/2016/07/29/a-gallery-of-ggplot2-extensions/</guid>
-      <description>&lt;p&gt;A couple of months ago, I announced the &lt;a href=&#34;http://www.ggplot2-exts.org/&#34; target=&#34;_blank&#34;&gt;ggplot2-extensions website&lt;/a&gt; which tracks and lists extensions built on top of the popular R visualization package &lt;strong&gt;&lt;a href=&#34;http://docs.ggplot2.org/current/&#34; target=&#34;_blank&#34;&gt;ggplot2&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, I wanted to make it even easier for R users to filter and search for these extensions and so I have added a &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;. You can now search packages based on a filter like: if it&amp;rsquo;s on CRAN; or if  it&amp;rsquo;s for a particular task e.g. time series, networks, tech, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/gallery.png&#34; alt=&#34;gallery&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s now easier for R developers to add their extensions to this Gallery. Submit a pull request by following these &lt;a href=&#34;https://github.com/ggplot2-exts/gallery#adding-a-ggplot2-extension&#34; target=&#34;_blank&#34;&gt;simple instructions&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Fork the gallery &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;repository&lt;/a&gt; on Github.&lt;/li&gt;
-&lt;li&gt;Create a png thumbnail of an interesting plot from your extension that will look good on a retina screen at 350x300 pixels and put this file in the &lt;code&gt;images&lt;/code&gt; directory of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the gallery repository&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Add an entry for your extension in the &lt;code&gt;_config.yml&lt;/code&gt; file of &lt;a href=&#34;https://github.com/ggplot2-exts/gallery&#34; target=&#34;_blank&#34;&gt;the repository&lt;/a&gt; with the meta data for your extension.&lt;/li&gt;
-&lt;li&gt;Push your changes and create a pull request.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
