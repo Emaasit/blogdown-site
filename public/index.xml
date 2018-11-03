@@ -11,6 +11,20 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Pymc-learn</title>
+      <link>/project/pymc-learn/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pymc-learn/</guid>
+      <description>&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://www.pymc-learn.org/&#34; target=&#34;_blank&#34;&gt;pymc-learn&lt;/a&gt; is a library for practical probabilistic machine learning in Python&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It provides a variety of state-of-the art probabilistic models for supervised and unsupervised machine learning. It is inspired by scikit-learn and focuses on bringing probabilistic machine learning to non-specialists. It uses a syntax that mimics scikit-learn. Emphasis is put on ease of use, productivity, flexibility, performance, documentation, and an API consistent with scikit-learn. It depends on scikit-learn and PyMC3 and is distributed under the new BSD-3 license, encouraging its use in both academia and industry.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.pymc-learn.org/&#34; target=&#34;_blank&#34;&gt;https://www.pymc-learn.org/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Gaussian Process Regression and Classification with PyMC3</title>
       <link>/talk/gaussian-processes-in-pymc3/</link>
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
@@ -974,8 +988,8 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
       <description>&lt;p&gt;In case you missed my free webinar on &amp;ldquo;&lt;strong&gt;&lt;a href=&#34;https://danielemaasit.com/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning&lt;/a&gt;&lt;/strong&gt;&amp;rdquo;,  here is the recording.&lt;/p&gt;
 
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//player.vimeo.com/video/175956118&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//player.vimeo.com/video/175956118&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
@@ -1009,28 +1023,6 @@ Git hash   : df453b6da183c9f8fd941eaa1696e68f9731c771
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Acknowledgement&lt;/strong&gt;: Special thanks to &lt;a href=&#34;http://ryanhafen.com/&#34; target=&#34;_blank&#34;&gt;Dr. Ryan Hafen&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/hafenstats&#34; target=&#34;_blank&#34;&gt;@hafenstats&lt;/a&gt;) for inspiring the design of this &lt;a href=&#34;http://www.ggplot2-exts.org/gallery/&#34; target=&#34;_blank&#34;&gt;Gallery page&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Webinar: Model-Based Machine Learning and Probabilistic Programming using RStan</title>
-      <link>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</link>
-      <pubDate>Sat, 16 Jul 2016 22:36:00 +0000</pubDate>
-      
-      <guid>/post/2016/07/16/webinar-model-based-machine-learning-and-probabilistic-programming-using-rstan/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;/img/mbml-webinar2.png&#34; alt=&#34;mbml-webinar2&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I am glad to announce that I shall be presenting a live webinar with &lt;a href=&#34;https://www.dominodatalab.com/&#34; target=&#34;_blank&#34;&gt;Domino Data Labs&lt;/a&gt; on July 20, 2016 from 11:00 - 11:30 AM PST on &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;Model-Based Machine Learning and Probabilistic Programming using RStan&lt;/a&gt;. If you are interested in adopting machine learning but are overwhelmed by the vast amount of learning algorithms, this webinar will show how to overcome that challenge. This &lt;a href=&#34;https://blog.dominodatalab.com/an-introduction-to-model-based-machine-learning/&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; describes most of the material we will cover in the webinar. Here is the &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;abstract&lt;/a&gt; for the webinar:&lt;/p&gt;
-
-&lt;h2 id=&#34;synopsis&#34;&gt;Synopsis&lt;/h2&gt;
-
-&lt;p&gt;In the last several decades, thousands of machine learning algorithms have been developed. Very often, the selection of an algorithm to solve a particular problem is driven more by the data scientist&amp;rsquo;s familiarity with a small subset of available algorithms, than optimizing for predictive power or operational constraints. This is unsurprising: Newcomers to machine learning and veteran data scientists alike, may be overwhelmed by the multitude of machine learning algorithms and where and how it is most appropriate to use them.&lt;/p&gt;
-
-&lt;p&gt;In this webinar, Daniel Emaasit will introduce Model-Based Machine Learning (MBML), an approach to machine learning which addresses these challenges. Daniel will discuss the various uses of MBML, from tasks such as classification, to regression and clustering, and how it allows data scientists to address the uncretainty inherent to real-world machine learning applications. Daniel will demonstrate how to implement MBML in a probabilistic programming language called Stan, using the RStan package. At the end of webinar, attendees will have the knowledge to build their own custom probabilistic models, learning their parameters from data.&lt;/p&gt;
-
-&lt;p&gt;Click this &lt;a href=&#34;https://www.dominodatalab.com/resource/webinar/model-based-machine-learning&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to register for the webinar. I look forward to seeing you there and answering your questions.&lt;/p&gt;
 </description>
     </item>
     

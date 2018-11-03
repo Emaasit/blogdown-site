@@ -19,7 +19,7 @@
       
       <guid>/home/about/</guid>
       <description>About Me I am a Data Scientist at Haystax Technology. My interests involve developing principled probabilistic models for problems where training data are scarce by leveraging knowledge from subject-matter experts and context information. In particular, I am interested in flexible probabilistic machine learning methods, such as Gaussian processes and Dirichlet processes, and data-efficient learning methods such as Bayesian optimization &amp;amp; Model-based Reinforcement Learning.
-I am also a Ph.D. Candidate of Transportation Engineering at UNLV where my research in nonparametric Bayesian methods is focused on developing flexible-statistical models for traveler-behavior analytics.</description>
+I am the creator of Pymc-learn, a library for practical probabilistic machine learning in Python.</description>
     </item>
     
     <item>
